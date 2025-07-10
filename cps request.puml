@@ -1,0 +1,63 @@
+@startuml
+@startsalt
+{
+ {
+   <b><size:20>CKD PACKAGING SPECIFICATION REQUEST
+   .
+   .
+   {
+     <b>Req No. |: |45/x/27/2025
+     <b>Date |: | 23 Feb - 2025 
+     .
+     Model |: |"D60B" | [...]
+           CFC/PJT |: |"D54B" | [...]
+           Part Number |: |"31270-0J010" | [...]
+           Part Name |: |"DAMPER ASSY TRANSMISSION INPUT " | [...]
+           Supplier |: |"AISIN INDONESIA" | [...]
+   }
+ }
+ Note : 
+ {S
+   "                                          "
+   .
+   .
+   . 
+ }
+ [submit]
+ .
+ .
+ <b>List of Notes:
+--
+{ 
+   Date : 20 Feb 2025 13:15
+   From : Jonathan Hairi
+   Dept : PBOD
+   Note :
+  Quisque semper dignissim libero, vel dapibus eros hendrerit et.
+  Proin ullamcorper nunc massa, id venenatis dolor commodo ultrices.
+  Curabitur ligula justo, elementum quis faucibus non, venenatis sit amet diam.
+  Mauris accumsan luctus condimentum. Morbi accumsan quis ligula non sagittis.
+  Curabitur quis nisl diam. Maecenas quis sagittis ante.
+
+}
+--
+.
+{ 
+   Date : 19 Feb 2025 12:15
+   From : Iwan van de Kloom
+   Dept : Procurement
+   Note :
+  Pellentesque volutpat, nisi nec fermentum mattis, mi orci dictum ligula,
+  vitae rhoncus enim quam sed purus. Curabitur eleifend fermentum vulputate.
+  Sed quis mauris bibendum elit dignissim bibendum. Fusce mollis rutrum purus ut ultricies.
+  Praesent cursus ex sit amet accumsan congue. Sed sollicitudin massa tempor cursus tincidunt
+}
+--
+.
+.
+__ More __
+}
+@endsalt
+@enduml
+
+

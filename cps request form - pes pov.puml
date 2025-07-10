@@ -1,0 +1,101 @@
+@startuml
+'when expanding
+@startsalt
+{+
+  'header 
+  {
+    .
+    <size:20>CPS Request Form
+    --
+  }
+
+  'master
+  {
+    Part List Ref    |:| "02/05/2025"|.|*
+    SPV Date         |:| "02/05/2025"|.|*
+    CFC/Project      |:| "  D25XJ  " | [...]|*
+    Export Destination|:| "Brazil - (303E) " |[...]|*
+    Packing Plant    |:| "807 B " |[...]|*
+  }
+  
+  'detail
+  { 
+    . 
+    <size: 15> - Part Info
+    ==
+  {
+    Number |:| " 122810Y110-00 " | [...]|*
+    Name   |:| "HANGER, ENGINE, NO.1" | [...]|*
+    --|--|--|--|*
+    Supplier |:| (AIA-001) Aisin Indonesia Aut...|*
+    Plant Code |:| AI01|*
+    Dock Code |:| AI-D-001|*
+    --|--|--|--|*
+    Status |:| {.| ^Carry Over^ }|*
+    Detail Status |:| {.| ^New       ^ }|*
+    Category |:| "      "|*
+    <b>Weight (gr)
+      |"    /pc  |:| 300|*
+      |"    /box |:| 2800|*
+    Qty/box |:| 4 pcs 
+    <b>Packing Plant
+      |"    Curr  |:| STR 1|*
+      |"    Next  |:| STR 1|*
+    <b>Vanning Plant
+      |"    Curr  |:| STR 1|*
+      |"    Next |:| STR 1|*
+    <b>Order Pattern  
+      |"    Curr  |:| P-Single|*
+      |"    Next |:| N/A|*      
+    Importer Line Process   '|:| "        "|*
+    Box Number  |:| "        "|*
+    Case Code  |:| "        "|*
+    Renban  |:| "        "|*
+  }
+  .
+  ==
+  {
+    <b>Request No |:| <b>CPS 0002 205  2025| |*
+  }
+  --
+  <size:14>- Packing Info
+  --
+  {+
+    <b> - OUTER
+    {#
+      <b> No|<b> Part         |<b>Qty|<b>Unit|<b> Time (secs)|<b>Type|<b>Dimension|<b>Material Spec|<b>Maker   |<b>Procure  |*
+      1.    | CARTON BOX      | 3    | pcs   | 20               | .     | 20 x 30 x 50 | .              | .         | TMMIN      |*
+      2.    | RETURNABLE BOX '| 1    | pcs   | 180              | .     | .            | .              | .         | .          |*
+      3.    | MODULE          | 1    | set  '| 1500             | .     | 60 x 90 x 100| .              | .         | .          |*
+    }
+  }
+  .
+
+  {+
+    <b> - INNER
+    {#
+      <b>No |<b>     Part         |<b> Qty |<b> Unit |<b> Time (secs)|<b>Type|<b>Dimension|<b>Material Spec|<b>Maker|<b>Procure|*
+      1. |  EPS FOAM              |  6     | pcs     | 30              | . |  '                  ' | . | . | . |*
+      2. |  PAPER TAPE          " |  4     | post    | 20              | . | . | . | . | . |*
+      3. |  PE TAPE               |  4     | post    | 10              | . | . | . | . | . |*
+      4. |  VCI SHEET             |  1     | sheet   | 30              | . | . | . | . | . |*
+      5. |  WIRE                  |  1     | post    | 10              | . | . | . | . | . |*
+    }
+  }
+  --
+  {
+  [Accept] | [Reject]|*
+  }
+  Note :  
+  {SI
+    "                                          "
+    .
+    .
+    .  
+  }
+  [Submit]|*
+  }
+  'end detail
+}
+@endsalt
+@enduml

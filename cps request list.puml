@@ -1,0 +1,40 @@
+@startsalt
+{ 
+  <size:25>CPS List
+  ==
+  {
+      .|From    |: |"                      "|        |.|.|CFC/Pjt |: |"               "|*|*
+      .|Date    |: |"                      "|        |.|.|Model   |: |"               "|*|*
+      .|Keyword |: |"                      "|        |.|.|Status  |: | {.| ^Any^New^Rejected^Approved^}|       .                  '|[Search <&magnifying-glass>]|*      
+  }
+  .
+  .
+  {   
+          {
+            .|[   New ]|*
+          }   
+          .
+          {
+       --   
+      {+          
+          {#
+              <b> No|<b>    Request No     |<b>  Rqst Date|<b> CFC/Pjt|<b>   Last Update       |<b>       From      |<b>     Divisi/Dept|<b>          Comment|<b>    Status   '                        |<b>Project |<b> Model|<b>  Dest ID |<b> Dest Name |<b>Part ID |<b> Part Name |<b>    Action |   *|*|*
+              1. |  .                      | .            | BJX205          | 05/06/2025 13:45 |   You              | .| Mengandung metal keras tetapi .. | | Draft          |.          |.        |.            |.          |.       |.          |[<&pencil>] | [<&delete>] |[<&document>] |*
+              2. | CPS 0002 205 2025       | 05/06/2025    | BJX205         | 05/06/2025 13:45 |   You              | AISIN Indonesia Auto ..| Outer kurang kuat untuk dipaka .. | | Submitted      |.          |.        |.            |.          |.       |.          |[<&pencil>] | [<&delete>] |[<&document>] |*
+              3. | CPS 0003 405 2025       | 05/06/2025    | DX003          | 05/06/2025 07:45 | Christian Hadinata | PPMD                    | Harga tidak sesuai| Rejected                     |.          |.        |.            |.          |.       |.          |[<&pencil>] | [<&delete>] |[<&document>] |*
+              4. | CPS 0X02 01 2024        | 05/06/2025    | CX034          | 03/04/2025 13:00 | Asep Karyo         | Procurement             | Gambar tidak sama denga..| Approved               |.          |D55E     |301B         |Brazil     |11115BZ160 |HOSE, WATER BY-PASS, NO.2 |[<&pencil>] | [<&delete>] |[<&document>] |*
+              5. | CPS 0004 505 2025       | 06/06/2025    | FX789          | 06/06/2025 10:15 | Dian Sastro        | Quality Control         | Semua dokumen lengkap           | Approved       | PRJ001     |A45E     |502A         |Thailand   |11223AB120 |COVER, ENGINE               |[<&pencil>] | [<&delete>] |[<&document>] |*
+              6. | CPS 0005 605 2025       | 07/06/2025    | GX123          | 07/06/2025 15:30 | Budi Santoso       | Engineering             | Sudah diverifikasi supplier     | Approved       | PRJ002     |B12X     |603C         |Philippines|22334XY980 |PANEL, DOOR FRONT LH         |[<&pencil>] | [<&delete>] |[<&document>] |*
+              7. | CPS 0006 705 2025       | 08/06/2025    | HX456          | 08/06/2025 09:00 | Siti Aminah        | Logistics               | Kode part sesuai permintaan     | Approved       | PRJ003     |C77Z     |704D         |Vietnam    |33445CD770 |BOLT, FLANGE                 |[<&pencil>] | [<&delete>] |[<&document>] |*
+           }              
+       }
+          }
+  }
+  .
+      --
+}
+@endsalt
+
+
+
+

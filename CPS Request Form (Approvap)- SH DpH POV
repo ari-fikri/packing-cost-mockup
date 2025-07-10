@@ -1,0 +1,131 @@
+@startuml
+'when expanding
+@startsalt
+{+
+  'header 
+  {
+    .
+    <size:20>CPS Request Form
+    --
+  }
+
+  'master
+  {
+    Part List Ref    |:| 02/05/2025|*
+    SPV Date         |:| 02/05/2025|*
+    CFC/Project      |:|   D25XJ   | |*
+    Export Destination|:| Brazil - (303E) |*
+    Packing Plant    |:| 807 B |*
+  }
+  
+  'detail
+  { 
+    . 
+    <size: 15> - Part Info
+    ==
+  {
+    Number |:| 122810Y110-00 |*
+    Name   |:| HANGER, ENGINE, NO.1 |*
+    --|--|--|--|*
+    Supplier |:| (AIA-001) Aisin Indonesia Aut...|*
+    Plant Code |:| AI01|*
+    Dock Code |:| AI-D-001|*
+    --|--|--|--|*
+    Status |:| {.| Carry Over }|*
+    Detail Status |:| {.| New       }|*
+    Category |:| N/A |*
+    <b>Weight (gr)
+      |"    /pc  |:| 300|*
+      |"    /box |:| 2800|*
+    Qty/box |:| 4 pcs 
+    <b>Packing Plant
+      |"    Curr  |:| STR 1|*
+      |"    Next  |:| STR 1|*
+    <b>Vanning Plant
+      |"    Curr  |:| STR 1|*
+      |"    Next |:| STR 1|*
+    <b>Order Pattern  
+      |"    Curr  |:| P-Single|*
+      |"    Next |:| N/A|*      
+    Importer Line Process   '|:| N/A|*
+    Box Number  |:| N/A|*
+    Case Code  |:| N/A|*
+    Renban  |:| N/A|*
+  }
+  .
+  ==
+  {
+    <b>Request No |:| <b>CPS 0002 205  2025| |*
+  }
+  --
+  <size:14>- Packing Info
+  --
+  {+
+    <b> - OUTER
+    {#
+      <b> No|<b> Part         |<b>Qty|<b>Unit|<b> Time (secs)|<b>Type|<b>Dimension|<b>Material Spec|<b>Maker   |<b>Procure  |*
+      1.    | CARTON BOX      | 3    | pcs   | 20               | .     | 20 x 30 x 50 | .              | .         | TMMIN      |*
+      2.    | RETURNABLE BOX '| 1    | pcs   | 180              | .     | .            | .              | .         | .          |*
+      3.    | MODULE          | 1    | set  '| 1500             | .     | 60 x 90 x 100| .              | .         | .          |*
+    }
+  }
+  .
+
+  {+
+    <b> - INNER
+    {#
+      <b>No |<b>     Part         |<b> Qty |<b> Unit |<b> Time (secs)|<b>Type|<b>Dimension|<b>Material Spec|<b>Maker|<b>Procure|*
+      1. |  EPS FOAM              |  6     | pcs     | 30              | . |  '                  ' | . | . | . |*
+      2. |  PAPER TAPE          " |  4     | post    | 20              | . | . | . | . | . |*
+      3. |  PE TAPE               |  4     | post    | 10              | . | . | . | . | . |*
+      4. |  VCI SHEET             |  1     | sheet   | 30              | . | . | . | . | . |*
+      5. |  WIRE                  |  1     | post    | 10              | . | . | . | . | . |*
+    }
+  }
+  --
+  {
+  [Accept] | [Reject]|*
+  }
+  Note :  
+  {SI
+    "                                          "
+    .
+    .
+    .  
+  }
+  [Submit]|*
+  }
+
+' Notes List
+.
+<b>- List of Notes:
+ --
+ {  
+    Date : 20 Feb 2025 13:15
+    From : Jonathan Hairi
+    Dept : PBOD
+    Note :
+   Quisque semper dignissim libero, vel dapibus eros hendrerit et.
+   Proin ullamcorper nunc massa, id venenatis dolor commodo ultrices.
+   Curabitur ligula justo, elementum quis faucibus non, venenatis sit amet diam.
+   Mauris accumsan luctus condimentum. Morbi accumsan quis ligula non sagittis.
+   Curabitur quis nisl diam. Maecenas quis sagittis ante.
+
+ }
+ --
+ {  
+    Date : 19 Feb 2025 12:15
+    From : Iwan van de Kloom
+    Dept : Procurement
+    Note :
+   Pellentesque volutpat, nisi nec fermentum mattis, mi orci dictum ligula,
+   vitae rhoncus enim quam sed purus. Curabitur eleifend fermentum vulputate.
+   Sed quis mauris bibendum elit dignissim bibendum. Fusce mollis rutrum purus ut ultricies.
+   Praesent cursus ex sit amet accumsan congue. Sed sollicitudin massa tempor cursus tincidunt
+ }
+ --
+ __<b> More __  
+  'end detail
+}
+@endsalt
+@enduml

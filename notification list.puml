@@ -1,0 +1,29 @@
+@startsalt
+{
+ <b><size:20>Notifications
+ ==
+ {  
+  <b> Date : 20 Feb 2025 13:15
+   --|--|*
+   You have new form request to review.
+   From : Jonathan Hairi at 20 Feb 2025 13:10 
+   Dept : PPMD
+   Click this link to open and review it : <color:blue><i>goo.gl/Xidjj8j3
+ }
+ --
+ .
+ {  
+  <b>Date : 19 Feb 2025 12:15
+  --|--|*
+  Your form submission has been rejected by :
+  By : Jonathan Hairi at 19 Feb 2025 13:10 
+  Dept : PPMD
+  Comment: Sheet tersebut sudah tidak ada di pasaran dan akan diganti sheet yg sama dari supplier lain.
+  Click this link to open and review it : <color:blue><i>goo.gl/miajj8x2
+ }
+ --
+ __ More __
+}
+@endsalt
+
+

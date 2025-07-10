@@ -1,0 +1,18 @@
+@startsalt
+{+
+ .
+ .|<size:20>Part List
+ --|--|--|--|--|*
+ ' row 1
+ .|Part Number |: | "FUNC-CTRL-001                    " | [Go <&magnifying-glass>] |*
+ .|Part Name   |: | "Engine Control Unit (ECU)        " | [Go <&magnifying-glass>] |*
+ .|Unit        |: | pc |.|*
+ .|Type        |: | Sensor |.|*
+ .|Dimension   |: | '45x32x18' |.|*
+ .
+ .|<img:https://cdn-icons-png.flaticon.com/64/570/570975.png>|*
+ .
+ --|--|--|--|--|*
+ .|[ OK ]
+}
+@endsalt

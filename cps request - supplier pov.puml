@@ -1,0 +1,90 @@
+@startsalt
+{
+ {
+   <b><size:20>CKD PACKAGING SPECIFICATION REQUEST
+   .
+   .
+   {
+     <b>Req No. |: |45/x/27/2025
+     <b>Date |: | 23 Feb - 2025 
+     .
+     Model               |: |D60B
+     CFC/PJT             |: |D54B
+     Part Number *       |: |31270-0J010 | [...]
+     Part Name           |: |DAMPER ASSY TRANSMISSION INPUT
+     Part Weight (gr)    |: |450
+     Pcs/Pack(Kanban) *  |: |"3  "
+     Weight/Pack(Kanban) |: | 1.350
+     Supplier *          |: |"AISIN INDONESIA             " | [...]
+   }
+ }
+ ==
+ .<b><size:13>Packing Material Details
+ ==
+ {+
+   <b> - OUTER
+   {#
+     <b> No|<b> Part          |<b>Qty|<b>Unit|<b> Time (secs)|<b>Type|<b>Dimension|<b>Material Spec|<b>Maker   |<b>Procure  |<b> Img |<b>Action|*|*
+     1.    | CARTON BOX       | 3    | pcs| 20               | .     | .          | .              | .         | TMMIN      |<img:https://www.shareicon.net/data/20x20/2016/07/08/117998_sun_512x512.png>|[<&pencil>] | [<&delete>] |*
+     2.    | RETURNABLE BOX   | 1    | pcs| 180              | .     | .          | .              | .         | .          |.|[<&pencil>] | [<&delete>] |*
+     3.    | MODULE           | 1    | set| 1500             | .     | .          | .              | .         | .          |	|*
+   }
+ }
+ [Add]
+ ==
+ {+
+   <b> - INNER
+   {#
+     <b>No |<b>     Part         |<b> Qty |<b> Unit |<b> Time (secs)|<b>Type|<b>Dimension|<b>Material Spec|<b>Maker|<b>Procure|<b> Img |<b>Action |*  ||*
+     1. |  EPS FOAM              |  6     | pcs     | 30              | . | . | . | . | . |.|[ <&pencil>] | [ <&delete> ]|*
+     2. |  PAPER TAPE            |  4     | post    | 20              | . | . | . | . | . |<img:https://www.shareicon.net/data/20x20/2016/07/08/117998_sun_512x512.png>|[ <&pencil>] | [ <&delete> ]|*
+     3. |  PE TAPE               |  4     | post    | 10              | . | . | . | . | . |.|[ <&pencil>] | [ <&delete> ]|*
+     4. |  VCI SHEET             |  1     | sheet   | 30              | . | . | . | . | . |<img:https://www.shareicon.net/data/20x20/2016/07/08/117998_sun_512x512.png>|[ <&pencil>] | [ <&delete> ]|*
+     5. |  WIRE                  |  1     | post    | 10              | . | . | . | . | . |<img:https://www.shareicon.net/data/20x20/2016/07/08/117998_sun_512x512.png>|[ <&pencil>] | [ <&delete> ]|*
+   }
+ }
+ [Add]
+ ==
+ Note : 
+ {S
+   "                                          "
+   .
+   .
+   . 
+ }
+ [submit]
+ .
+ .
+ <b>List of Notes:
+ --
+ {  
+    Date : 20 Feb 2025 13:15
+    From : Jonathan Hairi
+    Dept : PBOD
+    Note :
+   Quisque semper dignissim libero, vel dapibus eros hendrerit et.
+   Proin ullamcorper nunc massa, id venenatis dolor commodo ultrices.
+   Curabitur ligula justo, elementum quis faucibus non, venenatis sit amet diam.
+   Mauris accumsan luctus condimentum. Morbi accumsan quis ligula non sagittis.
+   Curabitur quis nisl diam. Maecenas quis sagittis ante.
+
+ }
+ --
+ {  
+    Date : 19 Feb 2025 12:15
+    From : Iwan van de Kloom
+    Dept : Procurement
+    Note :
+   Pellentesque volutpat, nisi nec fermentum mattis, mi orci dictum ligula,
+   vitae rhoncus enim quam sed purus. Curabitur eleifend fermentum vulputate.
+   Sed quis mauris bibendum elit dignissim bibendum. Fusce mollis rutrum purus ut ultricies.
+   Praesent cursus ex sit amet accumsan congue. Sed sollicitudin massa tempor cursus tincidunt
+ }
+ --
+ .
+ .
+ __ More __
+}
+@endsalt
+
+
