@@ -1,0 +1,28 @@
+@startsalt
+{
+  <size:15><b>Model List
+  ==
+  .
+  {
+      .|Code        |: |"               "|*
+      .|Model Name  |: |"               "|*
+      .|Generation  |: |"               "| [Search <&magnifying-glass>] |*      
+  }
+  .
+  --
+  [Add New Model <&document>]
+  --
+  {#
+    |<b>    Code |<b>          Model Name        |<b> Generation |<b> Action |*|*|*
+    |'  GGN155   | Hilux                         | 8th Gen       |[<&pencil>]|[<&delete>]|*
+    |'  TGN166   | Fortuner                      | 2nd Gen       |[<&pencil>]|[<&delete>]|*
+    |'  ZRE172   | Corolla Altis                 | 11th Gen      |[<&pencil>]|[<&delete>]|*
+    |'  MBZ173   | Yaris Gazoo Racing Hatchback '| 11th Gen      |[<&pencil>]|[<&delete>]|*    
+  }
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  }
+
+}
+@endsalt

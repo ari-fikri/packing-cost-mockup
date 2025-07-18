@@ -1,0 +1,18 @@
+@startsalt
+{
+  <size:15><b>Model - New
+  ==
+  .
+  {   
+    .|Code           |: |"        "|*
+    .|Name           |: |"             "| *
+    .|Generation     |: |"                 "|*
+  }
+  .
+--  
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+}
+
+  @endsalt
