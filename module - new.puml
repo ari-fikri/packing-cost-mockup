@@ -1,0 +1,17 @@
+@startsalt
+{
+  <size:15><b>Module - New
+  ==
+  .
+  {   
+    .|Code           |: |"          "|*
+    .|Type           |: |"               "| [search <&magnifying-glass>] |*
+  }
+  .
+--  
+  {
+  .|  [Save <&data-transfer-download>] |  [Cancel <&circle-x>] |*
+  }
+}
+
+  @endsalt

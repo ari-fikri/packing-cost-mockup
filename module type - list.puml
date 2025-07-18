@@ -1,0 +1,26 @@
+@startsalt
+{
+  <size:15><b>Module Type List
+  ==
+  .
+  {
+      .|Type Code    |: |"                      "|*
+      .|Item No      |: |"                      "| [Search <&magnifying-glass>] |*      
+
+  }
+  .
+  --
+  [Add <&document>]
+  --
+  {#
+    |<b> Type Code '|<b>  Item No  '|<b> Dimension (cm)  |<b> Outer (m<sup>3</sup>)   |<b> Inner (m<sup>3</sup>)   |<b>     Action |*|*|*
+    | BX1B          | DX09TY        | 30 x 40 x 12       | 14.4                       | 200                        | [<&pencil>]|[<&delete>]|[<&layers>]|*
+    | BX2C          | DX10TY        | 32 x 42 x 14       | 12.2                       | 210                        | [<&pencil>]|[<&delete>]|[<&layers>]|*
+    | BX3D          | DX11TY        | 35 x 45 x 15       | 10.7                       | 220                        | [<&pencil>]|[<&delete>]|[<&layers>]|*
+  }
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  }
+}
+@endsalt
