@@ -1,0 +1,37 @@
+@startuml
+@startsalt
+{
+  <size:25>DPI New |[<size:25><&x>]|*
+  ==
+  {   
+    {
+    <b>DPI No.        |: {|"            " |}
+    <b>Ref DPI No.    |:  {|"            "| [<&magnifying-glass>]}*
+    Issued Date       |: {| "            " | [<&calendar>]|}
+    Effective Date    |: {| "            " | [<&calendar>]|}
+    .
+    CFC/PJT      |: {|"      " | [<&magnifying-glass>]}
+    Model        |: {|"      " | [<&magnifying-glass>]}
+    }
+  }
+  --
+  {*
+    <b><size:14> <&chevron-right>  Parts
+  }
+  --
+  Note : 
+  {SI
+    "                                          "
+    .
+    .
+    . 
+  }
+  .  
+  {[Save <&media-record>] | [Submit <&data-transfer-upload>]}
+  .
+  <b>List of Notes:
+  --
+  <i>No Data Found </i>
+}
+@endsalt
+@enduml

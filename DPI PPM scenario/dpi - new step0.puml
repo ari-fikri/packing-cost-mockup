@@ -1,0 +1,34 @@
+@startsalt
+{
+  <size:25>DPI List |[<size:25><&x>]|*
+  ==
+  {
+    .|DPI No            |: |"                      "|        |.|.|CFC/Pjt |: |"               "|*|*
+    .|Ref DPI No        |: |"                    "|        |.|.|Model   |: |"               "|*|*
+    .|From              |: |"                    "|        |.|.|To   |: |"               "|*|*
+    .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}        |.|.|Status  |: | {.| ^Any^Draft^Submitted^Rejected^Approved^}|       .                  '| [Search <&magnifying-glass>] |*      
+    .|Effective Date    |: {|"21.06.2025"|' to '|"21.06.2025"|}
+  }
+  .
+  .
+  {   
+    {
+      .|    [ Add DPI <&flash>]  |[Create PCI <&wrench>] |*
+    }   
+    .
+    {
+      --   
+      {+
+          {#
+          |<b> DPI No. |<b> Ref DPI No. |<b> Issued Date| <b>Effective Date|<b> CFC/Pjt    |<b> Model  |<b> # Parts |<b> # CPS | <b> Supplier       |<b> From             |<b> To              |<b> Status     |<b> Action |*
+          }
+      }
+      No Data Found
+    }
+  }
+  --
+  {
+  << <  __1__  > >>  |'      3 <&chevron-bottom> per page |*
+  }  
+}
+@endsalt
