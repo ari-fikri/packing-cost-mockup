@@ -1,0 +1,49 @@
+@startuml
+@startsalt
+{
+  {
+    <b><size:20>CPS - New
+    .
+    {
+      {
+        <b>CPS No.      |: {|"            " |}|*
+        <b>Ref CPS No.  |: {|"            "| [<&magnifying-glass>]}| *
+        Issue  Date     |: {| " 23 Feb - 2025 " | [<&calendar>]|}
+        Effective Date  |: {| " 23 Feb - 2025 " | [<&calendar>]|}
+        .
+        DPI No.         |: {|"            " | [<&magnifying-glass>]}| *
+        CFC/PJT         |: {|"      "  | [<&magnifying-glass>]}
+        Model           |: {|"      "  | [<&magnifying-glass>]}
+        Part No         |: {|"               " | [<&magnifying-glass>]}
+      }
+      {
+        .|.|Part Name   |: ||*
+        .|.|Supplier    |: {||}
+      }
+    }
+  }
+  {*
+    <b><size:14> <&chevron-right> Images
+  }
+  --
+  {*
+    <b><size:14> <&chevron-right> Packing
+  }
+  --
+  Note :
+  {SI
+    "                                          "
+    .
+    .
+    .
+  }
+  .
+  {[Save <&media-record>] | [Submit <&data-transfer-upload>]}
+  .
+  .
+  <b>List of Notes:
+  --
+  <i>No Data Found 
+}
+@endsalt
+@enduml

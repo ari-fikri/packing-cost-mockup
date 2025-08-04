@@ -1,0 +1,87 @@
+@startuml
+@startsalt
+{
+  {
+    <b><size:20>CPS - New
+    .
+    {
+      {
+        <b>CPS No.      |: {|"            " |}
+        <b>Ref CPS No.  |: {|"            "| [<&magnifying-glass>]}| *
+        Issue  Date     |: {| " 23 Feb - 2025 " | [<&calendar>]|}
+        Effective Date  |: {| " 23 Feb - 2025 " | [<&calendar>]|}
+        .
+        CFC/PJT        |: {|"      "  | [<&magnifying-glass>]}
+        Model          |: {|"      "  | [<&magnifying-glass>]}
+        Part No        |: {|"               " | [<&magnifying-glass>]}
+      }
+      --      
+      {
+        .|.|Part Name   |: |*
+        .|.|Supplier    |: ||*
+        .|.|Plant Code  |: ||*
+        .|.|Dock Code   |: ||*
+
+      }
+      --
+    }
+  }
+  {*
+    <b><size:14> <&chevron-bottom> Images
+  }
+  {#
+    |<b>     Part Image       '|<b>       Outer Image     '|<b>      Inner Image      '|*
+    |<size:30><b>+                |<size:30><b>+        |<size:30><b>+|*
+    |{ 
+       <b>Caption: 
+       
+       
+       
+    }|{ 
+       <b>Caption: 
+       ""
+       ""
+       ""
+       ""
+    }|*|<b>Caption: |*|*|*|*
+  }
+  --
+  {*
+    <b><size:14> <&chevron-bottom> Packing
+  }
+  --
+  {
+    <b>OUTER
+    { Module Type     |: |"      " | [<&magnifying-glass>] | }*  
+    {
+      .| Dimension     |: | 00 | x | 00 | x | 00 | cm <sup>3</sup> |*
+      .| Inner         |: | 00 | m<sup>3</sup>                      |*
+      .| Outer         |: | 00 | m<sup>3</sup>                      |*
+    }
+  }
+  --
+  {
+    |<b>INNER   | [<size:10>add <&plus>] |*
+  }
+  {#
+    |<b> Pack Material No     |<b> Suffix |<b> Name      |<b> Parent    |<b> Supplier ID |<b> Supplier Name |<b> L  |<b> W  |<b> H  |<b> Wt/PC |<b> Qty |<b> Total Wt |*
+  }
+  No Data Found
+  --
+  Note :
+  {SI
+    "                                          "
+    .
+    .
+    .
+  }
+  .
+  {[Save <&media-record>] | [Submit <&data-transfer-upload>]}
+  .
+  .
+  <b>List of Notes:
+  --
+  <i>No Data Found 
+}
+@endsalt
+@enduml
