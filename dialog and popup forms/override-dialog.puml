@@ -1,0 +1,13 @@
+@startsalt
+{
+  {
+  |<b>Warning| <&badge>|*
+  }
+  {==
+  Semua data akan tertimpa.
+  <b>Lanjutkan?
+  }
+==
+{[Ok ]|[Cancel]}
+}
+@endsalt
