@@ -1,0 +1,25 @@
+@startuml
+@startsalt
+{
+  <size:20>Select part |[<size:25><&x>]|*
+  ==
+  {
+    .|Part No       |: {|"1234567890" - "01"}|*
+    .|Name          |: {"Front Bumper   " } |*
+    .|Supplier Code |: {"1001 "} |*
+    .|Supplier Name |: {"Aisin Seiki"} |*
+    .|CPS           |: {|"          " |} {|[Filter] | [Reset]}
+  }
+  --
+  {#
+    |.   |<b>     CPS     '|<b> Part No      |<b> Name      |<b> Parent  |<b> Supp Code     |<b> Supplier Name |<b> Wt/pc |<b>Qty/box|*
+    |[ ].|.                |' 1234567890-01  | Front Bumper | NULL       | 1001             | Aisin Seiki      | 5000     |1         |*
+    |[ ].|.                |' 2234567890-02  | Rear Bumper  | 1234567890 | 1002             | Denso Corp       | 5200     |5         |*
+    |[ ].|.                |' 3234567890-03  | Hood         | NULL       | 1003             | Toyota Boshoku   | 4800     |2         |*
+    |[ ].|.                |' 4234567890-04  | Fender       | 3234567890 | 1004             | Yazaki Corp      | 3000     |4         |*
+    |[ ].|.                |' 5234567890-05  | Grille       | 4234567890 | 1005             | Sumitomo Elec    | 2500     |3         |*
+  }
+  [Select <&check>]
+}
+@@endsalt
+@enduml
