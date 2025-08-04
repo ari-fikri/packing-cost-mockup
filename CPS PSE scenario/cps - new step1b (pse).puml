@@ -11,9 +11,10 @@
         Issue  Date     |: {| " 23 Feb - 2025 " | [<&calendar>]|}
         Effective Date  |: {| " 23 Feb - 2025 " | [<&calendar>]|}
         .
-        CFC/PJT        |: {|"      "  | [<&magnifying-glass>]}
-        Model          |: {|"      "  | [<&magnifying-glass>]}
-        Part No        |: {|"               " | [<&magnifying-glass>]}
+        DPI No.        |: {|"            " | [<&magnifying-glass>]}| *
+        CFC/PJT         |: {|"      "  | [<&magnifying-glass>]}
+        Model           |: {|"      "  | [<&magnifying-glass>]}
+        Part No         |: {|"               " | [<&magnifying-glass>]}
       }
       --
       {
