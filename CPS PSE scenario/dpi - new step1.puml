@@ -1,0 +1,48 @@
+  /'
+  As a PCD/PPM PIC I want to create a new CPS by copying existing CPS
+  So I don't have to create CPS from scratch
+
+  Given I on CPS New form
+  and I select existing CPS No
+  When I leave the CPS Ref text field
+  Then all fields fill in from copied CPS
+  '/
+  @startuml
+  @startsalt
+  {
+    <size:25>DPI New |[<size:25><&x>]|*
+    ==  
+    {
+      <b>DPI No.        |: {| D38403403  |}
+      <b>DPI Ref No.    |: {|  A58503112 |}| *
+      Issued Date       |: {|  23 Feb - 2025  |}
+      Effective Date    |: {|  01 Mar - 2025  |}
+      .
+      CFC/PJT |: {|D54B   | }
+      Model   |: {|D60B   | }
+    }
+    --
+    {*
+      <b><size: 14> <&chevron-bottom> Parts <b><size: 14>
+    }
+    {#
+      |<b>     CPS     '|<b> Part No  |<b> Suffix |<b> Name      |<b> Parent  |<b> Supplier Code |<b> Supplier Name |<b> L |<b> W |<b> H |<b> Wt/pc |<b>Qty/box|<b> Total Wt |*
+      |.                | 1234567890  | 01        | Front Bumper | NULL       | 1001             | Aisin Seiki      | 1200 | 400  | 300  | 5000     |1         |10000        |*
+      |.                |' 2234567890 | 02        | Rear Bumper  | 1234567890 | 1002             | Denso Corp       | 1300 | 450  | 320  | 5200     |5         |15600        |*
+    }
+    --
+    {[Accept ] | [Reject]}
+    .
+    <b>List of Notes:
+    --
+    From: (PSE)
+    Date: 23 Feb
+    Quisque semper dignissim libero  vel dapibus eros hendrerit et.
+    Proin ullamcorper nunc massa  id venenatis dolor commodo ultrices.
+    Curabitur ligula justo  elementum quis faucibus non  venenatis sit amet diam.
+    Mauris accumsan luctus condimentum. Morbi accumsan quis ligula non sagittis.
+    Curabitur quis nisl diam. Maecenas quis sagittis ante.
+    --
+  }
+  @endsalt
+  @enduml
