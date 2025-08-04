@@ -1,6 +1,6 @@
 @startsalt
 {
-  <size:25>CPS List
+  <size:25>CPS List |[<size:25><&x>]|*
   ==
   {
     .|CPS No            |: |"                      "|                 |.|.|DPI No      |: |"                      "|*|*
