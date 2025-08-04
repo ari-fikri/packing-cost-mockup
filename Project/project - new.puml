@@ -1,0 +1,34 @@
+@startsalt
+{
+  <size:15><b>Project - New
+  ==
+  .
+  {
+    .|Project Code       |: |"            "|*
+    .|Project Name       |: |"                        "|*
+    .|Description        |: |"                                               "|*
+    .|Project Manager    |: |"           "|[Search <&magnifying-glass>]|*
+    .|Start Date         |: |"  YYYY-MM-DD  "|[<&calendar>]|*
+    .|End Date           |: |"  YYYY-MM-DD  "|[<&calendar>]|*
+    .|Status             |: |{| ^Draft^Active^On Hold^Completed^ }|*
+    .|Note               |: {SI|"                                "
+    .
+    .|}*
+  }
+  .
+  --
+  {
+    [Add Model <&plus>]|*
+  }
+  {#
+    |<b> No |<b> Model Code |<b> Model Name     |<b> Generation |<b> Action |*|*|*|*
+    | 1     | GGN155        | Innova Gasoline   | 1st Gen       | [<&trash>]|*
+    | 2     | TGN166        | Fortuner Diesel   | 2nd Gen       | [<&trash>]|*
+  }
+  --
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+==
+}
+@endsalt
