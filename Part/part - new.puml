@@ -1,34 +1,37 @@
 @startsalt
 {
-  <size:15><b>Part New
+  <size:20><b>Part New | [<size:25><&x>]|*
   ==
-  .
   {
     .|Part No         |: |"           "|*
+    .|Unique No       |: |"     " |*
     .|Suffix Code     |: |"    "|*
     .|Part Name       |: |"                   "|*
-    .|Parent Part No  |: |"           "| [Search <&magnifying-glass>]| *
-    .|Supp Code       |: |"     "|[Search <&magnifying-glass>]| *
+    .|Parent Part No  |: |"           "| [<&magnifying-glass>]| *
+    .|Supp Code       |: {|"     "|[<&magnifying-glass>]|} *
     .|Supplier Name   |: |.| *
-    .|Plant Code      |: |.| *
-    .|Uniqe No        |: |.| *
-    .|Length (mm)     |: |"     "|*
-    .|Width (mm)      |: |"     "|*
-    .|Height (mm)     |: |"     "|*
-    .|Weight/PC (gr)   |: |"     "|*
-    .|Qty/Box         |: |"     "|*
-    .|Total Weight (gr)|: |"     "|*
+    .|Plant Code      |: |"     "| *
+    .|Uniqe No        |: |"     "| *
+    .|Dimension|*
+    .|{
+      ..||Length (mm)    |: |"     "|*
+      ..|Width (mm)      |: |"     "|*
+      ..|Height (mm)     |: |"     "|*
+      }
+    .|Weight/PC (gr)    |: |"     "|*
+    .|Qty/Box           |: |"     "|*
+    .|Total Weight (gr) |: |"     "|*
   }
   .
   --
   {
-    [Add Part <&document>]|*
+    [Add Child Part <&document>]|*
   }
   --
   {#
-    |<b> Part No |<b> Suffix |<b> Name |<b> Parent |<b> Supplier ID |<b> Supplier Name |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
-    |' 1234567890 | 01 | Front Bumper | NULL | 1001 | Aisin Seiki     | 1200 | 400 | 300 | 5000 | 2 | 10000 |[<&pencil>]|[<&delete>]|*
-    |' 2234567890 | 02 | Rear Bumper  | 1234567890 | 1002 | Denso Corp      | 1300 | 450 | 320 | 5200 | 3 | 15600 |[<&pencil>]|[<&delete>]|*
+    |<b> Part No  |<b> Suffix |<b>Unique No         |<b> Name     |<b> Parent |<b> Supplier ID |<b> Supplier Name |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
+    |' 1234567890 | 01        | XC001               |Front Bumper | NULL      | 1001           | Aisin Seiki      | 1200 | 400  | 300  | 5000     | 2      | 10000       |[<&pencil>]|[<&delete>]|*
+    |' 2234567890 | 02        | RB010               |Rear Bumper  | 1234567890| 1002           | Denso Corp       | 1300 | 450  | 320  | 5200     | 3      | 15600       |[<&pencil>]|[<&delete>]|*
   }
   --
   {

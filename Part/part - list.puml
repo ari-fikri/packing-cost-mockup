@@ -5,9 +5,10 @@
   .
   {
     .|Part No       |: |"           "|*
-    .|Supplier ID   |: |"           "| [Search <&magnifying-glass>]|*
+    .|Unique No     |: |"           "|*
+    .|Supplier ID   |: |"           "| [<&magnifying-glass>]|*
     .|Supplier Name |: |. |*
-    .|Parent Part   |: |"           "|[Search <&magnifying-glass>]|*
+    .|Parent Part   |: |"           "|[<&magnifying-glass>]|*
     .|Has Subparts?           |: | { ^Yes^No^ } |*
 
   }
@@ -15,13 +16,13 @@
     [Search <&magnifying-glass>]
   }
   --
-  [Add <&document>]
+  [Add Part <&document>]
   --
   {#
-    |<b> Part No |<b> Suffix |<b> Name |<b> Supplier Name |<b> Parent Part No |<b> Subparts |<b> L |<b> W |<b> H |<b> Qty/Box |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
-    |' 1234567890 | 01 | Front Bumper | Aisin Seiki | NULL        | 2 Subparts | 1200 | 400 | 300 | 2 | 10000 |[<&pencil>]|[<&trash>]|*
-    |' 2234567890 | 02 | Rear Bumper  | Denso Corp  | 1234567890  | 0          | 1300 | 450 | 320 | 3 | 15600 |[<&pencil>]|[<&trash>]|*
-    |' 3344556677 | 03 | Hood Panel   | Toyoda Gosei| 2234567890  | 1 Subpart  | 1400 | 500 | 350 | 1 | 8700  |[<&pencil>]|[<&trash>]|*
+    |<b> Part No  |<b> Suffix | <b>Unique No | <b> Name    |<b> Supplier Name |<b> Parent Part No |<b> Subparts |<b> L |<b> W |<b> H |<b> Qty/Box |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
+    |' 1234567890 | 01        | C00X3        |Front Bumper | Aisin Seiki      | NULL              | 2 Subparts  | 1200 | 400  | 300  | 2          | 10000       |[<&pencil>]|[<&trash>]|*
+    |' 2234567890 | 02        | R1003        |Rear Bumper  | Denso Corp       | 1234567890        | 0           | 1300 | 450  | 320  | 3          | 15600       |[<&pencil>]|[<&trash>]|*
+    |' 3344556677 | 03        | R0004        |Hood Panel   | Toyoda Gosei     | 2234567890        | 1 Subpart   | 1400 | 500  | 350  | 1          | 8700        |[<&pencil>]|[<&trash>]|*
   }
   --
   {
