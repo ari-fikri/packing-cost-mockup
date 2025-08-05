@@ -1,0 +1,104 @@
+' Section Head, Dept Head Approval
+@startuml
+@startsalt
+{
+  <b><size:20>CPS - New |[<size:25><&x>]|*
+  ==
+  {
+    {
+      <b>CPS No.      |: {| CPS230220250001A  |}
+      <b>Ref CPS No.  |: {|                  |} *
+      Issue  Date     |: {|  23 Feb - 2025  | }
+      Effective Date  |: {|  01 Mar - 2025  | }
+      .
+      DPI No.        |: { DP2302250001 |} *
+      CFC/PJT        |: {| CF2025020001 |}
+      Export Dest    |: | Thailand |*
+      Model          |: {| DX01UB | }
+      Part No        |: {| 25051BZ260-00 |}
+    }
+    --
+    {
+      .|.|Uniqe No    |: |C0032|*
+      .|.|Part Name   |: |CONVERTER SUB-ASSY, EXHAUST MANIFOLD                    |*
+      .|.|Supplier    |: |FUTABA INDONESIA|*
+      .|.|Plant Code  |: | AI01|*
+      .|.|Dock Code   |: | AI-D-001|*
+    }
+    --
+  }
+  ' {*
+  '   <b><size:14> <&chevron-bottom> Logistic Information
+  ' }
+  ' {
+  '    .|.|Supplier Plant Code      |: | "  "|[<&magnifying-glass>]|*
+  '    .|.|TMMIN Dest Dock Code     |: | " "|[<&magnifying-glass>]|*
+  '    .|.|Process Type             |: {|(X)N|.  '|()W|.  '|()X|.  '|()Y|.|}*
+  '    .|.|Packing Indicator        |: {| (X)Domestic (0) .'|()Regular (1)  '| ()Service (2)  '| ()SPO (3)  |}*
+  '    .|.|Address Rack             |: |"     "|*
+  '    .|.|Packing Process          |: {| (X)PxP|.|()Set|.|()Lot|.|}*
+  '    .|.|Qty/Kanban               |: |"     "|*
+  ' }
+  {*
+    <b><size:14> <&chevron-bottom> Images
+  }
+  {#
+    |<b>                Part Image|<b>       Outer Image|*|<b>      Inner Image|*|*
+    |<img:https://pics.freeicons.io/uploads/icons/png/6484211441606988091-64.png>|<img:https://pics.freeicons.io/uploads/icons/png/6484211441606988091-64.png>|<img:https://pics.freeicons.io/uploads/icons/png/6484211441606988091-64.png>|<img:https://pics.freeicons.io/uploads/icons/png/6484211441606988091-64.png>|<img:https://pics.freeicons.io/uploads/icons/png/6484211441606988091-64.png>|*
+    |{ 
+       <b>Caption: 
+       Part Characteristic / Defect Possibility:
+       ► Broken/Crack
+       ► Deformation 
+    }|{ 
+       <b>Caption: 
+       Packing Spec Reference :        
+       □ Model 
+       □ Part Number
+       □ Establish
+    }|*|<b>Caption: |*|*|*|*
+  }
+  .
+  {*
+    <b><size:14> <&chevron-bottom> Packing
+  }
+  --
+  {
+    '1490	1125	730
+    <b>OUTER
+    { Module Type     |: |  58    | }*  
+    {
+      .| Dimension     |: | 1490 | x | 1125 | x | 730 | cm <sup>3</sup> |*
+      .| Inner         |: | 1,23 | m<sup>3</sup>                      |*
+      .| Outer         |: | 1,23 | m<sup>3</sup>                      |*
+    }
+  }
+  --
+  {
+    |<b>INNER   | *
+  }
+  {#
+    |<b> Pack Material No     |<b> Suffix |<b> Name         |<b>Item Type |<b> Parent    |<b> Supplier ID |<b> Supplier Name |<b> L  |<b> W  |<b> H  |<b> Wt/pc |<b> Qty |<b> Total Wt |*
+    | AB12CD34EF             | 00        | Outer Box        | EE-122LX    |             .| TMMIN          | TMMIN             |360    |550    |240    |         .| 1      |           . |*
+    | GH56IJ78KL             | 00        | Carton Sheet     | FF-FTB      |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 1      |           . |*
+    | MN90OP12QR             | 00        | Plastic Sheet   '| DD-5G       |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 1      |           . |*
+    | ST34UV56WX             | 00        | Anti Rust        | AA622F      |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 2      |           . |*
+  }
+  --
+  '{[Accept <&media-record>] | [Reject <&data-transfer-upload>]}
+  Note :
+  {SI
+    "                                                        "
+    .
+    .
+    .
+  }
+  {[Reject <color:red><&circle-x>]| [Cancel <&x>]}
+  .
+  .
+  <b>List of Notes:
+  --
+  <i>No Data Found 
+}
+@endsalt
+@enduml
