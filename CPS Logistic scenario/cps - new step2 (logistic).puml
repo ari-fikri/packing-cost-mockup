@@ -30,16 +30,19 @@
     <b><size:14> <&chevron-bottom> Logistic Information
   }
   {
-     .|.|Supplier Plant Code      |: | "  "|[<&magnifying-glass>]|*
-     .|.|TMMIN Dest Dock Code     |: | " "|[<&magnifying-glass>]|*
+     .|.|TMMIN Dest Dock Code     |: {| " "|[<&magnifying-glass>]}|*
+     .|.|Remark                   |: {SI
+                                      "                                                 " 
+                                      .
+                                      .
+                                      }|*
      .|.|Process Type             |: {|(X)N|.  '|()W|.  '|()X|.  '|()Y|.|}*
-     .|.|Packing Indicator        |: {| (X)Domestic (0) .'|()Regular (1)  '| ()Service (2)  '| ()SPO (3)  |}*
      .|.|Address Rack             |: |"     "|*
-     .|.|Packing Process          |: {| (X)PxP|.|()Set|.|()Lot|.|}*
-     .|.|Qty/Kanban               |: |"     "|*
   }
-  {
+  {*
+    <b><size:14> <&chevron-right> PSE Info
   }
+  --
   {*
     <b><size:14> <&chevron-bottom> Images
   }
