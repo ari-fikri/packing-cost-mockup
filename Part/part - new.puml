@@ -4,7 +4,7 @@
   ==
   {
     .|Part No         |: |"           "|*
-    .|Unique No       |: |"     " |*
+    .|Unique No       |: {|"     " |[<&bolt>]|}*
     .|Suffix Code     |: |"    "|*
     .|Part Name       |: |"                   "|*
     .|Parent Part No  |: |"           "| [<&magnifying-glass>]| *
