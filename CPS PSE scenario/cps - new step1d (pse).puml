@@ -66,7 +66,7 @@
         "                       "
         "                       "
         "                       "
-      }|<size:80><&image>|<size:30><b>+|*
+      }|<size:80><&wrench>|<size:30><b>+|*
     }
     --
     {#
@@ -75,7 +75,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:30><b>+|*
+      }|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:30><b>+|*
     }
     --
     {#
