@@ -1,0 +1,31 @@
+@startsalt
+{
+  <size:25>CPS List |[<size:25><&x>]|*
+  ==
+  {
+    .|CPS No            |: |"                      "|                 |.|.|DPI No      |: |"                      "|*|*
+    .|Ref CPS No        |: |"                    "|                   |.|.|CFC/Pjt     |: |"                      "|*|*
+    .|From              |: |"                    "|                   |.|.|Model       |: |"                      "|*|*
+    .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}       |.|.|To          |: |"                      "|*
+    .|Effective Date    |: {|"21.06.2025"|' to '|"21.06.2025"|}       |.|.|Status      |: | ^Any^Submitted^Rejected^Approved^ |* { [Search <&magnifying-glass>]| }*
+  }
+  .
+  .
+  {   
+    .
+    {
+      --
+      {+
+          {#
+            |<b> CPS No. |<b> Ref CPS No. |<b>DPI No|<b> Issued Date  | <b>Effective Date |<b> CFC/Pjt   |<b> Model  |<b> # Parts        |<b> From               |<b> To                 |<b> Status       |<b> Action       |*|*
+            |D38403403   |A58503112       |D38403403|D23 Feb - 2025   | 01 Mar - 2025     |D54B          | D60B      | 2                 | Khedi Asmoro (PSE)    |  Cecep Gunadi (Aisin) |                 |     Submitted   | [<&check>]|.|*
+          }
+      }
+    }
+  }
+  --
+  {
+  << <  __1__  > >>  |'      3 <&chevron-bottom> per page |*
+  }  
+}
+@endsalt
