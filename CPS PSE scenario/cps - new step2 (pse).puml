@@ -90,11 +90,11 @@
       |<b>INNER   | [<size:10>add <&plus>] |*
     }
     {#
-      |<b> Pack Material No     |<b> Suffix |<b> Name         |<b>Item Type |<b> Parent    |<b> Supplier ID |<b> Supplier Name |<b> L  |<b> W  |<b> H  |<b> Wt/pc |<b> Qty |<b> Total Wt |*
-      | AB12CD34EF             | 00        | Outer Box        | EE-122LX    |             .| TMMIN          | TMMIN             |360    |550    |240    |         .| 1      |           . |*
-      | GH56IJ78KL             | 00        | Carton Sheet     | FF-FTB      |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 1      |           . |*
-      | MN90OP12QR             | 00        | Plastic Sheet   '| DD-5G       |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 1      |           . |*
-      | ST34UV56WX             | 00        | Anti Rust        | AA622F      |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 2      |           . |*
+      |<b> Pack Material No     |<b> Suffix |<b> Name         |<b>Item Type |<b> Parent    |<b> Supplier ID |<b> Supplier Name |<b> L  |<b> W  |<b> H  |<b> Wt/pc |<b> Qty |<b> Total Wt  |<b> Action|*|*
+      | AB12CD34EF             | 00        | Outer Box        | EE-122LX    |             .| TMMIN          | TMMIN             |360    |550    |240    |         .| 1      |           . |[<&pencil>]|[<&trash>]|*
+      | GH56IJ78KL             | 00        | Carton Sheet     | FF-FTB      |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 1      |           . |[<&pencil>]|[<&trash>]|*
+      | MN90OP12QR             | 00        | Plastic Sheet   '| DD-5G       |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 1      |           . |[<&pencil>]|[<&trash>]|*
+      | ST34UV56WX             | 00        | Anti Rust        | AA622F      |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 2      |           . |[<&pencil>]|[<&trash>]|*
     }
     --
     Note :
