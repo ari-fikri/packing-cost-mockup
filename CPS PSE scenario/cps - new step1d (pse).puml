@@ -23,10 +23,39 @@
       .|.|Dock Code   |: ||*
 
     }
-    --
     {*
-      <b><size:14> <&chevron-right> PSE Info
+      <b><size:14> <&chevron-bottom> PSE Info
     }
+    'pse inputed fields
+    { 
+      {
+        |<b>    Packing Plant |*        |  .      | <b>       Vanning Plant |*             |. | <b>     Order Pattern  |*
+        |Curr  :          |{ ^ STR 1 ^ }|  .      |Curr  :           |{ ^ STR 1 ^ }      |. |Curr  :            |{ ^ PxP ^ }|*
+        |Next  :          |{ ^ STR 1 ^ }|  .      |Next  :           |{ ^ STR 1 ^ }      |. | Next :            |{ ^ PxP ^ }|*      
+      }
+      .
+      {
+        {Category       |:| { ^ Trim ^ }|}*
+        <b>Katashiki :
+        {
+          .|AD  |:| "    "|. |AU  |:| "    "|* 
+          .|AF  |:| "    "|. |AX  |:| "    "|*
+        }
+      }
+      {
+        Importer Line Process   '|:| ^ Trim ^ |*
+        Case Code                |:| "          "|*
+        Box Number               |:| "          "|*
+        Renban                   |:| "          "|*
+        Renban Eff               |:| " 90% "|*
+        {
+          |<b>Packing Process |*        |* 
+          . |Boxing    :          |{ ^ SUPPLIER ^ }|*  
+          . |Stacking  :          |{ ^  TMMIN   ^ }|*  
+        }
+      }
+    }
+    'end pse input detail    
     --
     {*
       <b><size:14> <&chevron-bottom> Images
@@ -37,7 +66,7 @@
         "                       "
         "                       "
         "                       "
-      }|<size:30><b>+|*
+      }|<size:80><&image>|<size:30><b>+|*
     }
     --
     {#
@@ -46,7 +75,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:30><b>+|*
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:30><b>+|*
     }
     --
     {#
@@ -55,7 +84,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:30><b>+|*
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:30><b>+|*
     }
     {#
       |<b>QKP      : |{ 
@@ -63,7 +92,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:30><b>+|*
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:30><b>+|*
     }
     {#
       |<b>BKP      : |{ 
@@ -71,9 +100,9 @@
         "                        "
         "                        "
         "                        "
-      }|<size:30><b>+|*
+      }|<size:80><&image>||<size:80><&image>|<size:30><b>+|*
     }
-    --    
+    --
     {*
       <b><size:14> <&chevron-bottom> Packing
     }
