@@ -15,7 +15,7 @@
       [ ] On Hold
       [ ] Completed
     }|*
-    .|Project Manager |: |"              "|[<&magnifying-glass>]|*
+    .|Project Manager |: |"              "|[<&people>]|*
   }
   [Filter <&magnifying-glass>]|
   .
