@@ -1,0 +1,45 @@
+/.
+When duplicate button invoke in the table row, a new row will appear below it
+and the CPS No will still be empty because the data hasn't been saved yet,
+the Create CPS and Create PSI button will be hidden and Save and Cancel button 
+will now appear under the table.
+User can whether edit the new duplicated CPS, save it or delete it right away
+if user choose to edit it, it will then open edit CPS form.
+if user choose to save it, then the CPS No will still be empty but the status will be Draft
+if user choose to delete it, then the save/cancel button will dissapear
+and the create CPS and Create PSI button will reappear.
+./
+@startsalt
+{
+  <size:25>CPS List |[<size:25><&x>]|*
+  ==
+  {
+    .|CPS No            |: |"                      "|                 |.|.|DPI No      |: |"                      "|*|*
+    .|Ref CPS No        |: |"                    "|                   |.|.|CFC/Pjt     |: |"                      "|*|*
+    .|From              |: |"                    "|                   |.|.|Model       |: |"                      "|*|*
+    .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}       |.|.|To          |: |"                      "|*
+    .|Effective Date    |: {|"21.06.2025"|' to '|"21.06.2025"|}       |.|.|Status      |: | ^Any^Draft^Submitted^Rejected^Approved^ |* { [Search <&magnifying-glass>]| }*
+  }
+  .
+  .
+  {   
+    '{[Create CPS] | [Create PSI]|}*
+    {
+      --
+      {+
+          {#
+            |<b> CPS No. |<b> Ref CPS No. |<b>DPI No|<b> Issued Date  | <b>Effective Date |<b> CFC/Pjt   |<b> Model  |<b> # Parts        |<b> From               |<b> To                 |<b> Status       |<b>  Action   |*|*|*
+            |D38403403   |A58503112       |D38403403|D23 Feb - 2025   | 01 Mar - 2025     |D54B          | D60B      | 2                 | Khedi Asmoro (PSE)    |  Cecep Gunadi (Aisin) |  Submitted      | .|.|.|*
+            |.           |D38403403       |D38403403|D23 Feb - 2025   | 01 Mar - 2025     |D54B          | D60B      | 2                 | Khedi Asmoro (PSE)    | .                     |  Draft          | [<&pencil>]|.|[<&trash>]|*
+          }
+      }
+    }
+  }
+  --
+  {[Save] | [Cancel]|}*
+  --
+  {
+  << <  __1__  > >>  |'      3 <&chevron-bottom> per page |*
+  }  
+}
+@endsalt
