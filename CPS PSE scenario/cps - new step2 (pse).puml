@@ -24,27 +24,53 @@
       .|.|Dock Code   |: | AI-D-001|*
 
     }
-    --
+ --
     {*
       <b><size:14> <&chevron-bottom> Images
     }
     {#
-      |<b>                Part Image|<b>       Outer Image|*|<b>                   Inner Image|*|*|*|*
-      |<img:https://pics.freeicons.io/uploads/icons/png/6484211441606988091-64.png>|<img:https://pics.freeicons.io/uploads/icons/png/6484211441606988091-64.png>|<size:30><b>+|<img:https://pics.freeicons.io/uploads/icons/png/6484211441606988091-64.png>|<img:https://pics.freeicons.io/uploads/icons/png/6484211441606988091-64.png>|<img:https://pics.freeicons.io/uploads/icons/png/6484211441606988091-64.png>|<size:30><b>+|*
-      |{ 
+      |<b>Part        :|{ 
         <b>Caption: 
-        Part Characteristic / Defect Possibility:
-        ► Broken/Crack
-        ► Deformation 
-      }|{ 
-        <b>Caption: 
-        Packing Spec Reference :        
-        □ Model 
-        □ Part Number
-        □ Establish
-      }|*|<b>Caption: |*|*|*|*
+        "                       "
+        "                       "
+        "                       "
+      }|<size:80><&wrench>|<size:30><b>+|*
     }
-    .
+    --
+    {#
+      |<b>Packing : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:30><b>+|*
+    }
+    --
+    {#
+      |<b>Outer    : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:30><b>+|*
+    }
+    {#
+      |<b>QKP      : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:30><b>+|*
+    }
+    {#
+      |<b>BKP      : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&image>||<size:80><&image>|<size:30><b>+|*
+    }
+    --
     {*
       <b><size:14> <&chevron-bottom> Packing
     }
