@@ -1,0 +1,32 @@
+@startsalt
+{
+  <size:15><b>Project List
+  ==
+  {
+    .|Project Code      |: |"       "|[<&magnifying-glass>]|*
+    .|Related Models    |: |"       "| [<&magnifying-glass>]|*
+    .|Status |:|
+    {
+      [ ] All
+      [x] Draft
+      [x] Active
+      [ ] On Hold
+      [ ] Completed
+    }|*
+    .|Project Manager |: |"              "|[<&magnifying-glass>]|*
+  }
+  [Filter <&magnifying-glass>]|
+  .
+  --
+  [New Project <&plus>]|*
+  --
+  {#
+    |<b> Project Code    |<b> Project Name          |<b> Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>Models     |<b>Action |*|*|*|*|*|*|*
+  }
+  No Data Found
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  }
+}
+@endsalt

@@ -1,0 +1,33 @@
+@startsalt
+{
+  <size:15><b>Project - New
+  ==
+  .
+  {
+    .|Project Code       |: |"PRJ001      "|*
+    .|Project Name       |: |"Engine Redesign         "|*
+    .|Description        |: |"Complete redesign of the engine system for improved performance"|*
+    .|Project Manager    |: |"Arif Fikri"|[Search <&magnifying-glass>]|*
+    .|Start Date         |: |"  2025-01-01  "|[<&calendar>]|*
+    .|End Date           |: |"  2025-06-30  "|[<&calendar>]|*
+    .|Status             |: |{| ^Draft^Active^On Hold^Completed^ }|*
+    .|Note               |: {SI|"                                "
+    .
+    .|}*
+  }
+  .
+  --
+  {
+    [Add Model <&plus>]|*
+  }
+  {#
+    |<b> No |<b> Model Code |<b> Model Name     |<b> Generation |<b> Action |*|*|*|*
+  }
+  No Data Found
+  --
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+==
+}
+@endsalt

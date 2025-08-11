@@ -22,9 +22,8 @@
   }
   {#
     |<b> No |<b> Model Code |<b> Model Name     |<b> Generation |<b> Action |*|*|*|*
-    | 1     | GGN155        | Innova Gasoline   | 1st Gen       | [<&trash>]|*
-    | 2     | TGN166        | Fortuner Diesel   | 2nd Gen       | [<&trash>]|*
   }
+  No Data Found
   --
   {
   .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
