@@ -1,0 +1,25 @@
+@startsalt
+{
+  <size:15><b>Model List |[<size:25><&x>]|*
+  ==
+  .
+  {
+      .|Code        |: |"               "|*
+      .|Model Name  |: |"               "|*
+      .|Remark      |: |"               "| [Filter <&magnifying-glass>] |*      
+  }
+  .
+  --
+  [Add New Model <&document>]
+  --
+  {#
+    |<b>    Code |<b>     Model Name        '|<b> Remark |<b> Action |*|*|*
+  }
+  No Data Found
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  }
+
+}
+@endsalt

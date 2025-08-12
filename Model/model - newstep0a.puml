@@ -1,0 +1,25 @@
+@startsalt
+{
+  <size:15><b>Model List |[<size:25><&x>]|*
+  ==
+  .
+  {
+      .|Code        |: |"               "|*
+      .|Model Name  |: |"               "|*
+      .|Remark      |: |"               "| [Search <&magnifying-glass>] |*      
+  }
+  .
+  --
+  [Add New Model <&document>]
+  --
+  {#
+    |<b>    Code |<b>          Model Name        |<b> Remark |<b> Action |*|*|*
+    |'  GGN155   | Hilux                         | 8th Gen       |[<&pencil>]|[<&delete>]|*
+  }
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  }
+
+}
+@endsalt

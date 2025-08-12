@@ -1,0 +1,27 @@
+@startsalt
+{
+  <size:15><b>Model - New |[<size:25><&x>]|*
+  ==
+  .
+  {   
+    .|Code           |: |"GGN155"|*
+    .|Name           |: |"Hilux"| *
+    .|Remark     |: |"8th Gen"|*
+  }
+  .
+--
+  {
+    [Add Part <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|
+  }
+  --
+  {#
+    |<b> Part No |<b> Suffix |<b> Name |<b> Parent |<b> Supplier ID |<b> Supplier Name |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
+  }
+  - No parts added yet -
+  --
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+}
+
+  @endsalt

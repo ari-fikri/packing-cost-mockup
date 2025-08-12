@@ -1,0 +1,27 @@
+@startsalt
+{
+  <size:15><b>Model - New |[<size:25><&x>]|*
+  ==
+  .
+  {   
+    .|Code           |: |"GGN155"|*
+    .|Name           |: |"Hilux"| *
+    .|Remark     |: |"8th Gen"|*
+  }
+  .
+--
+  {
+    [Add Part <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|
+  }
+  --
+  {#
+    |<b> Part No |<b> Suffix |<b> Name |<b> Parent |<b> Supplier ID |<b> Supplier Name |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
+    |' 1234567890 | 01 | Front Bumper | NULL | AISIN | Aisin Seiki | 1200 | 400 | 300 | 0.8 | 2 | 10000 |[<&pencil>]|[<&trash>]|*
+  }
+  --
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+}
+
+  @endsalt
