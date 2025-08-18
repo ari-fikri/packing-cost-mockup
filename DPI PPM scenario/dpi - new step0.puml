@@ -13,7 +13,7 @@
   .
   {   
     {
-      .|    [ Add DPI <&flash>]  |[Create PCI <&wrench>] |*
+      .|    [ Add DPI <&flash>]  |[Create PCI <&wrench>] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
     }   
     .
     {

@@ -18,7 +18,9 @@
   [Filter <&magnifying-glass>]|
   .
   --
-  [New Project <&plus>]|*
+  {
+  [New Project <&plus>]||.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+  }
   --
   {#
     |<b> Project Code    |<b> Project Name          |<b> Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>      Models     |<b>    Action |*|*|*|*|*|*|*

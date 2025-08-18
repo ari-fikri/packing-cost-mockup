@@ -12,7 +12,7 @@
   .
   .
   {   
-    {[Create CPS] | [Create PSI]|}*
+    {[Create CPS] | [Create PSI]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|} *
     {
       --
       {+

@@ -15,7 +15,9 @@
     [Search <&magnifying-glass>]
   }
   --
-  [Add Part <&document>]
+  {
+  [Add Part <&document>] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+  }
   --
   {#
     |<b> Part No  |<b> Suffix | <b>Unique No | <b> Name    |<b> Supplier Name |<b> Parent Part No |<b> Subparts |<b> L |<b> W |<b> H |<b> Qty/Box |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
