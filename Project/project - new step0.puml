@@ -1,15 +1,17 @@
 @startsalt
 {
-  <size:15><b>Project List
+  <size:15><b>Project List|[<size:25><&x>]|*
   ==
   {
-    .|Project Code      |: |"       "|[<&magnifying-glass>]|*
-    .|Related Models    |: |"       "| [<&magnifying-glass>]|*
+    .|Project Code      |: {|"          "|[<&magnifying-glass>]|}*
+    .|Project Name      |: |"                        "|*    
+    .|Related Models    |: {|"          "| [<&magnifying-glass>]|}*
+    .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}
     .|Status |:|
     {
       [ ] All
-      [x] Draft
-      [x] Active
+      [X] Draft
+      [X] Active
       [ ] On Hold
       [ ] Completed
     }|*
@@ -23,7 +25,7 @@
   }
   --
   {#
-    |<b> Project Code    |<b> Project Name          |<b> Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>Models     |<b>Action |*|*|*|*|*|*|*
+    |<b> Project Code    |<b> Project Name          |<b> Type '|<b> Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>Models     |<b>Action |*|*|*|*|*|*|*
   }
   No Data Found
   --

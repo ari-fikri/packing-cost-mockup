@@ -18,7 +18,7 @@
   .
   --
   {
-    [Add Model <&plus>]|*
+    [Add Model <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
   }
   {#
     |<b> No |<b> Model Code |<b> Model Name     |<b> Generation |<b> Action |*|*|*|*
