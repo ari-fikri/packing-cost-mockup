@@ -6,16 +6,15 @@
     .|DPI No            |: |"                      "|        |.|.|CFC/Pjt |: |"               "|*|*
     .|Ref DPI No        |: |"                    "|        |.|.|Model   |: |"               "|*|*
     .|From              |: |"                    "|        |.|.|To   |: |"               "|*|*
-    .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}        |.|.|Status  |: | {.| ^Any^Draft^Submitted^Rejected^Approved^}|       .                  '| [Search <&magnifying-glass>] |*      
-    .|Effective Date    |: {|"21.06.2025"|' to '|"21.06.2025"|}
+    .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}        |.|.|Status  |: | {.| ^Any^Draft^Submitted^Rejected^Approved^}|       .                  '|*
+    .|Effective Date    |: {|"21.06.2025"|' to '|"21.06.2025"|}*
+    .|.|.|.|.|.|.||.|.|.|.|.|.|.|.|[Search <&magnifying-glass>] | [Clear <&x>] |* 
   }
-  .
-  .
+  --
   {   
     {
       .|    [ Add DPI <&flash>]  |[Create PCI <&wrench>] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
-    }   
-    .
+    }*
     {
       --   
       {+
