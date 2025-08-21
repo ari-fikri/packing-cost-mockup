@@ -9,19 +9,18 @@
     .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}
     .|Status |:|
     {
-      [ ] All
-      [X] Draft
-      [X] Active
-      [ ] On Hold
-      [ ] Completed
+      [X] All
+      [] Draft
+      [] Active
+      [] On Hold
+      [] Completed
     }|*
-    .|Project Manager |: |"              "|[<&magnifying-glass>]|*
+    .|Project Manager |: |"              "|[<&magnifying-glass>]|.|[Filter <&magnifying-glass>]|[Clear <&x>]
   }
-  [Filter <&magnifying-glass>]|
   .
   --
   {
-  [New Project <&plus>]||.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+  [New Project <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
   }
   --
   {#

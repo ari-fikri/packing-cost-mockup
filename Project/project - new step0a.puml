@@ -1,26 +1,27 @@
 @startsalt
 {
-  <size:15><b>Project List
+  <size:15><b>Project List|[<size:25><&x>]|*
   ==
   {
     .|Project Code      |: |"       "|[<&magnifying-glass>]|*
+    .|Project Name      |: |"                        "|*    
     .|Related Models    |: |"GGN155, TGN166"| [<&magnifying-glass>]|*
     .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}
     .|Status |:|
     {
       [ ] All
-      [x] Draft
-      [x] Active
+      [X] Draft
+      [X] Active
       [ ] On Hold
       [ ] Completed
     }|*
-    .|Project Manager |: |"              "|[<&magnifying-glass>]|*
+    .|Project Manager |: |"              "|[<&person>]|.|[Filter <&magnifying-glass>]|[Clear <&x>]
   }
   [Filter <&magnifying-glass>]|
   .
   --
   {
-  [New Project <&plus>]||.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+  [New Project <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
   }
   --
   {#

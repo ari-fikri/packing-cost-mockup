@@ -4,9 +4,9 @@
   ==
   {
     .|Project Code      |: {|"       "|[<&magnifying-glass>]|}*
-    .|Project Name      |: |"                        "|*
-    .|Type              |: |{| ^All^PxP^Lot^ }|*
+    .|Project Name      |: |"                        "|*    
     .|Related Models    |: |"GGN155, TGN166"| [<&magnifying-glass>]|*
+    .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}
     .|Status |:|
     {
       [ ] All
@@ -15,13 +15,12 @@
       [ ] On Hold
       [ ] Completed
     }|*
-    .|Project Manager |: |"              "|[<&people>]|*
+    .|Project Manager |: |"              "|[<&person>]|.|[Filter <&magnifying-glass>]|[Clear <&x>]
   }
-  [Filter <&magnifying-glass>]|
   .
   --
   {
-  [New Project <&plus>]||.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+  [New Project <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
   }
   --
   {#
