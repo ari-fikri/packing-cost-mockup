@@ -5,10 +5,9 @@
   .
   {
       .|Type Code    |: |"                      "|*
-      .|Item No      |: |"                      "| [Search <&magnifying-glass>] |*      
+      .|Item No      |: |"                      "| [Filter <&magnifying-glass>]| [Clear <&x>]| *      
 
   }
-  .
   --
   {
   [Add <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
@@ -26,3 +25,4 @@
   }
 }
 @endsalt
+@enduml
