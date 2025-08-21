@@ -2,15 +2,16 @@
 {
   <size:15><b>Model List |[<size:25><&x>]|*
   ==
-  .
   {
       .|Code        |: |"               "|*
       .|Model Name  |: |"               "|*
-      .|Remark      |: |"               "| [Filter <&magnifying-glass>] |*      
+      .|Remark      |: |"               "|.|.|[Filter <&magnifying-glass>]| [Clear <&x>]|*      
   }
   .
   --
-  [Add New Model <&document>]
+  {
+  [Add New Model <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  }
   --
   {#
     |<b>    Code |<b>     Model Name        '|<b> Remark |<b> Action |*|*|*

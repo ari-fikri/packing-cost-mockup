@@ -6,11 +6,13 @@
   {
       .|Code        |: |"               "|*
       .|Model Name  |: |"               "|*
-      .|Remark      |: |"               "| [Search <&magnifying-glass>] |*      
+      .|Remark      |: |"               "|.|.|[Filter <&magnifying-glass>]| [Clear <&x>]|*
   }
   .
   --
-  [Add New Model <&document>]
+  {
+  [Add New Model <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  }
   --
   {#
     |<b>    Code |<b>          Model Name        |<b> Remark |<b> Action |*|*|*

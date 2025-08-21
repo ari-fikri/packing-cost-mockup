@@ -8,7 +8,7 @@
     .|Project Name       |: |"Engine Redesign         "|*
     .|Type               |: |{| ^PxP^Lot^ }|* 
     .|Description        |: |"Complete redesign of the engine system for improved performance"|*
-    .|Project Manager    |: |"Arif Fikri"|[<&people>]|*
+    .|Project Manager    |: {|"Arif Fikri"|[ <&people>]|}*
     .|Start Date         |: |"  2025-01-01  "|[<&calendar>]|*
     .|End Date           |: |"  2025-06-30  "|[<&calendar>]|*
     .|Status             |: |{| ^Draft^Active^On Hold^Completed^ }|*
@@ -21,6 +21,7 @@
   {
     [Add Model <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
   }
+  --
   {#
     |<b> No |<b> Model Code |<b> Model Name     |<b> Remark |<b> Action |*|*|*|*
   }
