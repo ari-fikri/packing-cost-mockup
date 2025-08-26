@@ -3,19 +3,21 @@
   <size:15><b>CFC/Pjt List | [<size:25><&x>]|*
   ==
   {
-    .|CFC/PJTCode      |: {|"       "|[<&magnifying-glass>]|}*
+    .|CFC/PJT Code      |: {|"          "|[<&magnifying-glass>]|}*
     .|CFC/PJT Name      |: |"                        "|*    
-    .|Related Models    |: |"GGN155, TGN166"| [<&magnifying-glass>]|*
+    .|Related Models    |: {|"          "| [<&magnifying-glass>]|}*
     .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}
+    .|Start Date        |: {"          "|[<&calendar>] |'  -  '| "          "|[<&calendar>]  }*
+    .|End Date          |: {"          "|[<&calendar>] |'  -  '| "          "|[<&calendar>]  }*
     .|Status |:|
     {
-      [ ] All
-      [x] Draft
-      [x] Active
-      [ ] On Hold
-      [ ] Completed
+      [X] All
+      [] Draft
+      [] Active
+      [] On Hold
+      [] Completed
     }|*
-    .|Project Manager |: |"              "|[<&person>]|.|[Filter <&magnifying-glass>]|[Clear <&x>]
+    .|Project Manager |: {|"              "|[<&people>]|.|.|.|.||[Filter <&magnifying-glass>]}|[Clear <&x>]
   }
   .
   --

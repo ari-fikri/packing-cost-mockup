@@ -7,6 +7,8 @@
     .|CFC/PJT Name      |: |"                        "|*    
     .|Related Models    |: {|"          "| [<&magnifying-glass>]|}*
     .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}
+    .|Start Date        |: {"          "|[<&calendar>] |'  -  '| "          "|[<&calendar>]  }*
+    .|End Date          |: {"          "|[<&calendar>] |'  -  '| "          "|[<&calendar>]  }*
     .|Status |:|
     {
       [X] All
@@ -15,7 +17,7 @@
       [] On Hold
       [] Completed
     }|*
-    .|Project Manager |: |"              "|[<&people>]|.|[Filter <&magnifying-glass>]|[Clear <&x>]
+    .|Project Manager |: {|"              "|[<&people>]|.|.|.|.||[Filter <&magnifying-glass>]}|[Clear <&x>]
   }
   .
   --
@@ -24,7 +26,7 @@
   }
   --
   {#
-    |<b> CFC/PJT Code|<b> CFC/PJT Name          |<b> Type '|<b> Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>Models     |<b>Action |*|*|*|*|*|*|*
+    |<b> CFC/PJT Code|<b> CFC/PJT Name          |<b> Type '|<b> Project Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>Models     |<b>Action |*|*|*|*|*|*|*
   }
   No Data Found
   --

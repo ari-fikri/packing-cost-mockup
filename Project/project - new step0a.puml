@@ -3,30 +3,30 @@
   <size:15><b>CFC/Pjt List|[<size:25><&x>]|*
   ==
   {
-    .|CFC/PJT Code      |: |"       "|[<&magnifying-glass>]|*
+    .|CFC/PJT Code      |: {|"          "|[<&magnifying-glass>]|}*
     .|CFC/PJT Name      |: |"                        "|*    
-    .|Related Models    |: |"GGN155, TGN166"| [<&magnifying-glass>]|*
+    .|Related Models    |: {|"          "| [<&magnifying-glass>]|}*
     .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}
+    .|Start Date        |: {"          "|[<&calendar>] |'  -  '| "          "|[<&calendar>]  }*
+    .|End Date          |: {"          "|[<&calendar>] |'  -  '| "          "|[<&calendar>]  }*
     .|Status |:|
     {
-      [ ] All
-      [X] Draft
-      [X] Active
-      [ ] On Hold
-      [ ] Completed
+      [X] All
+      [] Draft
+      [] Active
+      [] On Hold
+      [] Completed
     }|*
-    .|Project Manager |: |"              "|[<&person>]|.|[Filter <&magnifying-glass>]|[Clear <&x>]
-  }
-  [Filter <&magnifying-glass>]|
-  .
+    .|Project Manager |: {|"              "|[<&people>]|.|.|.|.||[Filter <&magnifying-glass>]}|[Clear <&x>]
+}
   --
   {
   [New CFC/PJT <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
   }
   --
   {#
-    |<b> CFC/PJT Code<b> CFC/PJT Name          |<b> Type '|<b> Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>      Models     |<b>    Action |*|*|*|*|*|*|*
-    | PRJ001            | Engine Redesign           |PxP    | Arif Fikri         | 2025-01-01    | 2025-06-30    | Draft         | GGN155, TGN166     |[<&pencil>]|[<&layers>]|[<&trash>]|*
+    |<b> CFC/PJT Code | <b> CFC/PJT Name          |<b> Type '|<b> Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>      Models     |<b>    Action |*|*|*|*|*|*|*
+    | PRJ001          | Engine Redesign           |PxP    | Arif Fikri         | 2025-01-01    | 2025-06-30    | Draft         | GGN155, TGN166     |[<&pencil>]|[<&layers>]|[<&trash>]|*
   }
   --
   {
