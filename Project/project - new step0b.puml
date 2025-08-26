@@ -1,10 +1,10 @@
 @startsalt
 {
-  <size:15><b>Project List | [<size:25><&x>]|*
+  <size:15><b>CFC/Pjt List | [<size:25><&x>]|*
   ==
   {
-    .|Project Code      |: {|"       "|[<&magnifying-glass>]|}*
-    .|Project Name      |: |"                        "|*    
+    .|CFC/PJTCode      |: {|"       "|[<&magnifying-glass>]|}*
+    .|CFC/PJT Name      |: |"                        "|*    
     .|Related Models    |: |"GGN155, TGN166"| [<&magnifying-glass>]|*
     .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}
     .|Status |:|
@@ -20,11 +20,11 @@
   .
   --
   {
-  [New Project <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+  [New CFC/PJT <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
   }
   --
   {#
-    |<b> Project Code    |<b> Project Name          |<b>Type|<b> Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>      Models     |<b>    Action |*|*|*|*|*|*|*
+    |<b> CFC/PJT Code |<b> CFC/PJT Name          |<b>Type|<b> Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>      Models     |<b>    Action |*|*|*|*|*|*|*
     |' PRJ001            | Engine Redesign          |PxP    | Arif Fikri         | 2025-01-01    | 2025-06-30    | Draft         | GGN155, TGN166     |[<&pencil>]|[<&layers>]|[<&trash>]|*
     |' PRJ002            | Suspension Optimization  |PxP    | Khedi Rachman      | 2025-02-15    | 2025-07-15    | Active        | AGX210             |[<&pencil>]|[<&layers>]|[<&trash>]|*
     |' PRJ003            | EV Interior Upgrade      |Lot    | Toni Saputra       | 2024-11-10    | 2025-03-20    | Completed     | GRX130, ZYX110     |[<&pencil>]|[<&layers>]|[<&trash>]|*

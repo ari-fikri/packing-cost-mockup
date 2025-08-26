@@ -18,7 +18,7 @@
        --   
       {+          
           {#
-              <b> No|<b>    Request No     |<b>  Rqst Date|<b> CFC/Pjt|<b>   Last Update       |<b>       From      |<b>     Divisi/Dept|<b>          Comment|<b>    Status   '                        |<b>Project |<b> Model|<b>  Dest ID |<b> Dest Name |<b>Part ID |<b> Part Name |<b>    Action |   *|*|*
+              <b> No|<b>    Request No     |<b>  Rqst Date|<b> CFC/Pjt|<b>   Last Update       |<b>       From      |<b>     Divisi/Dept|<b>          Comment|<b>    Status   '                        |<b>CFC/Pjt |<b> Model|<b>  Dest ID |<b> Dest Name |<b>Part ID |<b> Part Name |<b>    Action |   *|*|*
               1. |  .                      | .            | BJX205          | 05/06/2025 13:45 |   You              | .| Mengandung metal keras tetapi .. | | Draft          |.          |.        |.            |.          |.       |.          |[<&pencil>] | [<&delete>] |[<&document>] |*
               2. | CPS 0002 205 2025       | 05/06/2025    | BJX205         | 05/06/2025 13:45 |   You              | AISIN Indonesia Auto ..| Outer kurang kuat untuk dipaka .. | | Submitted      |.          |.        |.            |.          |.       |.          |[<&pencil>] | [<&delete>] |[<&document>] |*
               3. | CPS 0003 405 2025       | 05/06/2025    | DX003          | 05/06/2025 07:45 | Christian Hadinata | PPMD                    | Harga tidak sesuai| Rejected                     |.          |.        |.            |.          |.       |.          |[<&pencil>] | [<&delete>] |[<&document>] |*

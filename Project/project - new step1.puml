@@ -1,12 +1,12 @@
 @startsalt
 {
-  <size:15><b>Project - New|[<size:25><&x>]|*
+  <size:15><b>CFC/Pjt - New|[<size:25><&x>]|*
   ==
   .
   {
-    .|Project Code       |: |"            "|*
-    .|Project Name       |: |"                        "|*
-    .|Type               |: |{| ^PxP^Lot^ }|* 
+    .|CFC/PJT Code       |: |"            "|*
+    .|CFC/PJT Name       |: |"                        "|*
+    .|CFC/PJT Type       |: |{| ^PxP^Lot^ }|* 
     .|Description        |: |"                                               "|*
     .|Project Manager    |: {|"           "|[<&people>]|}*
     .|Start Date         |: |"  YYYY-MM-DD  "|[<&calendar>]|*
