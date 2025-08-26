@@ -5,22 +5,22 @@
   ==
   {
     {
-      <b>CPS No.      |: {|"            " |}
-      <b>Ref CPS No.  |: {|"            "| [<&magnifying-glass>]}| *
-      Issue  Date     |: {| " 23 Feb - 2025 " | [<&calendar>]|}
-      Effective Date  |: {| " 23 Feb - 2025 " | [<&calendar>]|}
+      <b>CPS No.      |: {|"               "|}
+      <b>Ref CPS No.  |: {|"               "| [<&magnifying-glass>]}| *
+      Issue  Date     |: {| " 23 Feb 2025 " | [<&calendar>]|}
+      Effective Date  |: {| " 23 Feb 2025 " | [<&calendar>]|}
       .
-      DPI No.        |: {|"            " | [<&magnifying-glass>]}| *
-      CFC/PJT Code   |: {|"      "  | [<&magnifying-glass>]}
-      Model          |: {|"      "  | [<&magnifying-glass>]}
-      Part No        |: {|"               " | [<&magnifying-glass>]}
+      DPI No.        |: {|"                "| [<&magnifying-glass>]}| *
+      CFC/PJT Code   |: {|"                "| [<&magnifying-glass>]}
+      Model          |: {|"                "| [<&magnifying-glass>]}
+      Part No        |: {|" 848400K010     "| [<&magnifying-glass>]}
     }
     --
     {
-      .|.|Part Name   |: |*
-      .|.|Supplier    |: ||*
-      .|.|Plant Code  |: ||*
-      .|.|Dock Code   |: ||*
+      .|.|Part Name   |: | SWITCH ASSY, BACK DOOR OPENER |*
+      .|.|Supplier    |: | TRI |*
+      .|.|Plant Code  |: | 1   |*
+      .|.|Dock Code   |: | 1   |*
 
     }
     {*

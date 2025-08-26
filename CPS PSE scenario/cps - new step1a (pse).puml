@@ -5,20 +5,24 @@
   ==
   {
     {
-      <b>CPS No.      |: {|"            " |}|*
-      <b>Ref CPS No.  |: {|"            "| [<&magnifying-glass>]}| *
-      Issue  Date     |: {| " 23 Feb - 2025 " | [<&calendar>]|}
-      Effective Date  |: {| " 23 Feb - 2025 " | [<&calendar>]|}
+      <b>CPS No.      |: {|"                "|}|*
+      <b>Ref CPS No.  |: {|"                "| [<&magnifying-glass>]}| *
+      Issue  Date     |: {| "               "| [<&calendar>]|}
+      Effective Date  |: {| "               "| [<&calendar>]|}
       .
-      DPI No.         |: {|"            " | [<&magnifying-glass>]}| *
-      CFC/PJT Code    |: {|"      "  | [<&magnifying-glass>]}
-      Model           |: {|"      "  | [<&magnifying-glass>]}
-      Part No         |: {|"               " | [<&magnifying-glass>]}
+      DPI No.         |: {|"                "| [<&magnifying-glass>]}| *
+      CFC/PJT Code    |: {|"                "| [<&magnifying-glass>]}
+      Model           |: {|"                "| [<&magnifying-glass>]}
+      Part No         |: {|"                "| [<&magnifying-glass>]}
     }
     {
       .|.|Part Name   |: ||*
       .|.|Supplier    |: {||}
     }
+    {*
+      <b><size:14> <&chevron-right> PSE Info
+    }
+    --
     {*
       <b><size:14> <&chevron-right> Images
     }
