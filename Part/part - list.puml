@@ -3,7 +3,7 @@
   <size:15><b>Part List | [<size:25><&x>]|*
   ==
   {
-    .|Part No       |: |"           "|*
+    .|Part No       |: |"           "|[<&magnifying-glass>]|*
     .|Unique No     |: |"           "|*
     .|Supplier ID   |: |"           "| [<&magnifying-glass>]|*
     .|Supplier Name |: |. |*
