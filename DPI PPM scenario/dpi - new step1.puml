@@ -5,13 +5,13 @@
   ==
   {   
     {
-    <b>DPI No.        |: {|"            " |}
-    <b>Ref DPI No.    |:  {|"            "| [<&magnifying-glass>]}*
-    Issued Date       |: {| "            " | [<&calendar>]|}
-    Effective Date    |: {| "            " | [<&calendar>]|}
+    <b>DPI No.        |: {|"              "|}
+    <b>Ref DPI No.    |: {|"              "| [<&magnifying-glass>]}*
+    Issued Date       |: {|"              "| [<&calendar>]|}
+    Effective Date    |: {|"              "| [<&calendar>]|}
     .
-    CFC/PJT      |: {|"      " | [<&magnifying-glass>]}
-    Model        |: {|"      " | [<&magnifying-glass>]}
+    CFC/PJT           |: {|"              "| [<&magnifying-glass>]}
+    Model             |: {|"              "| [<&magnifying-glass>]}
     }
   }
   --

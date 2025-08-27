@@ -3,11 +3,11 @@
   <size:25>CPS List |[<size:25><&x>]|*
   ==
   {
-    .|CPS No            |: |"                      "|                 |.|.|DPI No      |: |"                      "|*|*
-    .|Ref CPS No        |: |"                    "|                   |.|.|CFC/Pjt     |: |"                      "|*|*
-    .|From              |: |"                    "|                   |.|.|Model       |: |"                      "|*|*
-    .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}       |.|.|To          |: |"                      "|*
-    .|Effective Date    |: {|"21.06.2025"|' to '|"21.06.2025"|}       |.|.|Status      |: | ^Any^Submitted^Rejected^Approved^ |* { [Search <&magnifying-glass>]| }*
+    .|CPS No            |: |"                        "|                 |.|.|DPI No      |: |"                      "|*|*
+    .|Ref CPS No        |: |"                        "|                 |.|.|CFC/Pjt     |: |"                      "|*|*
+    .|From              |: |"                        "|                 |.|.|Model       |: |"                      "|*|*
+    .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}         |.|.|To          |: |"                      "|*
+    .|Effective Date    |: {|"21.06.2025"|' to '|"21.06.2025"|}         |.|.|Status      |: | ^Any^Submitted^Rejected^Approved^ |* { [Search]| }* { [Clear]| }*
   }
   .
   .

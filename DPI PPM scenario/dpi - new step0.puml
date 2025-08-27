@@ -3,16 +3,17 @@
   <size:25>DPI List |[<size:25><&x>]|*
   ==
   {
-    .|DPI No            |: |"                      "|        |.|.|CFC/Pjt |: |"               "|*|*
-    .|Ref DPI No        |: |"                    "|        |.|.|Model   |: |"               "|*|*
-    .|From              |: |"                    "|        |.|.|To   |: |"               "|*|*
-    .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}        |.|.|Status  |: | {.| ^Any^Draft^Submitted^Rejected^Approved^}|       .                  '|*
+    .|DPI No            |: |"                        "|            |.|.|CFC/Pjt |: |"                  "|*|*
+    .|Ref DPI No        |: |"                        "|            |.|.|Model   |: |"                  "|*|*
+    .|From              |: |"                        "|            |.|.|To      |: |"                  "|*|*
+    .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}    |.|.|Status  |: | {.| ^Any^Draft^Submitted^Rejected^Approved^}|     '|* |[Search] | [Clear] |* 
     .|Effective Date    |: {|"21.06.2025"|' to '|"21.06.2025"|}*
-    .|.|.|.|.|.|.||.|.|.|.|.|.|.|.|[Search <&magnifying-glass>] | [Clear <&x>] |* 
+    .
   }
   --
   {   
     {
+      .
       .|    [ Add DPI <&flash>]  |[Create PCI <&wrench>] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
     }*
     {

@@ -5,7 +5,7 @@
   {
       .|From    |: |"                      "|        |.|.|CFC/Pjt |: |"               "|*|*
       .|Date    |: |"                      "|        |.|.|Model   |: |"               "|*|*
-      .|Keyword |: |"                      "|        |.|.|Status  |: | {.| ^Any^New^Rejected^Approved^}|       .                  '|[Search <&magnifying-glass>]|*      
+      .|Keyword |: |"                      "|        |.|.|Status  |: | {.| ^Any^New^Rejected^Approved^}|       .       '|[Search]| |[Clear]|*  
   }
   .
   .

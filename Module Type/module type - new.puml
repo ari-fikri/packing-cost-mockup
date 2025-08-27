@@ -5,7 +5,7 @@
   .
   {   
     .|Type Code      |: |"          "|*
-    .|Item No        |: |"               "| [search <&magnifying-glass>] |*
+    .|Item No        |: |"               "| [Search] |* |[Clear] |*
     .|Dim  Outer (mm<sup>3</sup>) |: {'  l:|"  "|w:|"  "|h:|"  "|}|*
     .|Dim  Outer (m<sup>3</sup>)  |: |*
     .|Dim  Inner (mm<sup>3</sup>) |: {'  l:|"  "|w:|"  "|h:|"  "|}|*

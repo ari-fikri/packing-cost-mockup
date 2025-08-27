@@ -26,6 +26,10 @@
     }
     --
     {*
+      <b><size:14> <&chevron-bottom> PSE Info
+    }
+    --
+    {*
       <b><size:14> <&chevron-bottom> Images
     }
     {#

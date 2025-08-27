@@ -5,22 +5,22 @@
   ==
   {
     {
-      <b>CPS No.      |: {|"               "|}
-      <b>Ref CPS No.  |: {|"               "| [<&magnifying-glass>]}| *
-      Issue  Date     |: {| " 23 Feb 2025 " | [<&calendar>]|}
-      Effective Date  |: {| " 23 Feb 2025 " | [<&calendar>]|}
+      <b>CPS No.     |: {|" CPS230220250001A "|}
+      <b>Ref CPS No. |: {|"                  "| [<&magnifying-glass>]}|*
+      Issue  Date    |: {|" 23 Feb 2025      "| [<&calendar>]|}
+      Effective Date |: {|" 01 Mar 2025      "| [<&calendar>]|}
       .
-      DPI No.        |: {|"                "| [<&magnifying-glass>]}| *
-      CFC/PJT Code   |: {|"                "| [<&magnifying-glass>]}
-      Model          |: {|"                "| [<&magnifying-glass>]}
-      Part No        |: {|" 848400K010     "| [<&magnifying-glass>]}
+      DPI No.        |: {|" DP2302250001     "| [<&magnifying-glass>]}|*
+      CFC/PJT Code   |: {|" CF2025020001     "| [<&magnifying-glass>]}
+      Model          |: {|" DX01UB           "| [<&magnifying-glass>]}
+      Part No        |: {|" 25051BZ260-00    "| [<&magnifying-glass>]}
     }
     --
     {
-      .|.|Part Name   |: | SWITCH ASSY, BACK DOOR OPENER |*
-      .|.|Supplier    |: | TRI |*
-      .|.|Plant Code  |: | 1   |*
-      .|.|Dock Code   |: | 1   |*
+      .|.|Part Name   |: | CONVERTER SUB-ASSY, EXHAUST MANIFOLD       |*
+      .|.|Supplier    |: | FUTABA INDONESIA   |*
+      .|.|Plant Code  |: | AI01               |*
+      .|.|Dock Code   |: | AI-D-001           |*
 
     }
     {*

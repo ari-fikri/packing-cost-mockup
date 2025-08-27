@@ -13,10 +13,10 @@
     <size:25>DPI New |[<size:25><&x>]|*
     ==  
     {
-      <b>DPI    No. |    : {|" D38403403 " |}
-      <b>DPI    Ref No. |: {| " A58503112 "|[<&magnifying-glass>]}| *
-      Issued    Date    |: {| " 23 Feb - 2025 " | [<&calendar>]|}
-      Effective Date |   : {| " 01 Mar - 2025 " | [<&calendar>]|}
+      <b>DPI    No.     |: {|" D38403403       "|}
+      <b>DPI    Ref No. |: {|" A58503112       "|[<&magnifying-glass>]}| *
+      Issued    Date    |: {|" 23 Feb - 2025   "| [<&calendar>]|}
+      Effective Date    |: {|" 01 Mar - 2025   "| [<&calendar>]|}
       .
       CFC/PJT |: {|"D54B  " | [<&magnifying-glass>]}
       Model   |: {|"D60B  " | [<&magnifying-glass>]}

@@ -8,11 +8,11 @@
     .|Supplier ID   |: |"           "| [<&magnifying-glass>]|*
     .|Supplier Name |: |. |*
     .|Parent Part   |: |"           "|[<&magnifying-glass>]|*
-    .|Has Subparts?           |: | { ^Yes^No^ } |*
+    .|Has Subparts?           |: | { ^Yes^No^ } |*  |.|[Search] |*| [Clear]
 
   }
   {
-    [Search <&magnifying-glass>]
+  .
   }
   --
   {

@@ -7,23 +7,23 @@
   {
     {
       <b>CPS No.      |: {| CPS230220250001A  |}
-      <b>Ref CPS No.  |: {|                  |} *
-      Issue  Date     |: {|  23 Feb - 2025  | }
-      Effective Date  |: {|  01 Mar - 2025  | }
+      <b>Ref CPS No.  |: {|                   |}*
+      Issue  Date     |: {|  23 Feb - 2025    |}
+      Effective Date  |: {|  01 Mar - 2025    |}
       .
-      DPI No.        |: { DP2302250001 |} *
-      CFC/PJT Code   |: {| CF2025020001 |}
-      Export Dest    |: | Thailand |*
-      Model          |: {| DX01UB | }
-      Part No        |: {| 25051BZ260-00 |}
+      DPI No.        |: {| DP2302250001       |}*
+      CFC/PJT Code   |: {| CF2025020001       |}
+      Export Dest    |: |  Thailand           |*
+      Model          |: {| DX01UB             |}
+      Part No        |: {| 25051BZ260-00      |}
     }
     --
     {
       .|.|Uniqe No    |: |C0032|*
-      .|.|Part Name   |: |CONVERTER SUB-ASSY, EXHAUST MANIFOLD                    |*
+      .|.|Part Name   |: |CONVERTER SUB-ASSY, EXHAUST MANIFOLD   |*
       .|.|Supplier    |: |FUTABA INDONESIA|*
-      .|.|Plant Code  |: | AI01|*
-      .|.|Dock Code   |: | AI-D-001|*
+      .|.|Plant Code  |: | AI01           |*
+      .|.|Dock Code   |: | AI-D-001       |*
     }
     --
   }

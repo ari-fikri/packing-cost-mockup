@@ -14,7 +14,7 @@ and the create CPS and Create PSI button will reappear.
   <size:25>CPS List |[<size:25><&x>]|*
   ==
   {
-    .|CPS No            |: |"                      "|                 |.|.|DPI No      |: |"                      "|*|*
+    .|CPS No            |: |"                    "|                   |.|.|DPI No      |: |"                      "|*|*
     .|Ref CPS No        |: |"                    "|                   |.|.|CFC/Pjt     |: |"                      "|*|*
     .|From              |: |"                    "|                   |.|.|Model       |: |"                      "|*|*
     .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}       |.|.|To          |: |"                      "|*

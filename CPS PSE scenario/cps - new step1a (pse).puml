@@ -7,8 +7,8 @@
     {
       <b>CPS No.      |: {|"                "|}|*
       <b>Ref CPS No.  |: {|"                "| [<&magnifying-glass>]}| *
-      Issue  Date     |: {| "               "| [<&calendar>]|}
-      Effective Date  |: {| "               "| [<&calendar>]|}
+      Issue  Date     |: {|"                "| [<&calendar>]|}
+      Effective Date  |: {|"                "| [<&calendar>]|}
       .
       DPI No.         |: {|"                "| [<&magnifying-glass>]}| *
       CFC/PJT Code    |: {|"                "| [<&magnifying-glass>]}
