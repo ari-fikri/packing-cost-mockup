@@ -5,15 +5,15 @@
   ==
   {
     {
-      <b>CPS No.      |: {|"                "|}|*
-      <b>Ref CPS No.  |: {|"                "| [<&magnifying-glass>]}| *
-      Issue  Date     |: {|"                "| [<&calendar>]|}
-      Effective Date  |: {|"                "| [<&calendar>]|}
+      <b>CPS No.      |:{|"                "|}|*
+      <b>Ref CPS No.  |:{|"                "| [<&magnifying-glass>]}| *
+      Issue  Date     |:{|"       "| [<&calendar>]|}
+      Effective Date  |:{|"       "| [<&calendar>]|}
       .
-      DPI No.         |: {|"                "| [<&magnifying-glass>]}| *
-      CFC/PJT Code    |: {|"                "| [<&magnifying-glass>]}
-      Model           |: {|"                "| [<&magnifying-glass>]}
-      Part No         |: {|"                "| [<&magnifying-glass>]}
+      DPI No.         |:{|"         "| [<&magnifying-glass>]}| *
+      CFC/PJT Code    |:{|"         "| [<&magnifying-glass>]}
+      Model           |:{|"         "| [<&magnifying-glass>]}
+      Part No         |:{|"         "| [<&magnifying-glass>]}
     }
     {
       .|.|Part Name   |: ||*

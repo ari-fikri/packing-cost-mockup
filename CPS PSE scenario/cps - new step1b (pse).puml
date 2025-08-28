@@ -5,15 +5,15 @@
   ==
   {
     {
-      <b>CPS No.      |: {|" CPS230220250001A  "|}
-      <b>Ref CPS No.  |: {|"                   "| [<&magnifying-glass>]}| *
-      Issue  Date     |: {|" 23 Feb 2025       "| [<&calendar>]|}
-      Effective Date  |: {|" 01 Mar 2025       "| [<&calendar>]|}
+      <b>CPS No.      |:{|"CPS230220250001A "|}
+      <b>Ref CPS No.  |:{|"                 "| [<&magnifying-glass>]}| *
+      Issue  Date     |:{|"23 Feb 2025"| [<&calendar>]|}
+      Effective Date  |:{|"01 Mar 2025"| [<&calendar>]|}
       .
-      DPI No.         |: {|" DP2302250001      "| [<&magnifying-glass>]}| *
-      CFC/PJT Code    |: {|" CF2025020001      "| [<&magnifying-glass>]}
-      Model           |: {|" DX01UB            "| [<&magnifying-glass>]}
-      Part No         |: {|" 25051BZ260-00     "| [<&magnifying-glass>]}
+      DPI No.         |:{|"DP2302250001"| [<&magnifying-glass>]}| *
+      CFC/PJT Code    |:{|"CF2025020001"| [<&magnifying-glass>]}
+      Model           |:{|"DX01UB      "| [<&magnifying-glass>]}
+      Part No         |:{|"25051BZ260-0"| [<&magnifying-glass>]}
     }
     --
     {
