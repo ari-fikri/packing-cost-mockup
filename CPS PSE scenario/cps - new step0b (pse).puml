@@ -14,11 +14,12 @@ and the create CPS and Create PSI button will reappear.
   <size:25>CPS List |[<size:25><&x>]|*
   ==
   {
-    .|CPS No            |: |"                    "|                   |.|.|DPI No      |: |"                      "|*|*
-    .|Ref CPS No        |: |"                    "|                   |.|.|CFC/Pjt     |: |"                      "|*|*
-    .|From              |: |"                    "|                   |.|.|Model       |: |"                      "|*|*
-    .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}       |.|.|To          |: |"                      "|*
-    .|Effective Date    |: {|"21.06.2025"|' to '|"21.06.2025"|}       |.|.|Status      |: | ^Any^Draft^Submitted^Rejected^Approved^ |* { [Search] |.| [Clear] }*
+    .|CPS No            |: {|"                   "|[<&magnifying-glass>] |}.|.                 |DPI No          |: |"                   "|[<&magnifying-glass>]|*
+    .|Ref CPS No        |: {|"                   "|[<&magnifying-glass>] |}.|.                 |CFC / Pjt       |: |"                   "|[<&magnifying-glass>]|*
+    .|Model             |: {|"             "|[<&magnifying-glass>]|}*
+    .|From              |: {|"                 "|[<&people>]           |}.|.|To                |: |"                 "|[<&people>]|*
+    .|Issued Date       |: {|"         "|[<&calendar>]|' to '|"         "|[<&calendar>]|}|*
+    .|Effective Date    |: {|"         "|[<&calendar>]|' to '|"         "|[<&calendar>]|}|.|.  |Status        |: {| ^Any^Draft^Submitted^Rejected^Approved^ |.|.|.|..||[Search]|  [Clear] }*
   }
   .
   .
