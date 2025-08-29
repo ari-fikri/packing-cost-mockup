@@ -10,11 +10,12 @@
       .| |' -  '| | *
       }
     .|Model Code        |: {"          "|[<&magnifying-glass>]|}*
-    .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}|.|.|.|.|.| {[Filter <&magnifying-glass>] | [Clear <&x>]}
+    .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}|*
+    .|.|.|.|.|                                              {[Filter <&magnifying-glass>] | [Clear <&x>]}
   }
   --
   {
-    |[New PPR] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+    ||[Calculate Packing Cost] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
   }
   --
   {#
