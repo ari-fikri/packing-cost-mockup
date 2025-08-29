@@ -1,0 +1,13 @@
+@startsalt
+{
+  <size:15>Calculate Packing Cost |[<size:20><&x>]|*
+  ==
+  {
+    |Periode        |:|"        "|*
+    |Part list Code |:|"          "|[<&magnifying-glass>] 
+    |Type           |:|^Any^|*
+  }
+  ==
+  [Generate]
+}
+@endsalt

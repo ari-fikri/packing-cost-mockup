@@ -1,0 +1,41 @@
+@startsalt
+{
+  <size:15><b>PPR New|[<size:25><&x>]|*
+  ==
+  {
+    .|PPR Code          |: {|"          "|[<&magnifying-glass>]|}*
+    .|Period            |: |^08.25^|*    
+    .|Dest Code         |: {|^301B^| }*
+      .|{
+      .| TASA |' -  '| Argentina | *
+      }
+    .|Model Code        |: {"          "|[<&magnifying-glass>]|}*
+    .|Type              |: {|    {(X)PxP}        '|   ()Lot}
+  }
+  --
+  {
+    |[Add Part] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  }
+  --
+  {#
+  |. |=PART|*|*|*|*|*|*|*|*|*|=INNER |*|*|=OUTER | *|*|=MATERIAL|*|*|=LABOR|*|*|=INLAND|*|*|=TOTAL         |*|*|*
+  |. |<b> Part No |<b> Suffix |<b> Part Name                        | <b> Parent Part No |<b> Supplier ID |<b> Supplier Name                                        |<b> L |<b> W |<b> H |Box M3|<b>Total Cost      |<b> Prev Year|<b>Diff|<b>Total Cost|<b> Prev Year|<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|*
+  |<b> <&chevron-right> |122810Y110   | 00       |HANGER, ENGINE, NO.1	               |            .       |5307-1          | SETIA GUNA SEJATI                    | 1200 | 350  | 300  | 0.8  |      10.200       | 10000       | 3%    | 10200       | 10000       | 3%    | 10200         | 10000       |     3%| 10200         | 10000       | 3%    |         10200 | 10000       | 3%    | 10200         | 10000       |     3%|*
+  |<b> <&chevron-right> |130500Y020   | 00       |GEAR ASSY, CAMSHAFT TIMING	         |            .       |5022-5          | DENSO INDONESIA CORPORATION (FAJAR)  | 1300 | 200  | 300  | 1.8  |               5   | 9000        | 3%    | 10200       | 10000       | 3%    | 10200         | 10000       |     3%| 10200         | 10000       | 3%    |         10200 | 10000       | 3%    | 10200         | 10000       |     3%|*
+  |<b> <&chevron-right> |25051BZ150   | 00       |CONVERTER SUB-ASSY, EXHAUST MANIFOLD |            .       |5376-1          | FUTABA INDONESIA                     |  100 | 100  | 300  | 1.2  |               5   | 13000       | 3%    | 10200       | 10000       | 3%    | 10200         | 10000       |     3%| 10200         | 10000       | 3%    |         10200 | 10000       | 3%    | 10200         | 10000       |     3%|*
+  |<b> <&chevron-right> |25051BZ260   | 00       |CONVERTER SUB-ASSY, EXHAUST MANIFOLD |            .       |5376-1          | FUTABA INDONESIA                     |  600 |   40 | 300  | 0.9  |             12    | 15000       | 3%    | 10200       | 10000       | 3%    | 10200         | 10000       |     3%| 10200         | 10000       | 3%    |         10200 | 10000       | 3%    | 10200         | 10000       |     3%|*
+  } 
+  .
+  {
+  << <  __1__ 2 3  > >>  |'      5 <&chevron-bottom> per page |*
+  }
+  --
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+  --
+}
+@@endsalt
+
+
+

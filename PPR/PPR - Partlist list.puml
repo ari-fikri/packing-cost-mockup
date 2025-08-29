@@ -1,0 +1,23 @@
+@startsalt
+{
+  <size:15><b>PPR Part List|[<size:25><&x>]|*
+  ==
+  {
+    Partlist Code |:|"          "|*
+    Remark        |:|"                         "|.|.{|[Search<&magnifying-glass>] |*| [Clear <&x>]}
+  }
+  --
+  {#
+    |<b>No|<b>Partlist code|<b># Part|<b> Remark |*
+    |1    |TAR 024J PxP    |75       |Part list untuk pengiriman ke Argentina utk 024J |*
+    |2    |TKM 286W PxP    |120      |Part list untuk ekspor ke Idia utk 286W          |*
+    |3    |STM 332W Lot    |98       |Part list untuk CKD project Thailand utk 332W Lot|*
+    |4    |TMMIN 408W PxP  |60       |Part list lokal untuk plant Karawang utk 408W    |*
+    |5    |STM D33H PxP    |150      |Part list untuk pengiriman ke Thailand utk D33H  |*
+  }
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      5 <&chevron-bottom> per page |*
+  }  
+}
+@endsalt

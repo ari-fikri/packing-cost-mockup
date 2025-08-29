@@ -1,0 +1,30 @@
+@startsalt
+{
+  <size:25><b>PPR Packing List|[<size:25><&x>]|*
+  ==
+  {
+    .|PPR Code          |: {|"          "|[<&magnifying-glass>]|}*
+    .|Period            |: |^All^|*    
+    .|Dest Code         |: {|^All^| }*
+      .|.|.|{
+      .| |' -  '|  | *
+      }
+    .|Model Code        |: {"          "|[<&magnifying-glass>]|}*
+    .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot} |                                              {[Filter <&magnifying-glass>] | [Clear <&x>]}
+  }
+  --
+  {
+    |[New PPR] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  }
+  --
+  {#
+    |<b>No  |<b>     PPR Code     |<b>   Period   |<b> Dest Code |<b> Dest Country |<b> Model  Code |<b> # Parts |<b> Type |<b> Action |*
+  /'| 01 | 024J-301B-TASA-PXP | 02.2025  |  Argentina   |    024W     | PxP  | '/
+  }
+  No Data Found
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  }
+}
+@@endsalt

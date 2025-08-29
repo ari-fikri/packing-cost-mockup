@@ -1,0 +1,80 @@
+@startsalt
+{
+  <size:15><b>PPR New|[<size:25><&x>]|*
+  ==
+  {
+    .|PPR Code          |: {|"          "|[<&magnifying-glass>]|}*
+    .|Period            |: |^08.25^|*    
+    .|Dest Code         |: {|^301B^| }*
+      .|{
+      .| TASA |' -  '| Argentina | *
+      }
+    .|Model Code        |: {"          "|[<&magnifying-glass>]|}*
+    .|Type              |: {|    {(X)PxP}        '|   ()Lot}
+  }
+  --
+  {
+    |[Add Part] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  }
+  --
+  { <u><b>expand all   <u><b>collapse all }*
+  {#
+  |. |=PART|*|*|*|*|*|*|*|*|*|=INNER |*|*|=OUTER | *|*|=MATERIAL|*|*|=LABOR|*|*|=INLAND|*|*|=TOTAL         |*|*|*
+  |. |<b> Part No                      |<b> Suffix|<b> Part Name                                  | <b> Parent Part No |<b> Supplier ID |<b> Supplier Name                                    |<b> L |<b> W |<b> H |<b>Box M3|<b>Total Cost|<b> Prev Year|<b>Diff|<b>Total Cost|<b> Prev Year|<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|*
+  |<b> <&chevron-bottom> |122810Y110   | 00       |HANGER, ENGINE, NO.1                           |            .       |5307-1          | SETIA GUNA SEJATI                                   | 1200 | 350  | 300  | 0.8  | 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%|*
+  }* 
+        {.|.|.|<b>INNER |}*  
+        {
+          .|.|.|{#
+            |<b>Material 1               |*|*|<b> Material 2                |*|*|<b>Material 3             |*|*|<b> Material 4                  |*|*| <b> Material 5              |*|*|<b> Material6               |*|*|<b> Material 7          |*|*| <b>Material 8          |*|*|<b> Material 9          |*|*|<b> Material 10 |*|*
+            |<b>Part No     |<b>Qty|<b>Price  |<b>Part No|<b>Qty|<b>Price        |<b>Part No|<b>Qty|<b>Price        |<b>Part No|<b>Qty|<b>Price          | <b>Part No|<b>Qty|<b>Price  |<b> <b>Part No|<b>Qty|<b>Price  |<b>Part No|<b>Qty|<b>Price  |<b>Part No|<b>Qty|<b>Price  |<b>Part No|<b>Qty|<b>Price  |<b>Part No|<b>Qty|<b>Price  |*|*
+            |33504-BZ292-C1 |1     | 1500     |33504-BZ292-C1 |1     | 1500      |33504-BZ292-C1 |1     | 1500      |33504-BZ292-C1 |1     | 1500        |33504-BZ292-C1 |1     | 1500 |33504-BZ292-C1 |1     | 1500    |33504-BZ292-C1 |1     | 1500|33504-BZ292-C1 |1     | 1500|33504-BZ292-C1 |1     | 1500 |33504-BZ292-C1 |1     | 1500|*                        
+           
+          }
+        }*
+        {.|.|.|<b>OUTER |}*  
+        {
+          .|.|.|{#
+            |<b>Material 1 |*|*|*                 |<b> Material 2 |*|*|*                 |<b>Material 3 |*|*|*                |<b> Material 4 |*|*|*                  |<b> Material 5 |*|*|*                    |<b> Material6  |*|*|*                  |<b> Material 7 |*|*|*                   |<b>Material 8 |*|*|*                    |<b> Material 9 |*|*|*                  |<b> Material 10 |*|*|*|*|*
+            |<b>Part No  |<b>Qty|<b>Price |<b>Sum|<b>Part No  |<b>Qty|<b>Price   |<b>Sum|<b>Part No|<b>Qty|<b>Price   |<b>Sum|<b>Part No   |<b>Qty|<b>Price   |<b>Sum|<b>Part No     |<b>Qty|<b>Price   |<b>Sum|<b>Part No     |<b>Qty|<b>Price |<b>Sum|<b>Part No     |<b>Qty|<b>Price  |<b>Sum|<b>Part No     |<b>Qty|<b>Price  |<b>Sum|<b>Part No     |<b>Qty|<b>Price  |<b>Sum|<b>Part No     |<b>Qty|<b>Price  |<b>Sum|*
+            |B021-471006 |1     | 469     |  .   |B021-471004 |1     |  Rp8.175  |  .   |         .|     .|          .|  .   |3B752-991020 |4     | 950       |  .   |33504-BZ292-C1 |1     | 1500      |  .   |33504-BZ292-C1 |1     | 1500    |  .   |33504-BZ292-C1 |1     | 1500     |  .   |33504-BZ292-C1 |1     | 1500|.          |33504-BZ292-C1 |1     | 1500     |.     |33504-BZ292-C1 |1     | 1500|.|*
+          }
+        }
+        {.|.|.|<b>LABOR |}*  
+        {
+          .|.|.|{#
+            |<b>Man Hour Requirement               |*|*|*|*|*|*|*|*|*|*|*|<b> Labor Cost                |*|*|*|*|*
+            |<b>Receiving     |<b>Inspection|<b>Delivery Course  |<b>(Pallet) Supply|<b>Binding|<b>Sorting & Supply        |<b>Pick & Packing|<b>Vanning|<b>Box/Valet Return        |<b>Mix Van|<b>Lashing|<b>Total Time  | <b>Requirement|<b>Current|<b>DL  |<b> <b>IDL|<b>Facility Others|*
+            |33504-BZ292-C1   |1            | 1500               |33504-BZ292-C1    |1         | 1500                      |33504-BZ292-C1   |1         | 1500                      |33504-BZ2|1          | 1500          |33504-BZ292-C1 |1         | 1500  |33504-BZ2 |1                 |*
+          }
+        }
+        {.|.|.|<b>INLAND |}*  
+        {
+          .|.|.|{#
+            '|<b>Material 1               |*|*|<b> Material 2                |*|*|<b>Material 3             |*|*|<b> Material 4                  |*|*| <b> Material 5              |*|*|<b> Material6               |*|*|<b> Material 7          |*|*| <b>Material 8          |*|*|<b> Material 9          |*|*|<b> Material 10 |*|*
+            |<b>Pack Time(V-PASS)|<b>InL Cost|<b>InL Cost M3  |<b>Diff        |<b>Milkrun cost|*
+            |33504-BZ292-C1      |1          | 1500           |3% |1              |*
+          }
+        }*
+  .
+  {#
+    |. |=PART|*|*|*|*|*|*|*|*|*|=INNER |*|*|=OUTER | *|*|=MATERIAL|*|*|=LABOR|*|*|=INLAND|*|*|=TOTAL         |*|*|*
+    |. |<b> Part No |<b> Suffix |<b> Part Name                        | <b> Parent Part No |<b> Supplier ID |<b> Supplier Name                     |<b> L |<b> W |<b> H |<b>Box M3|<b>Total Cost|<b> Prev Year|<b>Diff|<b>Total Cost|<b> Prev Year|<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|*
+    |<b> <&chevron-right> |130500Y020   | 00       |GEAR ASSY, CAMSHAFT TIMING	         |            .       |5022-5          | DENSO INDONESIA CORPORATION (FAJAR)| 1300 | 200  | 300  | 1.8  | 5           | 9000        | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%|*    
+    |<b> <&chevron-right> |25051BZ150   | 00       |CONVERTER SUB-ASSY, EXHAUST MANIFOLD |            .       |5376-1          | FUTABA INDONESIA                   | 100  | 100  | 300  | 1.2  | 5           | 13000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%|*
+    |<b> <&chevron-right> |25051BZ260   | 00       |CONVERTER SUB-ASSY, EXHAUST MANIFOLD |            .       |5376-1          | FUTABA INDONESIA                   |  600 | 40   | 300  | 0.9  | 12          | 15000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%| 10200       | 10000       | 3%|*
+  }
+  .
+  {
+  << <  __1__ 2 3  > >>  |'      5 <&chevron-bottom> per page |*
+  }
+  --
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+  --
+}
+@endsalt
+
+
+
