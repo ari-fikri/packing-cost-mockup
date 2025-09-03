@@ -3,13 +3,13 @@
   <size:20><b>Part New | [<size:25><&x>]|*
   ==
   {
-    .|Part No         |: |"                   "|*
-    .|Unique No       |:{|"                   "|[<&bolt>]|}*
-    .|Suffix Code     |: |"                   "|*
-    .|Part Name       |: |"                   "|*
+    .|Part No         |: |"25051BZ15000       "|*
+    .|Unique No       |:{|" TJ02A             "|[<&bolt>]|}*
+    .|Suffix Code     |: |" 00                "|*
+    .|Part Name       |: |"CONVERTER SUB-ASSY, EXHAUST MANIFOLD"|*
     .|Parent Part No  |: |"                   "| [<&magnifying-glass>]| *
     .|Supp Code       |:{|"                   "|[<&magnifying-glass>]|} *
-    .|Supplier Name   |: |"                   "|*
+    .|Supplier Name   |: |"FUTABA INDONESIA   "|*
     .|Plant Code      |: |"                   "| *
     .|Uniqe No        |: |"                   "| *
     .|Dimension|*
@@ -30,9 +30,8 @@
   --
   {#
     |<b> Part No  |<b> Suffix |<b>Unique No         |<b> Name     |<b> Parent |<b> Supplier ID |<b> Supplier Name |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
-    |' 1234567890 | 01        | XC001               |Front Bumper | NULL      | 1001           | Aisin Seiki      | 1200 | 400  | 300  | 5000     | 2      | 10000       |[<&pencil>]|[<&delete>]|*
-    |' 2234567890 | 02        | RB010               |Rear Bumper  | 1234567890| 1002           | Denso Corp       | 1300 | 450  | 320  | 5200     | 3      | 15600       |[<&pencil>]|[<&delete>]|*
   }
+  No Data Found
   --
   {
   .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*

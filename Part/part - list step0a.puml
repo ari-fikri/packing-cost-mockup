@@ -1,0 +1,34 @@
+@startsalt
+{
+  <size:15><b>Part List | [<size:25><&x>]|*
+  ==
+  {
+    .|Part No       |: |"           "|[<&magnifying-glass>]|*
+    .|Unique No     |: |"           "|*
+    .|Supplier ID   |: |"           "| [<&magnifying-glass>]|*
+    .|Supplier Name |: |. |*
+    .|Parent Part   |: |"           "|[<&magnifying-glass>]|*
+    .|Has Subparts?           |: | { ^Yes^No^ } |*  |.|[Search] |*| [Clear]
+
+  }
+  {
+  .
+  }
+  --
+  {
+  [Add Part <&document>] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+  }
+  --
+  {#
+    |<b> Part No    |<b> Suffix | <b>Unique No | <b> Name    |<b> Supplier Name |<b> Parent Part No |<b> Subparts |<b> L |<b> W |<b> H |<b> Qty/Box |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
+    |' 25051BZ15000 | ''        | ''           |''           | FUTABA INDONESIA | NULL              | ''          | ''   | ''   | ''   | ''         | ''          |[<&pencil>]|[<&trash>]|*
+    |' 1234567890   | 01        | C00X3        |Front Bumper | Aisin Seiki      | NULL              | 2 Subparts  | 1200 | 400  | 300  | 2          | 10000       |[<&pencil>]|[<&trash>]|*
+    |' 2234567890   | 02        | R1003        |Rear Bumper  | Denso Corp       | 1234567890        | 0           | 1300 | 450  | 320  | 3          | 15600       |[<&pencil>]|[<&trash>]|*
+    |' 3344556677   | 03        | R0004        |Hood Panel   | Toyoda Gosei     | 2234567890        | 1 Subpart   | 1400 | 500  | 350  | 1          | 8700        |[<&pencil>]|[<&trash>]|*
+  }
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  }  
+}
+@endsalt

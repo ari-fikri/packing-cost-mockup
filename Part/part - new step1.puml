@@ -1,0 +1,41 @@
+@startsalt
+{
+  <size:20><b>Part New | [<size:25><&x>]|*
+  ==
+  {
+    .|Part No         |: |"                   "|*
+    .|Unique No       |:{|"                   "|[<&bolt>]|}*
+    .|Suffix Code     |: |"                   "|*
+    .|Part Name       |: |"                   "|*
+    .|Parent Part No  |: |"                   "| [<&magnifying-glass>]| *
+    .|Supp Code       |:{|"                   "|[<&magnifying-glass>]|} *
+    .|Supplier Name   |: |"                   "|*
+    .|Plant Code      |: |"                   "| *
+    .|Uniqe No        |: |"                   "| *
+    .|Dimension|*
+    .|{
+      ..||Length (mm)   |: |"     "|*
+      ..|Width (mm)     |: |"     "|*
+      ..|Height (mm)    |: |"     "|*
+      }
+    .|Weight/PC (gr)    |: |"     "|*
+    .|Qty/Box           |: |"     "|*
+    .|Total Weight (gr) |: |"     "|*
+  }
+  .
+  --
+  {
+    [Add Child Part <&document>]|*
+  }
+  --
+  {#
+    |<b> Part No  |<b> Suffix |<b>Unique No         |<b> Name     |<b> Parent |<b> Supplier ID |<b> Supplier Name |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
+  }
+  No Data Found
+  --
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+
+}
+@endsalt
