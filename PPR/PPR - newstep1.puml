@@ -14,7 +14,7 @@
   }
   --
   {
-    |[Add Part] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+    |[Add Part] |.|.|.|[Upload <&data-transfer-upload>]| [Part Template <&data-transfer-download>]|* 
   }
   --
   {#

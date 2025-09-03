@@ -15,7 +15,7 @@
   }
   --
   {
-    |[Calculate Packing Cost] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+    |[Create Part List] | [<color:9a9a9a>Calculate Packing Cost] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
   }
   --
   {#
