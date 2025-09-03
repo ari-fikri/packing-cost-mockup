@@ -1,17 +1,21 @@
 @startsalt
 {
-  <size:15><b>Project - New|[<size:25><&x>]|*
+  <size:15><b>ProCFC/Pjt - New|[<size:25><&x>]|*
   ==
   .
   {
-    .|CFC/PJT Code       |: |"PRJ001      "|*
+    .|CFC/PJT Code       |: |"286W      "|*
     .|CFC/PJT Name       |: |"Engine Redesign         "|*
     .|CFC/PJT Type       |: |{| ^PxP^Lot^ }|* 
+    .
     .|Description        |: |"Complete redesign of the engine system for improved performance"|*
     .|Project Manager    |: {|"Arif Fikri"|[ <&people>]|}*
     .|Start Date         |: |"  2025-01-01  "|[<&calendar>]|*
     .|End Date           |: |"  2025-06-30  "|[<&calendar>]|*
     .|Status             |: |{| ^Draft^Active^On Hold^Completed^ }|*
+    .
+    .
+    .
     .|Note               |: {SI|"                                "
     .
     .|}*

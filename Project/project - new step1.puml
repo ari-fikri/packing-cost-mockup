@@ -7,11 +7,15 @@
     .|CFC/PJT Code       |: |"            "|*
     .|CFC/PJT Name       |: |"                        "|*
     .|CFC/PJT Type       |: |{| ^PxP^Lot^ }|* 
+    .
     .|Description        |: |"                                               "|*
     .|Project Manager    |: {|"           "|[<&people>]|}*
     .|Start Date         |: |"  YYYY-MM-DD  "|[<&calendar>]|*
     .|End Date           |: |"  YYYY-MM-DD  "|[<&calendar>]|*
     .|Status             |: |{| ^Draft^Active^On Hold^Completed^ }|*
+    .
+    .
+    .
     .|Note               |: {SI|"                                "
     .
     .|}*
