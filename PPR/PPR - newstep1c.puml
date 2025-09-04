@@ -3,13 +3,13 @@
   <size:25><b>Packing Cost Calculation New|[<size:25><&x>]|*
   ==
   {
-    .|Pack Cost Cal Code  |: {|"          "|[<&magnifying-glass>]|}*
-    .|Period              |: |^All^|*    
-    .|Dest Code           |: {|^All^| }*
+    .|Pack Cost Cal Code  |: {|" 024W-301B-TASA-PXP "|[<&magnifying-glass>]|}*
+    .|Period              |: |^02.25^|*    
+    .|Dest Code           |: {|^301 B^| }*
       .|{
       .| TASA |' -  '| Argentina | *
       }
-    .|Model Code        |: {"          "|[<&magnifying-glass>]|}*
+    .|Model Code        |: {"  024W  "|[<&magnifying-glass>]|}*
     .|Type              |: {|    {(X)PxP}        '|   ()Lot}
   }
   --

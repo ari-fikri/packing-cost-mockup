@@ -15,14 +15,14 @@
   }
   --
   {
-    |[Add Bundling] | [<color:9a9a9a>Calculate Packing Cost] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+    |[Add Bundling] | [Calculate Packing Cost] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
   }
   --
   {#
-    |<b>No  |<b>     PPR Code     |<b>   Period   |<b> Dest Code |<b> Dest Country |<b> Model  Code |<b> # Parts |<b> Type |<b> Action |*
-  /'| 01 | 024J-301B-TASA-PXP | 02.2025  |  Argentina   |    024W     | PxP  | '/
+    |<b>No  |<b>     PPR Code     |<b>   Period   |<b> Dest Code |<b> Dest Country |<b> Model  Code |<b> # Parts |<b> Type |<b> Action |*|*
+    |    1  | 024J-301B-TASA-PXP | 02.2025        | 301B         | Argentina       |    024W        | PxP        |      PxP|[<&layers>]|[<&trash>]|* 
   }
-  No Data Found
+
   --
   {
   << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
