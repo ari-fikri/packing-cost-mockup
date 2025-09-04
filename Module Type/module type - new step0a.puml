@@ -1,0 +1,21 @@
+@startsalt
+{
+  <size:15><b>Module Type
+  ==
+  .
+  {   
+    .|Type Code      |: |" BX1B       "|*
+    .|Item No        |: |" DX09TY              "| [Search] |* |[Clear] |*
+    .|Dim  Outer (mm<sup>3</sup>) |: {'  l:|" 30 "|w:|" 40 "|h:|" 12 "|}|*
+    .|Dim  Outer (m<sup>3</sup>)  |: 14.4|*
+    .|Dim  Inner (mm<sup>3</sup>) |: {'  l:|" 30 "|w:|" 40 "|h:|" 12 "|}|*
+    .|Dim  Inner (mm<sup>3</sup>) |: 200 |*
+  }
+  .
+--  
+{
+  .|  [Save <&data-transfer-download>] |  [Cancel <&circle-x>] |*
+  }
+}
+
+  @endsalt

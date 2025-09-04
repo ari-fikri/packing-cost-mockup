@@ -1,0 +1,26 @@
+@startsalt
+{
+  <size:15><b>Module Type List
+  ==
+  .
+  {
+      .|Type Code    |: |"                      "|*
+      .|Item No      |: |"                      "| [Filter <&magnifying-glass>]| [Clear <&x>]| *      
+
+  }
+  --
+  {
+  [Add <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+  }
+  --
+  {#
+    |<b> Type Code '|<b>  Item No  '|<b> Dimension (cm)  |<b> Outer (m<sup>3</sup>)   |<b> Inner (m<sup>3</sup>)   |<b>     Action |*|*|*
+  }
+  No Data Found
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  }
+}
+@endsalt
+@enduml
