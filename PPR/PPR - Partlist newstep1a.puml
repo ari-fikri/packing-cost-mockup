@@ -1,0 +1,29 @@
+@startsalt
+{
+  <size:25><b>PPR Part List|[<size:25><&x>]|*
+  ==
+  {
+    .|Part list Code |: |" TAR 024J PxP  "|*
+    .|Remark         |: |" Part list untuk pengiriman ke Argentina utk 024J"|*
+  }
+  .
+  --
+  {
+    |[Add Part] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  }
+  --
+  {#
+    |<b>No|<b> Part No  |<b> Suffix | <b>Unique No | <b> Part Name                  |<b> Supplier Name    |<b> Parent Part No |<b> Subparts |   <b>L |  <b>W  |  <b>H  |<b> Qty/Box  |<b> Total Wt |<b> Action |*
+    |1 |111150Y030      |   00      | C00X3        |GASKET, CYLINDER HEAD           | MEIDOH INDONESIA    |.                  |            2| 1200   | 400    | 300    |            2|    10000     |[<&trash>] |*
+  }
+  --
+  {[ Save ] | [Cancel]}
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      5 <&chevron-bottom> per page |*
+  }
+}
+@@endsalt
+
+
+

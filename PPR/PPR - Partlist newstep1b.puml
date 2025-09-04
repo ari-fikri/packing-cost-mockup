@@ -1,0 +1,33 @@
+@startsalt
+{
+  <size:25><b>PPR Part List|[<size:25><&x>]|*
+  ==
+  {
+    .|Part list Code |: |" TAR 024J PxP  "|*
+    .|Remark         |: |" Part list untuk pengiriman ke Argentina utk 024J"|*
+  }
+  .
+  --
+  {
+    |[Add Part] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  }
+  --
+  {#
+    |<b>No|<b> Part No  |<b> Suffix | <b>Unique No | <b> Part Name                  |<b> Supplier Name    |<b> Parent Part No |<b> Subparts |   <b>L |  <b>W  |   <b>H  |<b> Qty/Box  |<b> Total Wt |<b> Action |*
+    |1 |111150Y030      |   00      | C00X3        |GASKET, CYLINDER HEAD           | MEIDOH INDONESIA    |.                  |            2| 1200   |  400  |  300  |            2   |   10000    |[<&trash>] |*
+    |2 |90105T0273      |   00      | R1003        |BOLT, FLANGE                    | MUROTECH INDONESIA  |.                  |.            | 1300   |  450  |  320  |            3   |   15600    |[<&trash>] |*
+    |3 |193150Y020      |   00      | R0004        |PLATE, CRANK ANGLE SENSOR       | NOK INDONESIA SALES |.                  |            1| 1400   |  500  |  350  |            1   |     8700   |[<&trash>] |*
+    |4 |232910Y020      |   00      | CXM01        |INSULATOR, INJECTOR VIBRATION   | NOK INDONESIA SALES |.                  |.            | 3000   | 6000 |2000    |            1   | 600000      |[<&trash>] |* 
+    |5 |90301T0055      |   00      | BC022        |RING, O                         | NOK INDONESIA SALES |.                  |.            | 2000   | 1500 | 1000   |            2   |     1500    |[<&trash>] |*
+  }
+  --
+  {[ Save ] | [Cancel]}
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      5 <&chevron-bottom> per page |*
+  }
+}
+@@endsalt
+
+
+
