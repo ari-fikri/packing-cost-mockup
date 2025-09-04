@@ -1,0 +1,23 @@
+@startsalt
+{
+  <size:25><b>Bundling List|[<size:25><&x>]|*
+  ==
+  {
+    Bundling Code |:|"          "|*
+    Remark        |:|"                         "|.|.{|[Search<&magnifying-glass>] |*| [Clear <&x>]}
+  }
+  --
+  {
+    |[Add Bundling] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  }
+--
+  {#
+    |<b>No|   <b>Bundling code|<b># Part|                          <b>Remark |*
+    |  1  |TAR 024J PxP       |    75   |Part list untuk pengiriman ke Argentina utk 024J |*
+  }
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      5 <&chevron-bottom> per page |*
+  }  
+}
+@endsalt
