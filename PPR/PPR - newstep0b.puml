@@ -1,11 +1,11 @@
 @startsalt
 {
-  <size:25><b>PPR List|[<size:25><&x>]|*
+  <size:25><b>Packing Cost Calculation List|[<size:25><&x>]|*
   ==
   {
-    .|PPR Code          |: {|"          "|[<&magnifying-glass>]|}*
-    .|Period            |: |^All^|*    
-    .|Dest Code         |: {|^All^| }*
+    .|Pack Cost Cal Code  |: {|"          "|[<&magnifying-glass>]|}*
+    .|Period              |: |^All^|*    
+    .|Dest Code           |: {|^All^| }*
       .|.|.|{
       .|  |' -  '|  | *
       }
@@ -15,21 +15,21 @@
   }
   --
   {
-    |[Calculate Packing Cost]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+    |[Add Bundling]|[Calculate Packing Cost]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
   }
   --
   {#
-    |<b>No  |<b>         PPR Code    |<b>  Period  |<b> Dest Code |<b> Dest Country |<b> Model  Code |<b> # Parts|<b> Type |<b> Action |*
-    |  1    | 024W-301B-TASA-PXP     |  02.2025    |     301 B    |   Argentina     |    024W        |     82     |   PxP   |[<&layers>]|[<&trash>]|* 
-    |  2    | 332W-537B-TSMT-Lot     | 02.2025     |     537 B    |   South Africa  |    332W        |     90     |   Lot   |[<&layers>]|[<&trash>]|* 
-    |  3    | 385W-812B-TASA-PXP     | 02.2025     |     812 B    |   Malaysia      |    385W        |     102    |   PxP   |[<&layers>]|[<&trash>]|* 
-    |  4    | 024W-547A-TEE-Lot      | 02.2025     |     547 A    |   Thailand      |    024W        |     23     |   Lot   |[<&layers>]|[<&trash>]|* 
-    |      .|                       .|            .|     547 A    |   Thailand      |    024W        |     23     |   Lot   |[<&pencil>]|[<&trash>]|* 
-    |  5    | 286W-301B-TASA-PXP     | 02.2025     |     301 B    |   Argentina     |    286W        |     35     |   PxP   |[<&layers>]|[<&trash>]|* 
+    |<b>No  |  <b>Pack Cost Cal Code |<b>  Period  |<b> Dest Code |<b> Dest Country |<b> Model  Code |<b> # Parts|<b> Type |<b> Action |*|*
+    |  1    | 024W-301B-TASA-PXP     |  02.2025    |   301 B    |   Argentina     |     024W         |       82  |   PxP   |[<&layers>]|[<&trash>]|* 
+    |  2    | 332W-537B-TSMT-Lot     | 02.2025     |   537 B    |   South Africa  |     332W         |       90  |   Lot   |[<&layers>]|[<&trash>]|* 
+    |  3    | 385W-812B-TASA-PXP     | 02.2025     |   812 B    |   Malaysia      |     385W         |       102 |   PxP   |[<&layers>]|[<&trash>]|* 
+    |  4    | 024W-547A-TEE-Lot      | 02.2025     |   547 A    |   Thailand      |     024W         |       23  |   Lot   |[<&layers>]|[<&trash>]|* 
+    |      .|                       .|            .|   547 A    |   Thailand      |     024W         |       23  |   Lot   |[<&pencil>]|[<&trash>]|* 
+    |  5    | 286W-301B-TASA-PXP     | 02.2025     |   301 B    |   Argentina     |     286W         |       35  |   PxP   |[<&layers>]|[<&trash>]|* 
   }
   --
   {
-  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  << <  __1__ 2 3  >      |'       3 <&chevron-bottom> per page |*
   }
 }
 @@endsalt

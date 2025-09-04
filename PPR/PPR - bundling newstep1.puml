@@ -1,0 +1,29 @@
+@startsalt
+{
+  <size:25><b>Bundling New|[<size:25><&x>]|*
+  ==
+  {
+    .|Bundling Code |: |"               "|*
+    .|Remark         |: |"                                                         "|*
+  }
+  .
+  --
+  {
+    |[Add Part] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  }
+  --
+  {#
+    |<b>No|<b> Part No  |<b> Suffix | <b>Unique No |       <b> Part Name       |<b> Supplier Name    |<b> Parent Part No |<b> Subparts |   <b>L    |   <b>W   |  <b>H   |<b> Qty/Box  |<b> Total Wt |<b> Action |*
+  }
+  No Data Found
+  --
+  {[ Save ] | [Cancel]}
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      5 <&chevron-bottom> per page |*
+  }
+}
+@@endsalt
+
+
+

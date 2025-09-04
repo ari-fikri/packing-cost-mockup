@@ -1,0 +1,23 @@
+@startsalt
+{
+  <size:25><b>Bundling List|[<size:25><&x>]|*
+  ==
+  {
+    Bundling Code |:|"          "|*
+    Remark        |:|"                         "|.|.{|[Search<&magnifying-glass>] |*| [Clear <&x>]}
+  }
+  --
+  {
+    |[Add Bundling] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  }
+--
+  {#
+    |<b>No| <b>Bundling code |<b># Part|                          <b>Remark |*
+  }
+  No Data Found
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      5 <&chevron-bottom> per page |*
+  }  
+}
+@endsalt

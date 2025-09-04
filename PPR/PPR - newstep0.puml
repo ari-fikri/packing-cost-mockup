@@ -1,6 +1,6 @@
 @startsalt
 {
-  <size:25><b>PPR Packing List|[<size:25><&x>]|*
+  <size:25><b>Packing Cost Calculation List|[<size:25><&x>]|*
   ==
   {
     .|PPR Code          |: {|"          "|[<&magnifying-glass>]|}*
@@ -15,7 +15,7 @@
   }
   --
   {
-    |[Create Part List] | [<color:9a9a9a>Calculate Packing Cost] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+    |[Add Bundling] | [<color:9a9a9a>Calculate Packing Cost] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
   }
   --
   {#
