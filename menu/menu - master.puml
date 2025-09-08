@@ -1,7 +1,7 @@
 @startsalt
 {+
   {* Master | Packing Spec | Report
-    Master | Project | Module Type | - | Model | Part | - | Logout |
+    Master | Project | Module Type  | - | Model | Part | - |  Parameters | - | Logout |
   }
 }
 @endsalt

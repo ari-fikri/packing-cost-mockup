@@ -1,7 +1,7 @@
 @startsalt
 {+
   {* Master | Packing Spec  | Report
-    Packing Spec |'  CPS  '| - |'  DPI|
+    Packing Spec |  CPS  | DPI | - | Calculate Packing Cost  |
   }
 }
 @endsalt
