@@ -11,7 +11,13 @@
     .|Dim  Inner (mm<sup>3</sup>) |: {'  l:|"  "|w:|"  "|h:|"  "|}|*
     .|Dim  Inner (mm<sup>3</sup>) |: |*
   }
-  .
+  --
+  |[Add Destination]| |* 
+  --
+  {#
+    |<b>Dest  Code |<b>Dest Name| <b>Price |<b>Action|*|*
+    |    D33B         | Argentina  |        0|[<&pencil>]| [<&trash>]|*
+  }
 --  
 {
   .|  [Save <&data-transfer-download>] |  [Cancel <&circle-x>] |*
