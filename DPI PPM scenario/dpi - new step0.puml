@@ -6,8 +6,8 @@
     .|DPI No            |: |"                        "|            |.|.|CFC/Pjt |: |"                  "|*|*
     .|Ref DPI No        |: |"                        "|            |.|.|Model   |: |"                  "|*|*
     .|From              |: |"                        "|            |.|.|To      |: |"                  "|*|*
-    .|Issued Date       |: {|"21.06.2025"|' to '|"21.06.2025"|}    |.|.|Status  |: | {.| ^Any^Draft^Submitted^Rejected^Approved^}|     '|* |[Search] | [Clear] |* 
-    .|Effective Date    |: {|"21.06.2025"|' to '|"21.06.2025"|}*
+    .|Issued Date       |: {|"    "|' to '|"     "|}               |.|.|Status  |: | {.| ^Any^Draft^Submitted^Rejected^Approved^}|     '|* |[Search] | [Clear] |* 
+    .|Effective Date    |: {|"    "|' to '|"     "|}*  
     .
   }
   --
@@ -20,7 +20,7 @@
       --   
       {+
           {#
-          |<b> DPI No. |<b> Ref DPI No. |<b> Issued Date| <b>Effective Date|<b> CFC/Pjt    |<b> Model  |<b> # Parts |<b> # CPS | <b> Supplier       |<b> From             |<b> To              |<b> Status     |<b> Action |*
+          |<b> DPI No. |<b> Ref DPI No. |<b> Issued Date  | <b>Effective Date  |<b> CFC/Pjt  |<b> Model |<b> # Parts  |<b> # CPS  | <b> Supplier  |<b> From  |<b> To  |<b> Status  |<b> Action  |*
           }
       }
       No Data Found
