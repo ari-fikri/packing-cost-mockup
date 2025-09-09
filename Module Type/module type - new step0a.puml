@@ -4,12 +4,12 @@
   ==
   .
   {   
-    .|Type Code      |: |" BX1B       "|*
+    .|Type Code      |: |" T3A       "|*
     .|Item No        |: |" DX09TY              "| [Search] |* |[Clear] |*
-    .|Dim  Outer (mm<sup>3</sup>) |: {'  l:|" 30 "|w:|" 40 "|h:|" 12 "|}|*
-    .|Dim  Outer (m<sup>3</sup>)  |: 14.4|*
-    .|Dim  Inner (mm<sup>3</sup>) |: {'  l:|" 30 "|w:|" 40 "|h:|" 12 "|}|*
-    .|Dim  Inner (mm<sup>3</sup>) |: 200 |*
+    .|Dim  Outer (mm<sup>3</sup>) |: {L:|" 2250"|W:|" 40 "|H:|" 12 "|}|*
+    .|Dim  Outer (m<sup>3</sup>)  |: 2,88|*
+    .|Dim  Inner (mm<sup>3</sup>) |: {L:|"   "|W:|"   "|H:|"   "|}|*
+    .|Dim  Inner (mm<sup>3</sup>) |: 2,37 |*
   }
   .
 --  
