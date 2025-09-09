@@ -5,12 +5,11 @@
 {/ Inland |<b>Labor Cost | Man Hour | History}*
   
   .
-  {
-    .|Period                          |:|^ 02.2025 ^|*
-    .|40 feet container rent rate     |:|" 86.177  "|*
-    .|20 feet container rent rate     |:|" 86.177  "|*
-    .|Milkrun rate (per m3)           |:|" 60.577  "|*
-    .|Milkrun efficiency rate   (%)   |:|"  64     "|*
+    {
+    .|Period                           |:|^ 02.2025 ^|*
+    .|Direct Labor Rate (DL)  Rp/Hour  |:|"  86.177"|*
+    .|Indirect Labor Rate (IDL) Rp/M3  |:|"106.835" |*
+    .|Facility Others Rate             |:|"  63.249"|*
   }
   --
   {
