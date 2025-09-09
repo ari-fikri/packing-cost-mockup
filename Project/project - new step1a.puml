@@ -8,10 +8,14 @@
     .|CFC/PJT Name       |: |"Engine Redesign         "|*
     .|CFC/PJT Type       |: |{| ^PxP^Lot^ }|* 
     .
-    .|Description        |: |"Complete redesign of the engine system for improved performance"|*
+    .|Description        |: |"Complete redesign of the engine system for"|*
+    .|.|.|"improved performance"|*
     .|Project Manager    |: {|"Arif Fikri"|[ <&people>]|}*
-    .|Start Date         |: |"  2025-01-01  "|[<&calendar>]|*
-    .|End Date           |: |"  2025-06-30  "|[<&calendar>]|*
+    .|Start Date         |: {|"  2025-01-01  "|[<&calendar>]|}*
+    .|End Date           |: {|"  2025-06-30  "|[<&calendar>]|}*
+    
+    
+    
     .|Status             |: |{| ^Draft^Active^On Hold^Completed^ }|*
     .
     .
