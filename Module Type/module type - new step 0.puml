@@ -1,8 +1,10 @@
 @startsalt
 {
-  <size:15><b>Module Type|[<size:25><&x>]|*
+  <size:15><b>Module Type New|[<size:25><&x>]|*
   ==
   .
+
+  {
   {   
     .|Type Code      |: |"          "|*
     .|Item No        |: |"               "| [Search] |* |[Clear] |*
@@ -12,11 +14,13 @@
     .|Dim  Inner (mm<sup>3</sup>) |: |*
   }
   --
-  |[Add Destination]| |* 
-  --
-  {#
-    |<b>Dest  Code |<b>Dest Name| <b>Price |<b>Action|*|*
-    |    D33B         | Argentina  |        0|[<&pencil>]| [<&trash>]|*
+{
+|Dest Code |: |^301B - Argentina ^ 807B - Indonesia ^ 537B - Afrika^|*
+.
+.   
+|Price     |: |"            "|
+}
+    
   }
 --  
 {

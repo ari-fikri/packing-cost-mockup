@@ -13,12 +13,11 @@
   [Add <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
   }
   --
-  {#
-  |                . |<b> Type Code  |<b>  Item No  '|<b> Dim (mm) (L x W x H)  |<b> Outer (m<sup>3</sup>) |<b> Inner (m<sup>3</sup>)    | <b># Dest |<b>     Action |*|*|*
-  | <&chevron-right> |    T3A        | DX09TY        |  2250 x 1490 x 860       |          14.4            |           2,37              |        3  |[<&pencil>]|[<&delete>]|[<&layers>]|*
-  | <&chevron-right> |    T1B        | DX10TY        |  2250 x 1490 x 730       |          12.2            |           2,06              |         . |[<&pencil>]|[<&delete>]|[<&layers>]|*
-  | <&chevron-right> |    T1B        | DX11TY        |  2250 x 1490 x 730       |          10.7            |           2,06              |         . |[<&pencil>]|[<&delete>]|[<&layers>]|*
-  }             |
+   {#
+  |<b> Type Code |<b>  Dest Code  |<b>  Dest Name  |<b>  Item No  | <b> Dimension (cm)  |<b> Outer (m<sup>3</sup>) |<b> Inner (m<sup>3</sup>) | <b>#  Price  |<b>     Action |*|*|*
+  |  T3A - TAR   |       301B     |     Argentina  | DX09TY       |  2250 x 1490 x 860  |      14.4                |        2,37              |   5.000.000  |[<&pencil>]|[<&delete>]|[<&layers>]|*
+
+  } 
   --
   {
   << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*

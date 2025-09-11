@@ -1,6 +1,6 @@
 @startsalt
 {
-  <size:15><b>Module Type|[<size:25><&x>]|*
+  <size:15><b>Module Type New|[<size:25><&x>]|*
   ==
   .
   {   
@@ -12,6 +12,13 @@
     .|Dim  Inner (mm<sup>3</sup>) |: 2,37 |*
   }
   .
+--  
+  {
+|Dest Code |: |^301B - Argentina ^ 807B - Indonesia ^ 537B - Afrika^|*
+.
+.   
+|Price     |: |" 5.000.000 "|
+}
 --  
 {
   .|  [Save <&data-transfer-download>] |  [Cancel <&circle-x>] |*

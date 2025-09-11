@@ -14,22 +14,13 @@
   }
   --
   {#
-  |                . |<b> Type Code  |<b>  Item No  '|<b> Dimension (cm)  |<b> Outer (m<sup>3</sup>) |<b> Inner (m<sup>3</sup>)   | <b># Dest |<b>     Action |*|*|*
-  | <&chevron-bottom> |   BX1B        | DX09TY        | 30 x 40 x 12       |          14.4            | 200                        |        3 |[<&pencil>]|[<&delete>]|[<&layers>]|*
-  }
-  {.|.|.|
-    {#
-    |<b>Dest Code|<b> Dest Country|     <b>Price|*
-     |   301B    |Argentina       |  4.350.000|*
-     |   537B    |Afrika          |  4.350.000|*
-     |   722C    |Thailand        |  1.230.000|*
-    }*
-  }
-  {#
-  |                . |<b> Type Code  |<b>  Item No  '|<b> Dimension (cm)  |<b> Outer (m<sup>3</sup>) |<b> Inner (m<sup>3</sup>)   | <b># Dest |<b>     Action |*|*|*
-  | <&chevron-right> |   BX2C        | DX10TY        | 32 x 42 x 14       |          12.2            | 210                        |        1 |[<&pencil>]|[<&delete>]|[<&layers>]|*
-  | <&chevron-right> |   BX3D        | DX11TY        | 35 x 45 x 15       |          10.7            | 220                        |        1 |[<&pencil>]|[<&delete>]|[<&layers>]|*
-  }|
+  |<b> Type Code |<b>  Dest Code  |<b>  Dest Name  |<b>  Item No  | <b> Dimension (cm)  |<b> Outer (m<sup>3</sup>) |<b> Inner (m<sup>3</sup>) | <b>#  Price  |<b>     Action |*|*|*
+  |  T3A - TAR   |       301B     |     Argentina  | DX09TY       |  2250 x 1490 x 860  |      14.4                |        2,37              |   5.000.000  |[<&pencil>]|[<&delete>]|[<&layers>]|*
+  |  T1B - TMV   |       715B     |     Vietnam    | DX10TY       |  2250 x 1490 x 730  |      12.2                |        2,06              |   6.000.000  |[<&pencil>]|[<&delete>]|[<&layers>]|*
+  |  T1B - TSM   |       537B     |     Afrika     | DX11TY       |  2250 x 1490 x 730  |      10.7                |        2,06              |   3.000.000  |[<&pencil>]|[<&delete>]|[<&layers>]|*
+  
+  } 
+
   --
   {
   << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
