@@ -4,8 +4,9 @@
   ==
   .
   {   
-    .|Type Code      |: |" T3A       "|*
-    .|Item No        |: |" DX09TY              "| [Search] |* |[Clear] |*
+    .|Type Code         |: |" T3A       "|*
+    .|Item No           |: |" DX09TY        "| [Search] |* 
+    .|E-Warehouse Price |: | 4.000.000          |*
     .|Dim  Outer (mm<sup>3</sup>) |: {L:|" 2250"|W:|" 40 "|H:|" 12 "|}|*
     .|Dim  Outer (m<sup>3</sup>)  |: 2,88|*
     .|Dim  Inner (mm<sup>3</sup>) |: {L:|"   "|W:|"   "|H:|"   "|}|*

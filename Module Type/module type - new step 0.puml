@@ -6,11 +6,12 @@
 
   {
   {   
-    .|Type Code      |: |"          "|*
-    .|Item No        |: |"               "| [Search] |* |[Clear] |*
-    .|Dim  Outer (mm<sup>3</sup>) |: {'  l:|"  "|w:|"  "|h:|"  "|}|*
+    .|Type Code         |: |"          "|*
+    .|Item No           |: |"              "| [Search] |* 
+    .|E-Warehouse Price |: |          |*
+    .|Dim  Outer (mm<sup>3</sup>) |: {'  L:|"  "|W:|"  "|H:|"  "|}|*
     .|Dim  Outer (m<sup>3</sup>)  |: |*
-    .|Dim  Inner (mm<sup>3</sup>) |: {'  l:|"  "|w:|"  "|h:|"  "|}|*
+    .|Dim  Inner (mm<sup>3</sup>) |: {'  L:|"  "|W:|"  "|H:|"  "|}|*
     .|Dim  Inner (mm<sup>3</sup>) |: |*
   }
   --
