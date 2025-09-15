@@ -1,0 +1,59 @@
+@startsalt
+{
+                                                            <b><size:15>Packing Cost Comparison
+  ==
+  {#
+    |.|<b><size:17>Part No                    | : |=       162990E010 - 00             |=         364070K010 - 00     |.|*
+    |.|<b><size:17>Periode                    |.  |<b><size:17>            2025        |<b><size:17>               2026      |.|*
+    |<size:15> <&chevron-bottom>     |<b>Detail           |  .| .                 | .             |   <b>Diff|*
+    |.|<b>Part Name                  |.  |HOSE, WATER BY-PASS, NO.13         | HOSE SUB-ASSY, TRANSFER BREATHER        |.|*    
+    |.|<b>Supplier                   |.  |IRC INOAC INDONESIA (RUBBER - IRI) | TOKAI RUBBER AUTO HOSE INDONESIA)       |.|*        
+    |          .                  |<b>TOTAL COST            | : |<b> 368              |<b> 362,07          |<b>1,4% |*    
+    |<size:15> <&chevron-bottom>  |<b>Material              | : | 222                 | 203                |-2%     |*
+    |.                            |<&chevron-bottom><b> Inner              | : | 222                 | 203                |-2%     |*
+    |.                            | <&chevron-right> Material 1	               |:  |	14.00              |	11.06	            |20.43%  |*
+    .|{
+      .| - Part No	 |:|B028-020146  |*
+      .| - Code      |:|R/Rack T3A TASA
+      .| - Qty	     |:|1            |*
+      .| - Price 	   |:| Rp1.645.549 |*
+    }|*|*|*|*|*
+    |.                            | <&chevron-right> Material 2	               |:  |	14.00              |	11.06	            |20.43%  |*
+    .|{
+      .| - Part No	 |:| B027-020023 |*
+      .| - Code      |:| Paper Tape Merk Golda maishu |*
+      .| - Qty	     |:| 0,2         |*
+      .| - Price 	   |:| Rp 20.700   |*
+    }|*|*|*|*|*
+    |.                            | <&chevron-right> Material 3	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 4	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 5	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 6	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 7	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 8	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 9	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 10	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            |<&chevron-bottom><b> Outer              | : | 222                 | 203                |-2%     |*
+    |.                            | <&chevron-right> Material 1	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 2	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 3	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 4	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 5	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 6	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 7	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 8	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 9	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | <&chevron-right> Material 10	               |:  |	14.00              |	11.06	            |20.43%  |*
+
+    |<size:15> <&chevron-bottom>  |Labor                 | : | 54,57               | 51,06              |7%      |*
+    |.                            | - DL	               |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | - IDL	               |:  |	26.00              |	27.00	            |–3.85%  |*
+    |.                            | - Facility/Others	   |:  |	15.00              |	13.00	            |13.33%  |*
+      
+    |<size:15> <&chevron-right>   |Inland                | : | 91                  | 80                 |-5%  |*    
+    |.                            | - Inland Cost	       |:  |	14.00              |	11.06	            |20.43%  |*
+    |.                            | - Milkrun Cost	      |:  |	26.00              |	27.00	            |–3.85%  |*    
+  }
+  
+}
+@endsalt
