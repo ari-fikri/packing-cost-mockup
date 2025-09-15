@@ -11,40 +11,55 @@
     |          .                  |<b>TOTAL COST            | : |<b> 368              |<b> 362,07          |<b>1,4% |*    
     |<size:15> <&chevron-bottom>  |<b>Material              | : | 222                 | 203                |-2%     |*
     |.                            |<&chevron-bottom><b> Inner              | : | 222                 | 203                |-2%     |*
-    |.                            | <&chevron-right> Material 1	               |:  |	14.00              |	11.06	            |20.43%  |*
-    .|{
-      .| - Part No	 |:|B028-020146  |*
-      .| - Code      |:|R/Rack T3A TASA
-      .| - Qty	     |:|1            |*
-      .| - Price 	   |:| Rp1.645.549 |*
-    }|*|*|*|*|*
-    |.                            | <&chevron-right> Material 2	               |:  |	14.00              |	11.06	            |20.43%  |*
-    .|{
+    .|{#
+        |   |<&chevron-right> Material 1    	               |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+      }|*|*|*|*|*
+      .|.|{
+        .| - Part No	 |:| B027-020023 |*
+        .| - Code      |:| Paper Tape Merk Golda maishu |*
+        .| - Qty	     |:| 0,2         |*
+        .| - Price 	   |:| Rp 20.700   |*
+      }|*|*|*|*|*
+    .|{#
+        |   |<&chevron-bottom> Material 2    	               |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+      }|*|*|*|*|*
+    .|.|{
       .| - Part No	 |:| B027-020023 |*
       .| - Code      |:| Paper Tape Merk Golda maishu |*
       .| - Qty	     |:| 0,2         |*
       .| - Price 	   |:| Rp 20.700   |*
-    }|*|*|*|*|*
-    |.                            | <&chevron-right> Material 3	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 4	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 5	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 6	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 7	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 8	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 9	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 10	               |:  |	14.00              |	11.06	            |20.43%  |*
+    }|*|*|*|*|*            
+    .|{#
+    |   |<&chevron-right> Material 3   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 4   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 5   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 6   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 7   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 8   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 9   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 10  |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+  }|*|*|*|*|*
     |.                            |<&chevron-bottom><b> Outer              | : | 222                 | 203                |-2%     |*
-    |.                            | <&chevron-right> Material 1	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 2	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 3	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 4	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 5	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 6	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 7	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 8	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 9	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 10	               |:  |	14.00              |	11.06	            |20.43%  |*
-
+    .|{#
+        |   |<&chevron-right> Material 1    	               |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+      }|*|*|*|*|*
+      .|.|{
+        .| - Part No	 |:| B027-020023 |*
+        .| - Code      |:| Paper Tape Merk Golda maishu |*
+        .| - Qty	     |:| 0,2         |*
+        .| - Price 	   |:| Rp 20.700   |*
+      }|*|*|*|*|*
+    .|{#
+    |   |<&chevron-right> Material 2   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 3   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 4   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 5   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 6   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 7   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 8   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 9   |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+    |   |<&chevron-right> Material 10  |:  |	24.00                                            |	11.06                                                 |20.43%  |*
+  }|*|*|*|*|*      
     |<size:15> <&chevron-bottom>  |Labor                 | : | 54,57               | 51,06              |7%      |*
     |.                            | - DL	               |:  |	14.00              |	11.06	            |20.43%  |*
     |.                            | - IDL	               |:  |	26.00              |	27.00	            |–3.85%  |*
