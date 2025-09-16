@@ -1,0 +1,27 @@
+@startsalt
+{
+  <size:15><b>Supplier List |[<size:25><&x>]|*
+  ==
+  {
+      .|Supplier Code  |: |"               "|*
+      .|Supplier Name  |: |"               "|*
+      .|Address        |: |"                         "|*      
+      .|.              |. |"                         "|.|.|[Filter <&magnifying-glass>]| [Clear <&x>]|*      
+  }
+  .
+  --
+  {
+  [Add Supplier <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  }
+  --
+  {#
+    |<b> Supplier Code |<b> Supplier Name |<b>   Address   |<b> Plant |<b> Dock |<b> Action |*|*|*
+  }
+  No Data Found
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  }
+
+}
+@endsalt
