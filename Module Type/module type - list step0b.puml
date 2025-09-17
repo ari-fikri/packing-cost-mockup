@@ -5,8 +5,9 @@
   .
   {
       .|Type Code    |: |"                      "|*
-      .|Item No      |: |"                      "| [Filter <&magnifying-glass>]| [Clear <&x>]| *      
-
+      .|Item No      |: |"                      "|*
+      .|Destination  |: |"                      "|*
+      .|Price        |: |"                      "|[<&magnifying-glass>] |                                             |[Filter <&magnifying-glass>]| [Clear <&x>]| *
   }
   --
   {

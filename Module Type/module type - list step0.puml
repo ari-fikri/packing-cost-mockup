@@ -5,9 +5,10 @@
   .
   {
       .|Type Code    |: |"                      "|*
-      .|Item No      |: |"                      "| [Filter <&magnifying-glass>]| [Clear <&x>]| *      
-
-  }
+      .|Item No      |: |"                      "|*
+      .|Destination  |: |"                      "|*
+      .|Price        |: |"                      "|[<&magnifying-glass>] |                                             |[Filter <&magnifying-glass>]| [Clear <&x>]| *
+  }  
   --
   {
   [Add <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*

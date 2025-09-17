@@ -1,0 +1,14 @@
+@startsalt
+{
+  <b><size:15>Packing Cost Comparison
+  {#    
+    |.|<b>Part No                 | : |  1200000890 - 00   |  1300000890 - 01  |<b>Diff |*
+    |.|<b>Periode                 |.  | <b>          2025    | <b>          2026 |.  |*
+    |<size:15> <&chevron-right>   |Detail           |  .| .                | .               |.    |*    
+    |<size:15> <&chevron-right>   |<b>Total Cost       | : |<b> 368              |<b> 362,07          |<b>1,4% |*    
+    |<size:15> <&chevron-right>   |Material            | : | 222                 | 203                |-2%  |*
+    |<size:15> <&chevron-right>   |Labor               | : | 54,57               | 51,06              |7%   |*
+    |<size:15> <&chevron-right>   |Inland              | : | 91                  | 80                 |-5%  |*    
+  }
+}
+@endsalt
