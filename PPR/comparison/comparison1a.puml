@@ -1,43 +1,82 @@
 @startsalt
 {
-  <b><size:15>Packing Cost Comparison
-  {#    
-    |.|<b>Part No                 | : |  1200000890 - 00 | 1300000890 - 01 |<b>Diff |*
-    |.|<b>Periode                 |.  | <b>          2025    | <b>          2026 |.  |*
-    |<size:15> <&chevron-right>   |Detail           |  .| .                | .               |.    |*    
-    |          .                  |<b>Total Cost         | : |<b> 368              |<b> 362,07          |<b>1,4% |*    
-    |<size:15> <&chevron-bottom>  |Material              | : | 222                 | 203                |-2%     |*
-    |.                            |<&chevron-bottom><b> Inner              | : | 222                 | 203                |-2%     |*
-    |.                            | <&chevron-right> Material 1	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 2	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 3	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 4	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 5	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 6	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 7	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 8	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 9	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 10	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            |<&chevron-bottom><b> Outer              | : | 222                 | 203                |-2%     |*
-    |.                            | <&chevron-right> Material 1	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 2	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 3	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 4	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 5	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 6	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 7	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 8	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 9	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | <&chevron-right> Material 10	               |:  |	14.00              |	11.06	            |20.43%  |*
-
-    |<size:15> <&chevron-bottom>  |Labor                 | : | 54,57               | 51,06              |7%      |*
-    |.                            | - DL	               |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | - IDL	               |:  |	26.00              |	27.00	            |–3.85%  |*
-    |.                            | - Facility/Others	   |:  |	15.00              |	13.00	            |13.33%  |*
-      
-    |<size:15> <&chevron-right>   |Inland                | : | 91                  | 80                 |-5%  |*    
-    |.                            | - Inland Cost	       |:  |	14.00              |	11.06	            |20.43%  |*
-    |.                            | - Milkrun Cost	      |:  |	26.00              |	27.00	            |–3.85%  |*    
+                                                            <b><size:15>Packing Cost Comparison
+  ==
+  {#
+    |.|<b><size:17>Part No                    |.  |^<b><size:20>                               ^|^<b><size:20>                                    ^|.|*
+    |.|<b><size:17>Periode                    |.  |^<b><size:17>                               ^|^<b><size:17>                                    ^|.|*
+    |<size:15> <&chevron-bottom>     |<b>Detail           |  .| .                 | .             |   <b>Diff|*
+    |.|<b>Part Name                  |.  |                                   |                                         |.|*    
+    |.|<b>Supplier                   |.  |                                   |                                         |.|*        
+    |          .                  |<b>TOTAL COST            | : |<b> 0              |<b> 0          |<b>0% |*    
+    |<size:15> <&chevron-bottom>  |<b>Material              | : | 0                 | 0                |0%     |*
+    |.                            |<&chevron-bottom><b> Inner              | : | 0                 | 0                |0%     |*
+    .|{#
+        |   |<&chevron-right> Material 1    	               |:  |	                                                                  |	                                                                            |0%        |*
+      }|*|*|*|*|*      
+      .|.|{ /' Cell 1'/
+        .|*
+        .|*
+        .|*
+        .|*
+      }|*|{ /' Cell 2'/
+        .|*
+        .|*
+        .|*
+        .|*
+      }|*
+    .|{#
+        |   |<&chevron-right> Material 2    	               |:  |                                                                   |	                                                                            |0%         |*
+      }|*|*|*|*|*
+      .|.|{ /' Cell 1'/
+        .|*
+        .|*
+        .|*
+        .|*
+      }|*|{ /' Cell 2'/
+        .|*
+        .|*
+        .|*
+        .|*
+      }|*
+    .|{#
+    |   |<&chevron-right> Material 3   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 4   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 5   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 6   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 7   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 8   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 9   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 10  |:  |	                                                                  |	                                                                            |0%          |*
+  }|*|*|*|*|*
+    |.                            |<&chevron-bottom><b> Outer              | : |                      |                     |0%     |*
+    .|{#
+        |   |<&chevron-right> Material 1    	               |:  |	                                                                  |	                                                                            |0%  |*
+      }|*|*|*|*|*      
+      .|.|{ /' Cell 1'/
+        .|*
+        .|*
+        .|*
+        .|*
+      }|*|{ /' Cell 2'/
+        .|*
+        .|*
+        .|*
+        .|*
+      }|*    
+    .|{#
+    |   |<&chevron-right> Material 2   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 3   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 4   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 5   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 6   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 7   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 8   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 9   |:  |	                                                                  |	                                                                            |0%          |*
+    |   |<&chevron-right> Material 10  |:  |	                                                                  |	                                                                            |0%          |*
+  }|*|*|*|*|*      
+    |<size:15> <&chevron-right>  |Labor                 |:  |                     |                  |0%  |*      
+    |<size:15> <&chevron-right>   |Inland                | : |.                    |  .              |0%  |*    
   }
   
 }
