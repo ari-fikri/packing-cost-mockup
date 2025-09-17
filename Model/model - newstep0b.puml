@@ -4,7 +4,7 @@
   ==
   .
   {
-      .|Code        |: |"               "|*
+      .|Model Code        |: |"               "|*
       .|Model Name  |: |"               "|*
       .|Remark      |: |"               "|.|.|[Filter <&magnifying-glass>]| [Clear <&x>]|*
   }
@@ -15,11 +15,11 @@
   }
   --
   {#
-    |<b>    Code |<b>          Model Name        |<b> Remark |<b> Action |*|*|*
-    |'  GGN155   | Hilux                         | 8th Gen       |[<&pencil>]|[<&delete>]|*
-    |'  TGN166   | Fortuner                      | 2nd Gen       |[<&pencil>]|[<&delete>]|*
-    |'  ZRE172   | Corolla Altis                 | 11th Gen      |[<&pencil>]|[<&delete>]|*
-    |'  MBZ173   | Yaris Gazoo Racing Hatchback '| 11th Gen      |[<&pencil>]|[<&delete>]|*    
+    |<b> Model Code |<b>            Model Name      |<b> Remark     |<b> Action |*|*|*
+    |  188D         | Hilux                         | 8th Gen       |[<&pencil>]|[<&delete>]|*
+    |  975W         | Fortuner                      | 2nd Gen       |[<&pencil>]|[<&delete>]|*
+    |  758W         | Corolla Altis                 | 11th Gen      |[<&pencil>]|[<&delete>]|*
+    |  303D         | Yaris Gazoo Racing Hatchback '| 11th Gen      |[<&pencil>]|[<&delete>]|*    
   }
   --
   {

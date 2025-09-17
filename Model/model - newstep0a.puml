@@ -4,7 +4,7 @@
   ==
   .
   {
-      .|Code        |: |"               "|*
+      .|Model Code        |: |"               "|*
       .|Model Name  |: |"               "|*
       .|Remark      |: |"               "|.|.|[Filter <&magnifying-glass>]| [Clear <&x>]|*
   }
@@ -15,8 +15,8 @@
   }
   --
   {#
-    |<b>    Code |<b>          Model Name        |<b> Remark |<b> Action |*|*|*
-    |'  GGN155   | Hilux                         | 8th Gen       |[<&pencil>]|[<&delete>]|*
+    |<b> Model Code |<b> Model Name |<b> Remark |<b> Action |*|*|*
+    |  188D         | Hilux         | 8th Gen   |[<&pencil>]|[<&delete>]|*
   }
   --
   {
