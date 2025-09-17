@@ -12,27 +12,27 @@
     |<size:15> <&chevron-bottom>  |<b>Material              | : | 222                 | 203                |-2%     |*
     |.                            |<&chevron-bottom><b> Inner              | : | 222                 | 203                |-2%     |*
     .|{#
-        |   |<&chevron-right> Material 1    	               |:  |	24.00                                                         |	11.06                                                                    |20.43%  |*
+        |   |<&chevron-right> Material 1    	               |:  |	2.360                                                         |	3.146                                                                    |75.02%  |*
       }|*|*|*|*|*      
       .|.|{ /' Cell 1'/
-        .| - Part No	 |:| B027-020023 |*
-        .| - Code      |:| Paper Tape Merk Golda maishu |*
-        .| - Qty	     |:| 0,2         |*
-        .| - Price 	   |:| Rp 20.700   |*
+        .| - Part No	 |:| B021-227514 |*
+        .| - Code      |:| 3I-A        |*
+        .| - Qty	     |:| 7           |*
+        .| - Price 	   |:| Rp 337      |*
       }|*|{ /' Cell 2'/
-        .| - Part No	 |:| B027-020023 |*
-        .| - Code      |:| Paper Tape Merk Golda maishu |*
-        .| - Qty	     |:| 0,2         |*
-        .| - Price 	   |:| Rp 20.700   |*
+        .| - Part No	 |:| B021-471106 |*
+        .| - Code      |:| 3A-A |*
+        .| - Qty	     |:| 12         |*
+        .| - Price 	   |:| Rp 262     |*
       }|*
     .|{#
-        |   |<&chevron-right> Material 1    	               |:  |	24.00                                                         |	11.06                                                                    |20.43%  |*
+        |   |<&chevron-right> Material 2    	               |:  | 677                                                            |	11.06                                                                    |20.43%  |*
       }|*|*|*|*|*
       .|.|{ /' Cell 1'/
-        .| - Part No	 |:| B027-020023 |*
-        .| - Code      |:| Paper Tape Merk Golda maishu |*
-        .| - Qty	     |:| 0,2         |*
-        .| - Price 	   |:| Rp 20.700   |*
+        .| - Part No	 |:| B027-020032 |*
+        .| - Code      |:| Gold Tape   |*
+        .| - Qty	     |:| 0,0049      |*
+        .| - Price 	   |:| Rp 3.125    |*
       }|*|{ /' Cell 2'/
         .| - Part No	 |:| B027-020023 |*
         .| - Code      |:| Paper Tape Merk Golda maishu |*
