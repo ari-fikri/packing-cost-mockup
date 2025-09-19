@@ -1,0 +1,28 @@
+@startuml
+@startsalt
+{
+  <size:20>Select part |[<size:25><&x>]|*
+  ==
+  {
+    .|<b>Part No       |: {|"12345         "}| .|<b>Part Name          |: {"Front Bumper   " } | .|<b>Supplier Name |: {"Aisin Seiki"} |[Go <&magnifying-glass>]|*
+  }
+  --
+  {#
+  |      |      <b>CPS        |       <b>Part No | <b> Name            |<b> Parent           |<b> Supp Code       |<b> Supplier Name            |<b> Wt/pc |<b>Qty/box    |<b>Inner|<b>Outer|<b>Material|<b>Labor|<b>Inland|<b>Total Cost|<b>Diff|*
+  |.     |.                   | 1234567890-01    | Front Bumper        |                     |    1001            | Aisin Seiki                 | 5000     |          1   |.       |.       |.          |.       |.        |.            |      .|*
+  }
+  --
+  {SI
+    {#
+    |() |.                    | 2234567890-02    | Rear Bumper         | 1234567890          |    1002            | Denso Corp                  | 5200     |          5   |.        |.        |.           |.        |.         |.               |.      |*
+    |() |.                    | 3234567890-03    | Hood                | .                   |    1003            | Toyota Boshoku              | 4800     |          2   |.        |.        |.           |.        |.         |.               |.      |*
+    |() |.                    | 4234567890-04    | Fender              | 3234567890          |    1004            | Yazaki Corp                 | 3000     |          4   |.        |.        |.           |.        |.         |.               |.      |*
+    |() |.                    | 5234567890-05    | Grille              | 4234567890          |    1005            | Sumitomo Elec               | 2500     |          3   |.        |.        |.           |.        |.         |.               |.      |*
+    |  .|                     |                  |                     |                     |                    |                             |          |              |         |         |            |         |          |                |       |*    
+    }
+  }
+  --
+  [Add <&check>]
+}
+@@endsalt
+@enduml
