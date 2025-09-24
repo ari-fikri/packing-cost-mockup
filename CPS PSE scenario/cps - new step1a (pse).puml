@@ -13,7 +13,7 @@
       DPI No.         |:{|"         "| [<&magnifying-glass>]}| *
       CFC/PJT Code    |:{|"         "| [<&magnifying-glass>]}
       Model           |:{|"         "| [<&magnifying-glass>]}
-      Part No         |:{|"         "| [<&magnifying-glass>]}
+      Part No         |:{|"         "| [<&magnifying-glass>] | [<&spreadsheet>]}
     }
     {
       .|.|Part Name   |: ||*
