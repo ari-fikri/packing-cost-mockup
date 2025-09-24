@@ -1,0 +1,24 @@
+@startuml
+@startsalt
+{
+  <size:20>Select a Person |[<size:25><&x>]|*
+  ==
+  {
+    .|User Id       |: {|"23235"}|*
+    .|Name          |: {"A   " } |*
+    .|Dept          |: {"         "} |*
+    .|Role          |: {"         "} |.| [Search <&magnifying-glass>]|[Clear <&x>]|
+  }
+  --
+  {#
+    |.   ||<b> User ID  |<b> Name        |<b> Dept  |<b> Role       |*
+    |[ ].||' 12345      | Rollin Khaider | PSE      | Dept Head     |*
+    |[ ].||' 22345      | Asep Sumarna   | PPM      | Section Head  |*
+    |[ ].||' 32345      | Khalil Gibran  | PSE      | Staff         |*
+    |[ ].||' 42345      | Jaka T. Mulyo  | PCD      | Staff         |*
+    |[ ].||' 52345      | W.H. Jeanette  | PPM      | Staff         |*
+  }
+  [Select <&check>]
+}
+@@endsalt
+@enduml

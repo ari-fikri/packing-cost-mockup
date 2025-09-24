@@ -1,0 +1,24 @@
+@startuml
+@startsalt
+{
+  <size:20>Select Model |[<size:25><&x>]|*
+  ==
+  {
+    .|Model Code   |: {"M12345"}            |*
+    .|Name         |: {"Front Bumper Model"}|*
+    .|Remark       |: {"Prototype 2025"}    |           |   [Search <&magnifying-glass>]|[Clear <&x>]
+  }
+  --
+  {#
+    |[ ] |  <b>Model Code      |           <b>Name   |       <b>Remark    |*
+    |[ ] |     024J            |  Front Bumper Model |  Prototype 2025    |*
+    |[ ] |     286W            |  Rear Bumper Model  |  Production 2024   |*
+    |[ ] |     332W            |  Hood Model         |  Prototype 2023    |*
+    |[ ] |     385W            |  Fender Model       |  Production 2022   |*
+    |[ ] |     388W            |  Grille Model       |  Prototype 2021    |*
+  }
+  --
+  [Add <&check>]
+}
+@@endsalt
+@enduml
