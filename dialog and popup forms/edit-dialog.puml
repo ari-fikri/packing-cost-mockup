@@ -1,0 +1,14 @@
+@startsalt
+{
+  {
+  |<b>Warning| <&badge>|*
+  }
+  {==
+  Are you sure to update this data?
+  .
+  <b>Update?
+  }
+==
+{[OK ]|[Cancel]}
+}
+@endsalt

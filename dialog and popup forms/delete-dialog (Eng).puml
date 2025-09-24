@@ -1,0 +1,18 @@
+@startsalt
+{
+  {
+  |<b>Warning| <&badge>|*
+  }
+  {==
+  <b>Are you sure?
+
+  This action cannot be undone. This will permanently delete
+  the selected messages
+  .
+
+  <b>Delete?
+  }
+==
+{[Delete ]|[Cancel]}
+}
+@endsalt

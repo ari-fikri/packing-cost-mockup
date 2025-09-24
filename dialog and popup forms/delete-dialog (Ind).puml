@@ -1,0 +1,13 @@
+@startsalt
+{
+  {
+  |<b>Warning| <&badge>|*
+  }
+  {==
+  Data yang dipilih akan dihapus.
+  <b>Hapus?
+  }
+==
+{[Delete ]|[Cancel]}
+}
+@endsalt
