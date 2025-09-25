@@ -19,8 +19,8 @@
   }
   --
   {#
-    |<b>No  |<b>     PPR Code     |<b>   Period   |<b> Dest Code |<b> Dest Country |<b> Model  Code |<b> # Parts |<b> Type |<b> Action |*
-  /'| 01 | 024J-301B-TASA-PXP | 02.2025  |  Argentina   |    024W     | PxP  | '/
+    |<b>No  |       <b>PPR Code     |   <b>Status  |<b>   Period   |<b> Dest Code |<b> Dest Country |<b> Model  Code |<b> # Parts | <b>Type |<b> Action |*
+  /'| 01    | 024J-301B-TASA-PXP  | Outdated     |02.2025        |  301B        |Argentina        |    024W        ||    120     | PxP     |  '/
   }
   No Data Found
   --

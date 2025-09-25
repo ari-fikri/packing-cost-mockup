@@ -19,14 +19,15 @@
   }
   --
   {#
-    |<b>No  |  <b>Pack Cost Cal Code |<b>  Period  |<b> Dest Code |<b> Dest Country |<b> Model  Code |<b> # Parts|<b> Type |<b> Action |*|*
-    |  1    | 024W-301B-TASA-PXP     |  02.2025    |   301 B    |   Argentina     |     024W         |       82  |   PxP   |[<&layers>]|[<&trash>]|* 
-    |  2    | 332W-537B-TSMT-Lot     | 02.2025     |   537 B    |   South Africa  |     332W         |       90  |   Lot   |[<&layers>]|[<&trash>]|* 
-    |  3    | 385W-812B-TASA-PXP     | 02.2025     |   812 B    |   Malaysia      |     385W         |       102 |   PxP   |[<&layers>]|[<&trash>]|* 
-    |  4    | 024W-547A-TEE-Lot      | 02.2025     |   547 A    |   Thailand      |     024W         |       23  |   Lot   |[<&layers>]|[<&trash>]|* 
-    |      .|                       .|            .|   547 A    |   Thailand      |     024W         |       23  |   Lot   |[<&pencil>]|[<&trash>]|* 
-    |  5    | 286W-301B-TASA-PXP     | 02.2025     |   301 B    |   Argentina     |     286W         |       35  |   PxP   |[<&layers>]|[<&trash>]|* 
-  }
+    |<b>No  |       <b>PPR Code     |   <b>Status            |<b>   Period   |<b> Dest Code |<b> Dest Country |<b> Model  Code |<b> # Parts | <b>Type |<b> Action |*
+  /'| 01    | 024J-301B-TASA-PXP  | Outdated                 |02.2025        |  301B        |Argentina        |    024W        ||    120     | PxP     |  '/
+    |  1    | 024W-301B-TASA-PXP     | <color:red>Outdated    | 02.2025       |   301 B    |   Argentina     |     024W         |       82  |   PxP   |[<&layers>]|[<&trash>]|* 
+    |  2    | 332W-537B-TSMT-Lot     | Updated                | 02.2025       |   537 B    |   South Africa  |     332W         |       90  |   Lot   |[<&layers>]|[<&trash>]|* 
+    |  3    | 385W-812B-TASA-PXP     | Updated                | 02.2025       |   812 B    |   Malaysia      |     385W         |       102 |   PxP   |[<&layers>]|[<&trash>]|* 
+    |  4    | 024W-547A-TEE-Lot      | Updated                | 02.2025       |   547 A    |   Thailand      |     024W         |       23  |   Lot   |[<&layers>]|[<&trash>]|* 
+    |      .|                       .| Updated                |            .  |   547 A    |   Thailand      |     024W         |       23  |   Lot   |[<&pencil>]|[<&trash>]|* 
+    |  5    | 286W-301B-TASA-PXP     | Updated                | 02.2025       |   301 B    |   Argentina     |     286W         |       35  |   PxP   |[<&layers>]|[<&trash>]|* 
+  }  
   --
   {
   << <  __1__ 2 3  >      |'       3 <&chevron-bottom> per page |*
