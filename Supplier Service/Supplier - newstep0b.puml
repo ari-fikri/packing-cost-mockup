@@ -15,11 +15,12 @@
   }
   --
   {#
-    |<b> Supplier Code |<b> Supplier Name           |<b>   Address   |<b> Plant  |<b> Dock |<b> Action |*|*|*
-    |  188D         | Hilux                         | 8th Gen        |..         | ..      |[<&pencil>]|[<&delete>]|*
-    |  975W         | Fortuner                      | 2nd Gen        |..         | ..      |[<&pencil>]|[<&delete>]|*
-    |  758W         | Corolla Altis                 | 11th Gen       |..         | ..      |[<&pencil>]|[<&delete>]|*
-    |  303D         | Yaris Gazoo Racing Hatchback '| 11th Gen       |..         | ..      |[<&pencil>]|[<&delete>]|*
+    |<b> Supplier Code |<b>      Supplier Name   |<b>                                    Address                                  |<b> Plant  |<b> Dock |<b> Action |*|*|*
+    |      5062	       |MENARA TERUS MAKMUR		                  |Jl. Jababeka XI Blok H-3 No.12, Kawasan Industri Jababeka,...  |.          |.        |[<&pencil>]|[<&delete>]|*
+    |      722E	       |TOYOTA MOTOR THAILAND		                |186 1 ถ. ทางรถไฟสายเก่าปากน้ำ Samrong Tai, Phra Pradaeng Dist... |.          |.        |[<&pencil>]|[<&delete>]|*
+    |      5453	       |VELASTO INDONESIA		                    |Kp. Nagrog RT04 / RW02 Desa Kertamukti, Kecamatan Campaka,...  |.          |.        |[<&pencil>]|[<&delete>]|*
+    |      5365	       |TOKAI RUBBER INDONESIA		              |Jl. Mitra Timur II Blok E No. 13-14, Parungmulya, Ciampel,...  |.          |.        |[<&pencil>]|[<&delete>]|*
+    |      5150	       |NAMICOH INDONESIA		                    |EJIP Industrial Park, Plot 6B-1, Cikarang Selatan, Bekasi,...  |.          |.        |[<&pencil>]|[<&delete>]|
   }
   --
   {

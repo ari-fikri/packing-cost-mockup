@@ -15,8 +15,9 @@
   }
   --
   {#
-    |<b> Supplier Code |<b> Supplier Name |<b>   Address   |<b> Plant |<b> Dock |<b> Action |*|*|*
-    |  188D            | Hilux            | 8th Gen        | ..       |..       |[<&pencil>]|[<&delete>]|*
+    |<b> Supplier Code |<b>      Supplier Name   |<b>                                    Address                                  |<b> Plant  |<b> Dock |<b> Action |*|*|*
+    |      5062	       | MENARA TERUS MAKMUR 		                  |Jl. Jababeka XI Blok H-3 No.12, Kawasan Industri Jababeka,...  |.          |.        |[<&pencil>]|[<&delete>]|*
+
   }
   --
   {

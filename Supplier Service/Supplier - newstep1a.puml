@@ -1,23 +1,14 @@
 @startsalt
 {
-  <size:15><b>Model - New |[<size:25><&x>]|*
+  <size:15><b>Supplier - New |[<size:25><&x>]|*
   ==
   
   {   
-    .|Model Code |: |"188D   "|*
-    .|Model Name |: |"Hilux  "|*
-    .|Remark     |: |"8th Gen"|*
+    .|Supplier Code |: |"5062   "|*
+    .|Supplier Name |: |"MENARA TERUS MAKMUR  "|*
+    .|Address       |: |"Jalan Jababeka XI Kawasan Industri Jababeka No.12, Blok H3"
+    .|.             |: |"Harja Mekar, Kec. Cikarang Utara, Kab Bekasi, Jawa Barat 17530"|*
   }
-  .
---
-  {
-    [Add Part <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|
-  }
-  --
-  {#
-    |<b> Part No |<b> Suffix |<b> Name |<b> Parent |<b> Supplier ID |<b> Supplier Name |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
-  }
-  - No parts added yet -
   --
   {
   .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
