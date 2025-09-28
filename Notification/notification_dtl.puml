@@ -7,11 +7,12 @@
    |<b>Dept   |:|PPMD               |*
   }
   ---
-  {}
+  {
     Harus diganti Qty menjadi 2 
     Agar lebih aman ketika dikirim ke supplier lain
     dan diganti Material No nya dengan Mat No : #12312312 00
     dari supplier Materindo Indigo
   }
+  ==
 }
 @@endsalt
