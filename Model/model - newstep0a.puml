@@ -4,9 +4,10 @@
   ==
   .
   {
-      .|Model Code        |: |"               "|*
-      .|Model Name  |: |"               "|*
-      .|Remark      |: |"               "|.|.|[Filter <&magnifying-glass>]| [Clear <&x>]|*
+    .|Model Code        |: |"               "|*
+    .|Model Name        |: |"               "|*
+    .|Type              |: {(X)All      |()PxP     |   ()Lot  }*
+    .|Remark            |: |"                      "|              |[Filter <&magnifying-glass>]| [Clear <&x>]|*
   }
   .
   --
@@ -15,8 +16,8 @@
   }
   --
   {#
-    |<b> Model Code |<b> Model Name |<b> Remark |<b> Action |*|*|*
-    |  188D         | Hilux         | 8th Gen   |[<&pencil>]|[<&delete>]|*
+    | <b>No | <b>Model Code |                <b>Model Name                |  <b>Type  |<b>     Remark     |<b> Action |*|*|*
+    |    1  |     954W      | Hilux                                       |   PxP     | 8th Gen           |[<&pencil>]|[<&delete>]|*
   }
   --
   {

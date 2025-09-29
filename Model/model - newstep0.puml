@@ -3,9 +3,10 @@
   <size:15><b>Model List |[<size:25><&x>]|*
   ==
   {
-      .|Model Code        |: |"               "|*
-      .|Model Name  |: |"               "|*
-      .|Remark      |: |"               "|.|.|[Filter <&magnifying-glass>]| [Clear <&x>]|*      
+    .|Model Code        |: |"               "|*
+    .|Model Name        |: |"               "|*
+    .|Type              |: {(X)All      |()PxP     |   ()Lot  }*
+    .|Remark            |: |"                      "|              |[Filter <&magnifying-glass>]| [Clear <&x>]|*
   }
   .
   --
@@ -14,7 +15,7 @@
   }
   --
   {#
-    |<b> Model Code |<b> Model Name |<b> Remark |<b> Action |*|*|*
+   | <b>No | <b>Model Code |                <b>Model Name                |  <b>Type  |<b>     Remark     |<b> Action |*|*|*
   }
   No Data Found
   --

@@ -6,7 +6,8 @@
   {   
     .|Model Code |: |"188D" |*
     .|Model Name |: |"Hilux " |*
-    .|Remark     |: |"8th Gen"|*
+    .|Type       |: { (X)PxP      |   ()Lot  }*        
+    .|Remark     |: |"8th Gen                    "|*
   }
   .
 --
@@ -15,12 +16,12 @@
   }
   --
   {#
-    |<b> Part No |<b> Suffix |<b> Name |<b> Parent |<b> Supplier ID |<b> Supplier Name |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
-    |' 1234567890 | 01 | Front Bumper | NULL | AISIN | Aisin Seiki | 1200 | 400 | 300 | 0.8 | 2 | 10000 |[<&pencil>]|[<&trash>]|*
+    | <b>No |       <b>Part No       |               <b>Name               |     <b>Parent     | <b>Supplier ID |          <b>Supplier Name          |    <b>L  |   <b>W   |    <b>H   |  <b>Wt/pc  | <b>Qty |<b>   Total Wt   |<b> Action |*|*
+    |   1   | 122810Y110-00          | HANGER, ENGINE, NO.1      |.                  |    34500       | SETIA GUNA SEJATI                  |  1200    |   400    |   300     |       0.8  |     2  |         10000   |[<&pencil>]|[<&trash>]|*
   }
   --
   {
-  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  [ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
   }
 }
 
