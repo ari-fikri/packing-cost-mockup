@@ -16,8 +16,8 @@
   }
   --
   {#
-    | <b>No | <b>Model Code |                <b>Model Name                |  <b>Type  |<b>     Remark     |<b> Action |*|*|*
-    |    1  |     954W      | Hilux                                       |   PxP     | 8th Gen           |[<&pencil>]|[<&delete>]|*
+    | <b>No | <b>Model Code |                <b>Model Name                |  <b>Type  | <b># Parts |<b>     Remark     |<b> Action |*|*|*
+    |    1  |     188D      | Hilux                                       |   PxP     |       26  | 8th Gen           |[<&pencil>]|[<&delete>]|*
   }
   --
   {

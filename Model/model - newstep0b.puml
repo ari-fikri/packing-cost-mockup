@@ -16,11 +16,11 @@
   }
   --
   {#
-    | <b>No | <b>Model Code |                <b>Model Name                |<b>     Remark     |<b> Action |*|*|*
-    |    1  |      188D         | Hilux                                   | 8th Gen           |[<&pencil>]|[<&delete>]|*
-    |    2  |      975W         | Fortuner                                | 2nd Gen           |[<&pencil>]|[<&delete>]|*
-    |    3  |      758W         | Corolla Altis                           | 11th Gen          |[<&pencil>]|[<&delete>]|*
-    |    4  |      303D         | Yaris Gazoo Racing Hatchback            | 11th Gen          |[<&pencil>]|[<&delete>]|*    
+    | <b>No | <b>Model Code |                <b>Model Name                |  <b>Type  | <b># Parts |<b>     Remark     |<b> Action |*|*|*
+    |    1  |      188D         | Hilux                                   |   PxP     |        26  | 8th Gen           |[<&pencil>]|[<&delete>]|*
+    |    2  |      975W         | Fortuner                                |   PxP     |        30  | 2nd Gen           |[<&pencil>]|[<&delete>]|*
+    |    3  |      758W         | Corolla Altis                           |   PxP     |        45  | 11th Gen          |[<&pencil>]|[<&delete>]|*
+    |    4  |      303D         | Yaris Gazoo Racing Hatchback            |   Lot     |        45  | 11th Gen          |[<&pencil>]|[<&delete>]|*    
   }
   --
   {
