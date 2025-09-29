@@ -6,10 +6,8 @@
     .|CFC/PJT Code      |: {|"          "|[<&magnifying-glass>]|}*
     .|CFC/PJT Name      |: |"                        "|*    
     .|Related Models    |: {|"          "| [<&magnifying-glass>]|}*
-    .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}
-    .|Start Date        |: {"          "|[<&calendar>] |'  -  '| "          "|[<&calendar>]  }*
-    .|End Date          |: {"          "|[<&calendar>] |'  -  '| "          "|[<&calendar>]  }*
-    .|Status |:|
+    .|SOP Packing        |: {"  .  "| | <size:8><i>cth: 02.2025* }
+    .|Status |:|    
     {
       [X] All
       [] Draft
@@ -18,15 +16,15 @@
       [] Completed
     }|*
     .|Project Manager |: {|"              "|[<&people>]|.|.|.|.||[Filter <&magnifying-glass>]}|[Clear <&x>]
-}
+  }
   --
   {
   [New CFC/PJT <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
   }
   --
   {#
-    |<b> CFC/PJT Code | <b> CFC/PJT Name          |<b> Type '|<b> Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>      Models     |<b>    Action |*|*|*|*|*|*|*
-    | 286W          | Engine Redesign           |PxP    | Arif Fikri         | 2025-01-01    | 2025-06-30    | Draft         | GGN155, TGN166     |[<&pencil>]|[<&layers>]|[<&trash>]|*
+    | <b>CFC/PJT Code |        <b>CFC/PJT Name         | <b>Project Manager | <b>SOP Packing | <b>Status      |          <b>Models          |<b>     Action      |*|*|*
+    |       286W      | Engine Redesign                | Arif Fikri         |    02.2025     | Draft          | GGN155, TGN166              |[<&pencil>]|[<&layers>]|[<&trash>]|*
   }
   --
   {

@@ -2,20 +2,16 @@
 {
   <size:15><b>CFC/Pjt - New|[<size:25><&x>]|*
   ==
-  .
   {
     .|CFC/PJT Code       |: |"            "|*
     .|CFC/PJT Name       |: |"                        "|*
-    .|CFC/PJT Type       |: |{| ^PxP^Lot^ }|* 
-    .
-    .|Description        |: |"                                               "|*
-    .|Project Manager    |: {|"           "|[<&people>]|}*
-    .|Start Date         |: |"  YYYY-MM-DD  "|[<&calendar>]|*
-    .|End Date           |: |"  YYYY-MM-DD  "|[<&calendar>]|*
+    .|SOP Packing        |: {"  .  "| | <size:8><i>cth: 02.2025* }
     .|Status             |: |{| ^Draft^Active^On Hold^Completed^ }|*
     .
     .
     .
+    .|Project Manager    |: {|" Arif Fikri "|[<&people>]|}*
+    .|Description        |: |"                                   "|*
     .|Note               |: {SI|"                                "
     .
     .|}*
@@ -27,7 +23,7 @@
   }
   --
   {#
-    |<b> No |<b> Model Code |<b> Model Name     |<b> Remark |<b> Action |*  
+    | <b>No | <b>Model Code |     <b>Model Name     |           <b>Remark           |<b>     Action     |*|*|*
   }
   No Data Found
   --

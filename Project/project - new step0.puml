@@ -6,9 +6,7 @@
     .|CFC/PJT Code      |: {|"          "|[<&magnifying-glass>]|}*
     .|CFC/PJT Name      |: |"                        "|*    
     .|Related Models    |: {|"          "| [<&magnifying-glass>]|}*
-    .|Type              |: {|{(X)All}   '|    {()PxP}        '|   ()Lot}
-    .|Start Date        |: {"          "|[<&calendar>] |'  -  '| "          "|[<&calendar>]  }*
-    .|End Date          |: {"          "|[<&calendar>] |'  -  '| "          "|[<&calendar>]  }*
+    .|SOP Packing        |: {"  .  "| | <size:8><i>cth: 02.2025* }
     .|Status |:|
     {
       [X] All
@@ -26,7 +24,7 @@
   }
   --
   {#
-    |<b> CFC/PJT Code|<b> CFC/PJT Name          |<b> Type '|<b> Project Manager         |<b> Start Date |<b> End Date   |<b> Status     |<b>Models     |<b>Action |*|*|*|*|*|*|*
+    | <b>CFC/PJT Code |        <b>CFC/PJT Name         | <b>Project Manager | <b>SOP Packing | <b>Status      |          <b>Models          |<b>     Action      |*|*|*
   }
   No Data Found
   --

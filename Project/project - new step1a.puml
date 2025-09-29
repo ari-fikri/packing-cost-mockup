@@ -2,24 +2,16 @@
 {
   <size:15><b>ProCFC/Pjt - New|[<size:25><&x>]|*
   ==
-  .
   {
-    .|CFC/PJT Code       |: |"286W      "|*
-    .|CFC/PJT Name       |: |"Engine Redesign         "|*
-    .|CFC/PJT Type       |: |{| ^PxP^Lot^ }|* 
-    .
-    .|Description        |: |"Complete redesign of the engine system for"|*
-    .|.|.|"improved performance"|*
-    .|Project Manager    |: {|"Arif Fikri"|[ <&people>]|}*
-    .|Start Date         |: {|"  2025-01-01  "|[<&calendar>]|}*
-    .|End Date           |: {|"  2025-06-30  "|[<&calendar>]|}*
-    
-    
-    
+    .|CFC/PJT Code       |: |" 286W           "|*
+    .|CFC/PJT Name       |: |" Engine Redesign        "|*
+    .|SOP Packing        |: {"02.2025  "| | <size:8><i>cth: 02.2025* }
     .|Status             |: |{| ^Draft^Active^On Hold^Completed^ }|*
     .
     .
     .
+    .|Project Manager    |: {|" Arif Fikri "|[<&people>]|}*
+    .|Description        |: |"                                   "|*
     .|Note               |: {SI|"                                "
     .
     .|}*
@@ -31,7 +23,7 @@
   }
   --
   {#
-    |<b> No |<b> Model Code |<b> Model Name     |<b> Remark |<b> Action |*|*|*|*
+    | <b>No | <b>Model Code |     <b>Model Name     |           <b>Remark           |<b>     Action     |*|*|*
   }
   No Data Found
   --
