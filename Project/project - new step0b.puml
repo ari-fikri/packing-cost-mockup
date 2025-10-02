@@ -1,33 +1,26 @@
 @startsalt
 {
-  <size:15><b>CFC/Pjt List | [<size:25><&x>]|*
+  <size:15><b>Project List|[<size:25><&x>]|*
   ==
   {
-  .|CFC/PJT Code       |: |"            "|*
-  .|CFC/PJT Name       |: |"                        "|*
-  .|SOP Packing        |: {"  .  "| | <size:8><i>cth: 02.2025* }
-  .|Status             |: |{| ^Draft^Active^On Hold^Completed^ }|*
-  .
-  .
-  .
-  .|Project Manager    |: {|"           "|[<&people>]|}*    
-  .|Description        |: |"                                   "|*
-  .|Note               |: {SI|"                                "
-  .
-  .|}*
-}
+    .|Project Code      |: {|"          "|[<&magnifying-glass>]|}*
+    .|Project Name      |: |"                        "|*    
+    .|Related Models    |: {|"          "| [<&magnifying-glass>]|}*
+    .|Project Manager |: {|"              "|[<&people>]|}*
+  }
+  {|                                                                                              |[Filter <&magnifying-glass>]|[Clear <&x>]|}
   --
   {
-  [New CFC/PJT <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+  [New Project <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
   }
   --
   {#
-    | <b>No | <b>CFC/PJT Code |        <b>CFC/PJT Name         | <b>Project Manager | <b>SOP Packing | <b>Status      |          <b>Models          |<b>     Action      |*|*|*
-    |   1 |     286W        | Engine Redesign                | Arif Fikri         |   02.2025       | Draft         | GGN155, TGN166             |[<&pencil>]|[<&layers>]|[<&trash>]|*
-    |   2 |     332W        | Suspension Optimization        | Khedi Rachman      |   02.2025       | Active        | AGX210                     |[<&pencil>]|[<&layers>]|[<&trash>]|*
-    |   3 |     385W        | EV Interior Upgrade            | Toni Saputra       |   03.2025       | Completed     | GRX130, ZYX110             |[<&pencil>]|[<&layers>]|[<&trash>]|*
-    |   4 |     388W        | Smart Dashboard Testing        | Dono Wijaya        |   08.2024       | On Hold       | GRS182                     |[<&pencil>]|[<&layers>]|[<&trash>]|*
-    |   5 |     408W        | New Engine Assembly Line       | Ridwan Maulana     |   07.2024       | Active        | TGN166                     |[<&pencil>]|[<&layers>]|[<&trash>]|*
+    | <b>No | <b>Project Code |        <b>Project Name         | <b>Project Manager |          <b>Models          |<b>     Action      |*|*|*
+    |   1 |     286W          | Engine Redesign                | Arif Fikri           | GGN155, TGN166             |[<&pencil>]|[<&layers>]|[<&trash>]|*
+    |   2 |     332W          | Suspension Optimization        | Khedi Rachman        | AGX210                     |[<&pencil>]|[<&layers>]|[<&trash>]|*
+    |   3 |     385W          | EV Interior Upgrade            | Toni Saputra         | GRX130, ZYX110             |[<&pencil>]|[<&layers>]|[<&trash>]|*
+    |   4 |     388W          | Smart Dashboard Testing        | Dono Wijaya          | GRS182                     |[<&pencil>]|[<&layers>]|[<&trash>]|*
+    |   5 |     408W          | New Engine Assembly Line       | Ridwan Maulana       | TGN166                     |[<&pencil>]|[<&layers>]|[<&trash>]|*
   }        
   --
   {

@@ -1,18 +1,12 @@
 @startsalt
 {
-  <size:15><b>CFC/Pjt - New|[<size:25><&x>]|*
+  <size:15><b>Project - New|[<size:25><&x>]|*
   ==
   {
-    .|CFC/PJT Code       |: |"            "|*
-    .|CFC/PJT Name       |: |"                        "|*
-    .|SOP Packing        |: {"  .  "| | <size:8><i>cth: 02.2025* }
-    .|Status             |: |{| ^Draft^Active^On Hold^Completed^ }|*
-    .
-    .
-    .
+    .|Project Code       |: |"            "|*
+    .|Project Name       |: |"                        "|*
     .|Project Manager    |: {|" Arif Fikri "|[<&people>]|}*
-    .|Description        |: |"                                   "|*
-    .|Note               |: {SI|"                                "
+    .|Description        |: {SI|"                                "
     .
     .|}*
   }
