@@ -4,10 +4,12 @@
   ==
   
   {   
-    .|Model Code |: |"188D" |*
-    .|Model Name |: |"Hilux " |*
-    .|Type       |: { (X)PxP      |   ()Lot  }*        
-    .|Remark     |: |"8th Gen                    "|*
+    .|Model Code              |: |" 188D     "|*
+    .|Model Name              |: |" Hilux         "| *
+    .|Destination             |: |" 301B    "|[<&magnifying-glass>]|*
+    .|.                       |: | Argentina|*
+    .|Implement. Period       |: |" 02.25"|*
+    .|Remark                  |: |" 8th Gen             "|*
   }
   .
   --
@@ -21,7 +23,7 @@
     |    1 | 122810Y110-00          | HANGER, ENGINE, NO.1                                        |.                  |   Lot   |    34500       | SETIA GUNA SEJATI                  |  1200    |   400    |   300     |     0.8    | "   2" |        10000                          |" 1"   |"  "   |" 1"     |[<&pencil>]|[<&trash>]|*
     |    2 | 25051BZ260-00 	        | CONVERTER SUB-ASSY, EXHAUST MANIFOLD                        |.                  |   PxP   |    54001    	 | FUTABA INDONESIA                   |  2100    |   300    |   300     |     0.7    | "   1" |          2500                         |" 1"   |" 2"   |" 1"     |[<&pencil>]|[<&trash>]|*
     |    3 | 22030BZ150-00 	        | BODY ASSY, THROTTLE W/MOTOR	                                |.                  |   Lot   |    53002       | AISAN NASMOCO INDUSTRI             |  2100    |   300    |   300     |     1.2    | "   1" |          3100                         |" 1"   |"  "   |" 1"     |[<&pencil>]|[<&trash>]|*
-    |    4 | 90210T0002-00 	        | WASHER, SEAL	                                              |.                  |   Lot   |    10001       | ARAI RUBBER SEAL INDONESIA         |  2100    |   300    |   300     |     1 .0   | "   1" |          2000                         |" 1"   |"  "   |" 1"     |[<&pencil>]|[<&trash>]|*     
+    |    4 | 90210T0002-00 	        | WASHER, SEAL	                                              |.                  |   Lot   |    10001       | ARAI RUBBER SEAL INDONESIA         |  2100    |   300    |   300     |     1.0    | "   1" |          2000                         |" 1"   |"  "   |" 1"     |[<&pencil>]|[<&trash>]|*     
   }
   --
   {

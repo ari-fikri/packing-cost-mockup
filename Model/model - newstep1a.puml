@@ -4,10 +4,12 @@
   ==
   
   {   
-    .|Model Code |: |"188D   "|*
-    .|Model Name |: |"Hilux  "|*
-    .|Type       |: { (X)PxP      |   ()Lot  }*    
-    .|Remark     |: |"8th Gen                    "|*
+    .|Model Code              |: |"        "|*
+    .|Model Name              |: |"             "| *
+    .|Destination             |: |"    "|[<&magnifying-glass>]|*
+    .|.                       |: |*
+    .|Implement. Period       |: |"    ."|*
+    .|Remark                  |: |"                 "|*    
   }
   .
 --
@@ -17,7 +19,7 @@
   --
   {#
     | <b>No |                                                                                                     <b>PART INFO                                                                                                                                  |*|*|*|*|*|*|*|*|*|*|*|<b>  Katashiki  |*|*     |  <b>Action  |*|*
-    |.     |       <b>Part No       |                           <b>Name                           |     <b>Parent     | <b>Type | <b>Supplier ID |          <b>Supplier Name          |    <b>L  |   <b>W   |    <b>H   |  <b>Wt/pc  | <b>Qty |<b>   Total Wt                         | <b>AX | <b>AY | <b>AU |.|*|*
+    |.      |       <b>Part No       |                           <b>Name                           |     <b>Parent     | <b>Type | <b>Supplier ID |          <b>Supplier Name          |    <b>L  |   <b>W   |    <b>H   |  <b>Wt/pc  | <b>Qty |<b>   Total Wt                        | <b>AX | <b>AY | <b>AU |.|*|*
   }
   No Data Found
   --

@@ -2,26 +2,26 @@
 {
   <size:15><b>Model List |[<size:25><&x>]|*
   ==
-  .
   {
-    .|Model Code        |: |"               "|*
-    .|Model Name        |: |"               "|*
-    .|Type              |: {(X)All      |()PxP     |   ()Lot  }*
-    .|Remark            |: |"                      "|*
+    .|Model Code         |: |"               "|[<&magnifying-glass>]|*
+    .|Model Name         |: |"               "|*
+    .|Destination        |: {|"    "|[<&magnifying-glass>]|}*
+    .|.|:|*
+    .|Implement. Period  |: |"    ."|*    
   }
   {|                                                                                |[Filter <&magnifying-glass>]|[Clear <&x>]|}
   --
   {
-  [Add Model <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+    [Add Model <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
   }
   --
   {#
-    | <b>No | <b>Model Code |                <b>Model Name                |  <b>Type  | <b># Parts |<b>     Remark     |<b> Action |*|*|*
-    |    1  |      188D         | Hilux                                   |   PxP     |        26  | 8th Gen           |[<&pencil>]|[<&delete>]|*
-    |    2  |      975W         | Fortuner                                |   PxP     |        30  | 2nd Gen           |[<&pencil>]|[<&delete>]|*
-    |    3  |      758W         | Corolla Altis                           |   PxP     |        45  | 11th Gen          |[<&pencil>]|[<&delete>]|*
-    |    4  |      303D         | Yaris Gazoo Racing Hatchback            |   Lot     |        45  | 11th Gen          |[<&pencil>]|[<&delete>]|*    
-  }
+    | <b>No | <b>Model Code |                <b>Model Name                 |<b> Impl. Period | <b>Dest Code |   <b>Dest Name   | <b># Parts |<b>        Remark        |<b> Action |*|*|*
+    |    1  |      188D     | Hilux                                        |     02.25       |       301B       | Argentina     |        26  | 8th Gen           |[<&pencil>]|[<&delete>]|*
+    |    2  |      975W     | Fortuner                                     |     01.26       |       715B       | Vietnam       |        30  | 2nd Gen           |[<&pencil>]|[<&delete>]|*
+    |    3  |      758W     | Corolla Altis                                |     05.25       |       722C       | Thailand      |        45  | 11th Gen Facelift |[<&pencil>]|[<&delete>]|*
+    |    4  |      303D     | Yaris Gazoo Racing Hatchback                 |     05.25       |       301B       | Argentina     |        45  | 11th Gen          |[<&pencil>]|[<&delete>]|*    
+  } 
   --
   {
   << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
