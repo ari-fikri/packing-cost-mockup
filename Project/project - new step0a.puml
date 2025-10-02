@@ -11,7 +11,7 @@
   {|                                                                                              |[Filter <&magnifying-glass>]|[Clear <&x>]|}
   --
   {
-  [New CFC/PJT <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+    [Add Project <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
   }
   --
   {#
