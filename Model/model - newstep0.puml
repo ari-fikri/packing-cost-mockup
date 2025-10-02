@@ -5,17 +5,16 @@
   {
     .|Model Code        |: |"               "|*
     .|Model Name        |: |"               "|*
-    .|Type              |: {(X)All      |()PxP     |   ()Lot  }*
-    .|Remark            |: |"                      "|              |[Filter <&magnifying-glass>]| [Clear <&x>]|*
+    .|Remark            |: |"                      "|*
   }
-  .
+  {|                                                                                |[Filter <&magnifying-glass>]|[Clear <&x>]|}
   --
   {
-  [Add New Model <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+  [Add Model <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
   }
   --
   {#
-   | <b>No | <b>Model Code |                <b>Model Name                |  <b>Type  | <b># Parts |<b>     Remark     |<b> Action |*|*|*
+   | <b>No | <b>Model Code |                <b>Model Name                 | <b># Parts |<b>     Remark     |<b> Action |*|*|*
   }
   No Data Found
   --

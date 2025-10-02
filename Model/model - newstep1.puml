@@ -12,11 +12,12 @@
   .
 --
   {
-    [Add Part <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|
+    [Add Part <&document>]|[Katashiki]|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|
   }
   --
   {#
-    | <b>No |       <b>Part No       |               <b>Name               |     <b>Parent     | <b>Supplier ID |          <b>Supplier Name          |    <b>L  |   <b>W   |    <b>H   |  <b>Wt/pc  | <b>Qty |<b>   Total Wt   | <b>Action |*|*
+    | <b>No |                                                                                                     <b>PART INFO                                                                                                                                  |*|*|*|*|*|*|*|*|*|*|*|<b>  Katashiki  |*|*     |  <b>Action  |*|*
+    |.     |       <b>Part No       |                           <b>Name                           |     <b>Parent     | <b>Type | <b>Supplier ID |          <b>Supplier Name          |    <b>L  |   <b>W   |    <b>H   |  <b>Wt/pc  | <b>Qty |<b>   Total Wt                         | <b>AX | <b>AY | <b>AU |.|*|*
   }
   No Data Found
   --

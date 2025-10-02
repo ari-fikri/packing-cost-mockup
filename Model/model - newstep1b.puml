@@ -10,20 +10,18 @@
     .|Remark     |: |"8th Gen                    "|*
   }
   .
---
+  --
   {
-    [Add Part <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|
+    [Add Part <&document>]|[Katashiki]|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|
   }
   --
   {#
-    | <b>No |       <b>Part No       |               <b>Name               |     <b>Parent     | <b>Supplier ID |          <b>Supplier Name          |    <b>L  |   <b>W   |    <b>H   |  <b>Wt/pc  | <b>Qty |<b>   Total Wt   | <b>Action |*|*
-    |   1    | 122810Y110-00         | HANGER, ENGINE, NO.1                |.                  |    34500       | SETIA GUNA SEJATI                  |  1200    |   400    |   300     |       0.8  |     2  |         10000   |[<&pencil>]|[<&trash>]|*
-    |   2    | 25051BZ260-00 	       | CONVERTER SUB-ASSY, EXHAUST MANIFOLD|.                  |    54001    	  | FUTABA INDONESIA                   |  2100    |   300    |   300     |       0.7  |     1  |         2500    |[<&pencil>]|[<&trash>]|*
-    |   3    | 22030BZ150-00 	       | BODY ASSY, THROTTLE W/MOTOR	       |.                  |    53002       | AISAN NASMOCO INDUSTRI             |  2100    |   300    |   300     |       1.2  |     1  |         3100    |[<&pencil>]|[<&trash>]|*
-    |   4    | 90210T0002-00 	       | WASHER, SEAL	                       |.                  |    10001       | ARAI RUBBER SEAL INDONESIA         |  2100    |   300    |   300     |       1 .0 |     1  |         2000    |[<&pencil>]|[<&trash>]|* 
-    
-
-
+    | <b>No |                                                                                                     <b>PART INFO                                                                                                                                  |*|*|*|*|*|*|*|*|*|*|*|<b>  Katashiki  |*|*     |  <b>Action  |*|*
+    |.     |       <b>Part No       |                           <b>Name                           |     <b>Parent     | <b>Type | <b>Supplier ID |          <b>Supplier Name          |    <b>L  |   <b>W   |    <b>H   |  <b>Wt/pc  | <b>Qty |<b>   Total Wt                         | <b>AX | <b>AY | <b>AU |.|*|*
+    |    1 | 122810Y110-00          | HANGER, ENGINE, NO.1                                        |.                  |   Lot   |    34500       | SETIA GUNA SEJATI                  |  1200    |   400    |   300     |     0.8    | "   2" |        10000                          |" 1"   |"  "   |" 1"     |[<&pencil>]|[<&trash>]|*
+    |    2 | 25051BZ260-00 	        | CONVERTER SUB-ASSY, EXHAUST MANIFOLD                        |.                  |   PxP   |    54001    	 | FUTABA INDONESIA                   |  2100    |   300    |   300     |     0.7    | "   1" |          2500                         |" 1"   |" 2"   |" 1"     |[<&pencil>]|[<&trash>]|*
+    |    3 | 22030BZ150-00 	        | BODY ASSY, THROTTLE W/MOTOR	                                |.                  |   Lot   |    53002       | AISAN NASMOCO INDUSTRI             |  2100    |   300    |   300     |     1.2    | "   1" |          3100                         |" 1"   |"  "   |" 1"     |[<&pencil>]|[<&trash>]|*
+    |    4 | 90210T0002-00 	        | WASHER, SEAL	                                              |.                  |   Lot   |    10001       | ARAI RUBBER SEAL INDONESIA         |  2100    |   300    |   300     |     1 .0   | "   1" |          2000                         |" 1"   |"  "   |" 1"     |[<&pencil>]|[<&trash>]|*     
   }
   --
   {
