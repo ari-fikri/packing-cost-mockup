@@ -5,28 +5,28 @@
   ==
   {
     {
-      <b>CPS No.      |: {|" CPS230220250001A "|}
-      <b>Ref CPS No.  |: {|"                  "| [<&magnifying-glass>]}| *
-      Issue  Date     |: {|" 23 Feb 2025      "| [<&calendar>]|}
-      Effective Date  |: {|" 01 Mar 2025      "| [<&calendar>]|}
-      .
-      DPI No.         |: {|" DP2302250001     "| [<&magnifying-glass>]}| *
-      CFC/PJT Code    |: {|" CF2025020001     "| [<&magnifying-glass>]}
-      Export Dest     |: | Thailand |*
-      Model           |: {|" DX01UB           "| [<&magnifying-glass>]}
-      Part No         |: {|" 25051BZ260-00    "| [<&magnifying-glass>]|[<&spreadsheet>]}
+      CPS No.      |:{|"CPS 301B DB01UB 25051BZ26000"|}
+      Ref CPS No.  |:{|"                 "| [<&magnifying-glass>]}| *      
+      CFC Model       |:{|"DX01UB      "| [<&magnifying-glass>]}
+    }
+    {
+      |     |Destination     |:| 301B - Thailand |*
+      |     |Project Code    |:| 118D |*
+    }
+    {
+      Part No         |:{|"25051BZ260-00"| [<&magnifying-glass>] | [<&spreadsheet>]}
+    }
+    {
+      |     Part Name       |: | CONVERTER SUB-ASSY, EXHAUST MANIFOLD        |*
+      |     Supplier        |: | 5008 - KOMPONEN FUTABA       |*
     }
     --
-    {
-      .|.|Part Name   |: |CONVERTER SUB-ASSY, EXHAUST MANIFOLD         |*
-      .|.|Supplier    |: |FUTABA INDONESIA|*
-      .|.|Plant Code  |: | AI01           |*
-      .|.|Dock Code   |: | AI-D-001       |*
-
-    }
- --
     {*
-      <b><size:14> <&chevron-bottom> PSE Info
+      <b><size:14> <&chevron-right>Logistic Information
+    }
+    --
+    {*
+      <b><size:14> <&chevron-right> PSE Info
     }
     --
     {*
@@ -82,23 +82,28 @@
     {
       '1490	1125	730
       <b>OUTER
-      { Module Type     |: |"  58   " | [<&magnifying-glass>] | }*  
+      --
+      {|Module |(X)|      |Mesh Pallet|()|}*
+      --
       {
-        .| Dimension     |: | 1490 | x | 1125 | x | 730 | cm <sup>3</sup> |*
-        .| Inner         |: | 1,23 | m<sup>3</sup>                      |*
-        .| Outer         |: | 1,23 | m<sup>3</sup>                      |*
-      }
+        {      Module Type     |: |"      " | [<&magnifying-glass>] | }*  
+          {
+            .|       Dimension     |: | 00 | x | 00 | x | 00 | cm <sup>3</sup> |*
+            .|       Inner         |: | 00 | m<sup>3</sup>                      |*
+            .|       Outer         |: | 00 | m<sup>3</sup>                      |*
+          }
+      }      
     }
     --
     {
       |<b>INNER   | [<size:10>add <&plus>] |*
     }
     {#
-      |<b> Pack Material No     |<b> Suffix |<b> Name         |<b>Item Type |<b> Parent    |<b> Supplier ID |<b> Supplier Name |<b> L  |<b> W  |<b> H  |<b> Wt/pc |<b> Qty |<b> Total Wt  |<b> Action|*|*
-      | AB12CD34EF             | 00        | Outer Box        | EE-122LX    |             .| TMMIN          | TMMIN             |360    |550    |240    |         .| 1      |           . |[<&pencil>]|[<&trash>]|*
-      | GH56IJ78KL             | 00        | Carton Sheet     | FF-FTB      |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 1      |           . |[<&pencil>]|[<&trash>]|*
-      | MN90OP12QR             | 00        | Plastic Sheet   '| DD-5G       |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 1      |           . |[<&pencil>]|[<&trash>]|*
-      | ST34UV56WX             | 00        | Anti Rust        | AA622F      |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 2      |           . |[<&pencil>]|[<&trash>]|*
+      | <b>No |     <b>Material No     | <b>Suffix |                   <b>Material Name                   |   <b>ItemNo  |   <b>Parent Mat     | <b>Supplier ID  |                   <b>Supplier Name                   | <b>L   | <b>W  | <b>H | <b>wt/pc | <b>Qty | <b>Total Wt | <b>Action |*
+      |   1   | AB12CD34EF             |   00      | Outer Box                                            | EE-122LX     |                    .| TMMIN          | TMMIN                                                 | 360    | 550   | 240  |         .|      1 |           . |[<&pencil>]|[<&trash>]|*
+      |   2   | GH56IJ78KL             |   00      | Carton Sheet                                         | FF-FTB       |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .|      1 |           . |[<&pencil>]|[<&trash>]|*
+      |   3   | MN90OP12QR             |   00      | Plastic Sheet   '                                    | DD-5G        |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .|      1 |           . |[<&pencil>]|[<&trash>]|*
+      |   4   | ST34UV56WX             |   00      | Anti Rust                                            | AA622F       |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .|      2 |           . |[<&pencil>]|[<&trash>]|*    
     }
     --
     Note :

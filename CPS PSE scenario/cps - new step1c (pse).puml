@@ -5,27 +5,28 @@
   ==
   {
     {
-      <b>CPS No.     |:{|"CPS230220250001A"|}
-      <b>Ref CPS No. |:{|"                "| [<&magnifying-glass>]}|*
-      Issue  Date    |:{|"23 Feb 2025"| [<&calendar>]|}
-      Effective Date |:{|"01 Mar 2025"| [<&calendar>]|}
-      .
-      DPI No.        |:{|"DP2302250001"| [<&magnifying-glass>]}|*
-      CFC/PJT Code   |:{|"CF2025020001"| [<&magnifying-glass>]}
-      Model          |:{|"DX01UB      "| [<&magnifying-glass>]}
-      Part No        |:{|"25051BZ260-0"| [<&magnifying-glass>]|[<&spreadsheet>]}
+      CPS No.      |:{|"CPS 301B DB01UB 25051BZ26000"|}
+      Ref CPS No.  |:{|"                 "| [<&magnifying-glass>]}| *      
+      CFC Model       |:{|"DX01UB      "| [<&magnifying-glass>]}
     }
-    --
     {
-      .|.|Part Name   |: | CONVERTER SUB-ASSY, EXHAUST MANIFOLD        |*
-      .|.|Supplier    |: | FUTABA INDONESIA    |*
-      .|.|Plant Code  |: | AI01                |*
-      .|.|Dock Code   |: | AI-D-001            |*
-
+      |     |Destination     |:| 301B - Thailand |*
+      |     |Project Code    |:| 118D |*
+    }
+    {
+      Part No         |:{|"25051BZ260-00"| [<&magnifying-glass>] | [<&spreadsheet>]}
+    }
+    {
+      |     Part Name       |: | CONVERTER SUB-ASSY, EXHAUST MANIFOLD        |*
+      |     Supplier        |: | 5008 - KOMPONEN FUTABA       |*
+    }
+    --    
+    {*
+      <b><size:14> <&chevron-right> Logistic Information
     }
     --
     {*
-      <b><size:14> <&chevron-right> PSE Info
+      <b><size:14> <&chevron-right> PSE Information
     }
     --
     {*
@@ -37,7 +38,8 @@
         "                       "
         "                       "
         "                       "
-      }|<size:30><b>+|*
+      }|
+      <size:30><b>+|*
     }
     --
     {#
@@ -80,19 +82,25 @@
     --
     {
       <b>OUTER
-      { Module Type     |: |"      " | [<&magnifying-glass>] | }*  
+      --
+      {|Module |(X)|      |Mesh Pallet|()|}*
+      --
       {
-        .| Dimension     |: | 00 | x | 00 | x | 00 | cm <sup>3</sup> |*
-        .| Inner         |: | 00 | m<sup>3</sup>                      |*
-        .| Outer         |: | 00 | m<sup>3</sup>                      |*
-      }
+        {      Module Type     |: |"      " | [<&magnifying-glass>] | }*  
+          {
+            .|       Dimension     |: | 00 | x | 00 | x | 00 | cm <sup>3</sup> |*
+            .|       Inner         |: | 00 | m<sup>3</sup>                      |*
+            .|       Outer         |: | 00 | m<sup>3</sup>                      |*
+          }
+      }      
     }
     --
     {
       |<b>INNER   | [<size:10>add <&plus>] |*
     }
     {#
-      |<b> Pack Material No     |<b> Suffix |<b> Name      |<b> Parent    |<b> Supplier ID |<b> Supplier Name |<b> L  |<b> W  |<b> H  |<b> Wt/PC |<b> Qty |<b> Total Wt |*
+      | <b>No |     <b>Material No     | <b>Suffix |                   <b>Material Name                   |     <b>Parent Mat     | <b>Supplier ID  |                   <b>Supplier Name                   | <b>L | <b>W | <b>H | <b>wt/pc | <b>Qty | <b>Total Wt | <b>Action |*
+      '|    || AB12CD34EF             | 00        | Outer Box        | EE-122LX    |             .| TMMIN          | TMMIN             |360    |550    |240    |         .| 1      |           . |*
     }
     No Data Found
     --
