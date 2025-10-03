@@ -1,0 +1,48 @@
+@startsalt
+{
+  <size:20><b>Material New | [<size:25><&x>]|*
+  ==
+  {
+    .|Material No     |: |"                 "|*
+    .|Suffix          |: |"     "|*
+    .|Material Name   |: |"                 "|*
+    .|Parent Material |: |"                 "| [<&magnifying-glass>]| *
+    .|Material Type   |: | { ^Inner^Outer^ } |*
+    .
+    .|Suppler Code    |:{|"                 "|[<&magnifying-glass>]|} *
+  }
+  {
+       |      Supplier Name   |: | |*
+       |      Address         |: | |*
+       |      Plant Code      |: | |*
+  }*
+  {
+    .|Dimension|*
+  }*  
+  {
+      |      Length (mm)   |: |"     "|*
+      |      Width (mm)     |: |"     "|*
+      |      Height (mm)    |: |"     "|*
+    }|*
+  {
+    .|Weight/PC (gr)    |: |"     "|*
+    .|Qty/Box           |: |"     "|*
+    .|Total Weight (gr) |: |"     "|*
+  }
+  .
+  --
+  {
+    [Add Child Part <&document>]|*
+  }
+  --
+  {#
+    |<b> Part No  |<b> Suffix |<b>Unique No         |<b> Name     |<b> Parent |<b> Supplier ID |<b> Supplier Name |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
+  }
+  No Data Found
+  --
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+
+}
+@endsalt
