@@ -4,10 +4,12 @@
   ==
   
   {   
-    .|Model Code |: |"        "|*
-    .|Model Name |: |"             "| *
-    .|Type       |: { ()PxP      |   ()Lot  }*
-    .|Remark     |: |"                 "|*
+    .|Model Code              |: |"        "|*
+    .|Model Name              |: |"             "| *
+    .|Destination             |: |"    "|[<&magnifying-glass>]|*
+    .|.                       |: |*
+    .|Implement. Period       |: |"    ."|*
+    .|Remark                  |: |"                 "|*
   }
   .
 --

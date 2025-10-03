@@ -5,30 +5,37 @@
   ==
   {
     {
-      <b>CPS No.      |:{|"                "|}|*
-      <b>Ref CPS No.  |:{|"                "| [<&magnifying-glass>]}| *
-      Issue  Date     |:{|"       "| [<&calendar>]|}
-      Effective Date  |:{|"       "| [<&calendar>]|}
-      .
-      DPI No.         |:{|"         "| [<&magnifying-glass>]}| *
-      CFC/PJT Code    |:{|"         "| [<&magnifying-glass>]}
-      Model           |:{|"         "| [<&magnifying-glass>]}
-      Part No         |:{|"         "| [<&magnifying-glass>] | [<&spreadsheet>]}
+      CPS No.      |:{|"                "|}|*
+      Ref CPS No.  |:{|"                "| [<&magnifying-glass>]}| *
+      CFC/Model Code  |:{|"         "| [<&magnifying-glass>]}|*
     }
     {
-      .|.|Part Name   |: ||*
-      .|.|Supplier    |: {||}
+      |      Project           |.|      |:|.|*
+      |      Impl. Period      |.|      |:|.|*
+    }   
+    { 
+      Part No         |.|            :{|"         "| [<&magnifying-glass>] | [<&spreadsheet>]}
     }
-    {*
-      <b><size:14> <&chevron-right> PSE Info
+    {
+      |      Part Name        |.|        |:|.|*
+      |      Supplier         |.|        |:|.|*
     }
     --
     {*
-      <b><size:14> <&chevron-right> Images
+      <b><size:14> <&chevron-right>Logistic Information
     }
     --
     {*
-      <b><size:14> <&chevron-right> Packing
+      <b><size:14> <&chevron-right>PSE Information
+    }
+    --
+    {*
+      <b><size:14> <&chevron-right>Images
+    }
+    --
+    {*
+      <b><size:14> <&chevron-right>Packing                                                                                                                                                                                                    
+      '| <b>No |     <b>Material No     | <b>Suffix |                   <b>Material Name                   |     <b>Parent Mat     | <b>Supplier ID  |                   <b>Supplier Name                   | <b>L | <b>W | <b>H | <b>wt/pc | <b>Qty | <b>Total Wt | <b>Action |*
     }
     --
     Note :

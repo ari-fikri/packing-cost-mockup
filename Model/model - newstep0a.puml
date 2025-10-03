@@ -2,21 +2,21 @@
 {
   <size:15><b>Model List |[<size:25><&x>]|*
   ==
-  .
   {
-    .|Model Code        |: |"               "|*
+    .|Model Code        |: |"               "|[<&magnifying-glass>]|*
     .|Model Name        |: |"               "|*
-    .|Remark            |: |"                      "|*
-  }
+    .|Destination       |: |"            "|[<&magnifying-glass>]|*
+    .|.|:|*
+  }*
   {|                                                                                |[Filter <&magnifying-glass>]|[Clear <&x>]|}
   --
   {
-  [Add Model <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+    [Add Model <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
   }
   --
   {#
-    | <b>No | <b>Model Code |                <b>Model Name                | <b># Parts |<b>     Remark     |<b> Action |*|*|*
-    |    1  |     188D      | Hilux                                       |       26   | 8th Gen           |[<&pencil>]|[<&delete>]|*
+    | <b>No | <b>Model Code |                <b>Model Name                 | <b>Dest Code |   <b>Dest Name   | <b># Parts |<b>        Remark        |<b> Action |*|*|*
+    |    1  |     188D      | Hilux                                       |    301B       | Argentina        |       26   | 8th Gen           |[<&pencil>]|[<&delete>]|*
   }
   --
   {

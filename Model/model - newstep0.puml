@@ -3,18 +3,19 @@
   <size:15><b>Model List |[<size:25><&x>]|*
   ==
   {
-    .|Model Code        |: |"               "|*
-    .|Model Name        |: |"               "|*
-    .|Remark            |: |"                      "|*
+    .|Model Code         |: |"               "|[<&magnifying-glass>]|*
+    .|Model Name         |: |"               "|*
+    .|Destination        |: {|"    "|[<&magnifying-glass>]|}*
+    .|Implement. Period  |: |"    ."|*
   }
   {|                                                                                |[Filter <&magnifying-glass>]|[Clear <&x>]|}
   --
   {
-  [Add Model <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
+    [Add Model <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
   }
   --
   {#
-   | <b>No | <b>Model Code |                <b>Model Name                 | <b># Parts |<b>     Remark     |<b> Action |*|*|*
+   | <b>No | <b>Model Code |                <b>Model Name                 | <b>Dest Code |   <b>Dest Name   | <b># Parts |<b>        Remark        |<b> Action |*|*|*
   }
   No Data Found
   --
