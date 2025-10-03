@@ -7,9 +7,11 @@
     .|Suffix          |: |"     "|*
     .|Material Name   |: |"                 "|*
     .|Parent Material |: |"                 "| [<&magnifying-glass>]| *
-    .|Material Type   |: | { ^Inner^Outer^ } |*
+    .|Material Type   |: | { ^Inner^Outer^Module^ } |*
     .
-    .|Suppler Code    |:{|"                 "|[<&magnifying-glass>]|} *
+    .
+    .|Price           |: |"          "|*
+    .|Suppler Code    |:{|"          "|[<&magnifying-glass>]|} *
   }
   {
        |      Supplier Name   |: | |*
@@ -17,18 +19,22 @@
        |      Plant Code      |: | |*
   }*
   {
+    .
+    .|E-Warehouse       | *
+  }
+  {
+       |      Item No   |: |"         "|*
+       |      Price     |: |"         "|*    
+  }
+  {
+    .
     .|Dimension|*
   }*  
   {
-      |      Length (mm)   |: |"     "|*
-      |      Width (mm)     |: |"     "|*
-      |      Height (mm)    |: |"     "|*
+      |      Length (mm)   |: |"      "|                              |Weight/PC (gr)    |: |"     "|*
+      |      Width (mm)    |: |"      "|                              |Qty/Box           |: |"     "|*
+      |      Height (mm)   |: |"      "|                              |Total Weight (gr) |: |"     "|*
     }|*
-  {
-    .|Weight/PC (gr)    |: |"     "|*
-    .|Qty/Box           |: |"     "|*
-    .|Total Weight (gr) |: |"     "|*
-  }
   .
   --
   {
@@ -36,7 +42,7 @@
   }
   --
   {#
-    |<b> Part No  |<b> Suffix |<b>Unique No         |<b> Name     |<b> Parent |<b> Supplier ID |<b> Supplier Name |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
+    |<b> Material No  |<b> Suffix |<b>material Name   |<b> Parent Material   |<b> Material Type |<b> Supplier Code |<b> E-Warehouse |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
   }
   No Data Found
   --
