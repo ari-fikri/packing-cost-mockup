@@ -16,26 +16,26 @@ and the create CPS and Create PSI button will reappear.
   {
     .|CPS No              |: {|"                   "|[<&magnifying-glass>] |}.|.|Ref CPS No          |: |"                   "|[<&magnifying-glass>]|*
     .|CFC/Model           |: {|"                   "|[<&magnifying-glass>] |}.|.|Project Code        |: |"                   "|[<&magnifying-glass>]|*
-    .|Destination         |: {|^301B ^|    TAR - Argentina |}                .|*
+    .|Destination         |: {|^301B ^|    TAR - Argentina |}                .|.|CPS/PSI/ECI         |: {|^ CPS ^             |}*
     .|<b>Part          |: |*
     .|   Part No             |: {|"                 "|[<&magnifying-glass>]|}*
     .|   Supplier Code       |: {|                  |}*    
     .
     .|<b>Assignment          |: |*
     .|   From                |: {|"                   "|[<&people>]           |}.|.|To                  |: |"                   "|[<&people>]|*    
-    .|Implementation Time |: |^02.2025^     |.|.|Status        |: {| ^Any^ |}*    
+    .|   Impl. Time          |: |^02.2025^     |.|.|Status        |: {| ^Any^ |}*    
   }
   .
   {|                                                                                                                                                                                                                             |[Filter <&magnifying-glass>]|[Clear <&x>]|}
-    {[Create CPS] | [Create PSI]|}*
+    {[Create CPS] | [Create PSI]|[Create ECI]|.|.                |.           |                        [Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|} *
     --
     {+
       {#
         '|<b> CPS No. |<b> Ref CPS No. |<b>DPI No|<b> Issued Date|<b>Effective Date|<b> CFC/Pjt   |<b> Model  |<b> # Parts        |<b> From               |<b> To                 |<b> Status       |<b>  Action   |*|*|*
-        |  <b>No |                 <b>CPS No.                 |              <b>Ref CPS No.              | <b>Impl. Time | <b>Project Code |   <b>Model   |        <b>Destination        |      <b> Part No      |          <b>From          |           <b>To           |     <b>Status     |    <b>Action    |*|*
-        |    1   | CPS301B025J111150Y03000                        | CPS811C025J111150Y03000                        |   02.2025     |      835W       |    025J      |   301B TAR Argentina           | 111150Y03000          | Khedi Asmoro (PSE)        |  Cecep Gunadi (Aisin)     |    Submitted    |[<&layers>]|[<&trash>]|*
-        |    2   |.                                               | CPS811C025J111150Y03000                        |   02.2025     |      835W       |    025J      |   301B TAR Argentina           | 111150Y03000          | Khedi Asmoro (PSE)        |.                          |       Draft     |.|[<&trash>]|*
-      }
+        |  <b>No |                 <b>CPS No.                 | <b>CPS/PSI/ECI |              <b>Ref CPS No.              | <b>Impl. Time | <b>Project Code |   <b>Model   |        <b>Destination        |      <b> Part No      |          <b>From          |           <b>To           |     <b>Status     |    <b>Action    |*|*
+        |    1   | CPS301B025J111150Y03000                    |       CPS      | CPS811C025J111150Y03000                        |   02.2025     |      835W       |    025J      |   301B TAR Argentina           | 111150Y03000          | Khedi Asmoro (PSE)        |  Cecep Gunadi (Aisin)     |    Submitted    |[<&layers>]|[<&trash>]|*
+        |    2   |.                                           |       CPS      | CPS811C025J111150Y03000                        |   02.2025     |      835W       |    025J      |   301B TAR Argentina           | 111150Y03000          | Khedi Asmoro (PSE)        |.                          |       Draft     |.|[<&trash>]|*
+      
     }
 
   }
