@@ -89,27 +89,32 @@
     <b><size:14> <&chevron-bottom> Packing
   }
   --
-  {
-    '1490	1125	730
-    <b>OUTER
-    { Module Type     |: |  58    | }*  
-    {
-      .| Dimension     |: | 1490 | x | 1125 | x | 730 | cm <sup>3</sup> |*
-      .| Inner         |: | 1,23 | m<sup>3</sup>                      |*
-      .| Outer         |: | 1,23 | m<sup>3</sup>                      |*
-    }
-  }
+{
+  '1490	1125	730
+  <b>OUTER
+  --
+  {|Module |(X)|      |Mesh Pallet|()|}*
   --
   {
-    |<b>INNER   | *
-  }
-  {#
-    |<b> Pack Material No     |<b> Suffix |<b> Name         |<b>Item Type |<b> Parent    |<b> Supplier ID |<b> Supplier Name |<b> L  |<b> W  |<b> H  |<b> Wt/pc |<b> Qty |<b> Total Wt |*
-    | AB12CD34EF             | 00        | Outer Box        | EE-122LX    |             .| TMMIN          | TMMIN             |360    |550    |240    |         .| 1      |           . |*
-    | GH56IJ78KL             | 00        | Carton Sheet     | FF-FTB      |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 1      |           . |*
-    | MN90OP12QR             | 00        | Plastic Sheet   '| DD-5G       |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 1      |           . |*
-    | ST34UV56WX             | 00        | Anti Rust        | AA622F      |             .| TMMIN          | TMMIN             |.      |.      |.      |         .| 2      |           . |*
-  }
+    {      Module Type     |: |  T1B TAR  | | }*  
+      {
+        .|       Dimension     |: | 300 | x | 120 | x | 500 | cm <sup>3</sup> |*
+        .|       Inner         |: | 1.8 | m<sup>3</sup>                      |*
+        .|       Outer         |: | 1.8 | m<sup>3</sup>                      |*
+      }
+  }      
+}    
+--
+{
+  |<b>INNER   |*
+}
+{#
+  | <b>No |     <b>Material No     | <b>Suffix |                   <b>Material Name                   |   <b>ItemNo  |   <b>Parent Mat     | <b>Supplier ID  |    <b>Procure  |                   <b>Supplier Name                   | <b>L   | <b>W  | <b>H | <b>wt/pc | <b>Qty | <b>Total Wt |<b>Time (sec)| <b>Action |*
+  |   1   | AB12CD34EF             |   00      | Outer Box                                            | EE-122LX     |                    .| TMMIN           |    Supplier    | TMMIN                                                 | 360    | 550   | 240  |         .|    1   |           . |      20     |[<&pencil>]|[<&trash>]|*
+  |   2   | GH56IJ78KL             |   00      | Carton Sheet                                         | FF-FTB       |                    .| TMMIN           |     TMMIN      | TMMIN                                                 |.       |.      |.     |         .|    1   |           . |    180      |[<&pencil>]|[<&trash>]|*
+  |   3   | MN90OP12QR             |   00      | Plastic Sheet   '                                    | DD-5G        |                    .| TMMIN           |    Supplier    | TMMIN                                                 |.       |.      |.     |         .|    1   |           . |      50     |[<&pencil>]|[<&trash>]|*
+  |   4   | ST34UV56WX             |   00      | Anti Rust                                            | AA622F       |                    .| TMMIN           |     TMMIN      | TMMIN                                                 |.       |.      |.     |         .|    2   |           . |      60     |[<&pencil>]|[<&trash>]|*    
+}  
   --
   Note :
   {SI
