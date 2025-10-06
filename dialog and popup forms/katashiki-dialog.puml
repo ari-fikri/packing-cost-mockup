@@ -1,0 +1,14 @@
+@startuml
+@startsalt
+{
+  <size:20>Katashiki |[<size:25><&x>]|*
+  ==
+  {SI|"                                "
+  . 
+  }
+  <size:8>pisahkan nama field dengan koma
+  --
+  [Save <&check>]
+}
+@@endsalt
+@enduml
