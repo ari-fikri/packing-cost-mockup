@@ -1,0 +1,163 @@
+@startuml
+@startsalt
+{
+  <b><size:20>PSI - New |[<size:25><&x>]|*
+  ==
+  {
+    {
+      PSI No.      |:{|"PSI 301B DB01UB 25051BZ26000"|}
+      Ref CPS No.  |:{|"CPS 301B DB01UB 25051BZ26000"| [<&magnifying-glass>]}| *
+      Impl. Period |:|"04.07"|*
+      CFC Model       |:{|DX01UB      |}
+    }
+    {
+      |     |Destination     |:| 301B - Thailand |*
+      |     |Project Code    |:| 118D |*
+    }
+    {
+      Part No         |:{|25051BZ260-00| [<&spreadsheet>]}
+    }
+    {
+      |     Part Name       |: | CONVERTER SUB-ASSY, EXHAUST MANIFOLD        |*
+      |     Supplier        |: | 5008 - KOMPONEN FUTABA       |*
+    }
+    --        
+    {*
+      <b><size:14> <&chevron-right> Logistic Information
+    }
+    --    
+    {*
+      <b><size:14> <&chevron-bottom> PSE Info
+    }
+    'pse inputed fields
+    { 
+      {
+        |<b>    Packing Plant |*        |  .      | <b>       Vanning Plant |*             |*
+        |Curr  :          |{ ^<color:#9a9a9a> STR 1 ^ }|  .      |Curr  :           |{ ^<color:#9a9a9a> STR 1 ^ }      |*
+        |Next  :          |{ ^<color:#9a9a9a> STR 1 ^ }|  .      |Next  :           |{ ^<color:#9a9a9a> STR 1 ^ }      |*      
+      }
+      .
+      {
+        {Category       |:| { ^<color:#9a9a9a> Trim ^ }|}*
+      }
+      {
+        Importer Line Process   '|:| Trim |*
+        Case Code                |:| |*
+        Box Number               |:|  A1  |  A2  |  A3  |*
+        Renban                   |:| 95|*
+        {
+          |<b>Packing Process |*        |* 
+          . |Boxing    :          |{ ^<color:#9a9a9a> SUPPLIER ^ }|*  
+          . |Stacking  :          |{ ^<color:#9a9a9a>  TMMIN   ^ }|*  
+        }
+      }
+      --
+      {
+        |<b>OUTER   |[<size:10>add <&plus>] |*
+      }
+      {#
+        | <b>No |     <b>Material No     | <b>Suffix |                   <b>Material Name                   |   <b>ItemNo  |   <b>Parent Mat     | <b>Supplier ID  |                   <b>Supplier Name                   | <b>L   | <b>W  | <b>H | <b>wt/pc | <b>Qty | <b>Total Wt | <b>Action |*
+        |   1   | AB12CD34EF             |   00      | Outer Box                                            | E122L        |                    .| TMMIN          | TMMIN                                                 | 360    | 550   | 240  |         .|      1 |           . |[<&pencil>]|[<&trash>]|*
+        |   2   | GH56IJ78KL             |   00      | Carton Sheet                                         | FFFT         |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .|      1 |           . |[<&pencil>]|[<&trash>]|*
+        |   3   | MN90OP12QR             |   00      | Plastic Sheet   '                                    | DD25G        |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .|      1 |           . |[<&pencil>]|[<&trash>]|*
+        |   4   | ST34UV56WX             |   00      | Anti Rust                                            | AA622        |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .|      2 |           . |[<&pencil>]|[<&trash>]|*      
+      }      
+    }
+    'end pse input detail    
+    --
+    {*
+      <b><size:14> <&chevron-bottom> Images
+    }
+    {#
+      |<b>Part        :|{ 
+        <b>Caption: 
+        "                       "
+        "                       "
+        "                       "
+      }|<size:80><&wrench>|*
+    }
+    --
+    {#
+      |<b>Packing : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|*
+    }
+    --
+    {#
+      |<b>Outer    : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|*
+    }
+    {#
+      |<b>QKP      : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|*
+    }
+    {#
+      |<b>BKP      : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&image>||<size:80><&image>|*
+    }
+    --
+    {*
+      <b><size:14> <&chevron-bottom> Packing
+    }
+    --
+    {
+      <b>OUTER 
+      --
+      {|Module |(X)|      |Mesh Pallet|()|}*
+      --
+      {
+        {      Module Type     |: |"      " | [<&magnifying-glass>] | }*  
+          {
+            .|       Dimension     |: | 00 | x | 00 | x | 00 | cm <sup>3</sup> |*
+            .|       Inner         |: | 00 | m<sup>3</sup>                      |*
+            .|       Outer         |: | 00 | m<sup>3</sup>                      |*
+          }
+      }      
+    }
+    --
+    {
+      |<b>INNER   | [<size:10>add <&plus>] |*
+    }
+    {#
+        | <b>No |     <b>Material No     | <b>Suffix |                   <b>Material Name                   |   <b>ItemNo  |     <b>Parent Mat     | <b>Supplier ID  |                   <b>Supplier Name                   | <b>L | <b>W | <b>H | <b>wt/pc | <b>Qty | <b>Total Wt | <b>Action |*|*
+        | 1     |     B021-471006        |   00      | 3I-C                                                 | E122X        |.                      |       7005      |  Sugawara                                              |      |      |      |          |     1|        200    |[<&pencil>]|[<&trash>]|*
+        | 2     |     B021-471006        |   00      | 3I-C                                                 | FFFTB        |.                      |       7005      |  Sugawara                                              |      |      |      |          |     1|        200    |[<&pencil>]|[<&trash>]|*  
+        | 3     |     B028-020192        |   00      | FF-2305                                              | DDX5G        |.                      |       7005      |  Sugawara                                              |      |      |      |          |     1|        200    |[<&pencil>]|[<&trash>]|*
+        | 4     |     B028-221812        |   00      | INNER                                                | AA622        |.                      |       7005      |  Sugawara                                              |      |      |      |          |     1|        200    |[<&pencil>]|[<&trash>]|*
+        | 5     |     B028-221812        |   00      | INNER                                                | AA654        |.                      |       7005      |  Sugawara                                              |      |      |      |          |     1|        200    |[<&pencil>]|[<&trash>]|*
+      '|    || AB12CD34EF             | 00        | Outer Box        | EE-122LX    |             .| TMMIN          | TMMIN             |360    |550    |240    |         .| 1      |           . |*
+    }
+    --
+    Note :
+    {SI
+      "                                          "
+      .
+      .
+      .
+    }
+    .
+    {[Save <&media-record>] | [Submit <&data-transfer-upload>]}
+    .
+    .
+    <b>List of Notes:
+    --
+    <i>No Data Found 
+  }
+}
+@endsalt
+@enduml
