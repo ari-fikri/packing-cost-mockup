@@ -41,14 +41,15 @@
         {Category       |:| { ^<color:#9a9a9a> Trim ^ }|}*
       }
       {
-        Importer Line Process   '|:| Trim |*
-        Case Code                |:| |*
-        Box Number               |:|  A1  |  A2  |  A3  |*
-        Renban                   |:| 95|*
+        Importer Line Process   '|:|^ Trim ^|*
+        Case Code                |:|" IM "|*
+        Box Number               |:|" A1 "|" A2 "|" A3 "|*
+        Renban                   |:|"L "|*
+        Packing Line             |:|"AP "|*
         {
           |<b>Packing Process |*        |* 
-          . |Boxing    :          |{ ^<color:#9a9a9a> SUPPLIER ^ }|*  
-          . |Stacking  :          |{ ^<color:#9a9a9a>  TMMIN   ^ }|*  
+          . |Boxing    :          |{ ^ SUPPLIER ^ }|*  
+          . |Stacking  :          |{ ^  TMMIN   ^ }|*  
         }
       }
       --
@@ -116,16 +117,23 @@
     }
     --
     {
+      {
+        |Part Weight      |: |"  300"|*
+        |Packing Weight   |: |"  330"|*
+        |Packing Qty      |: |"     3"|*
+        |Pcs/Kanban       |: |"     5"|*
+      }*
+      .
       <b>OUTER 
       --
       {|Module |(X)|      |Mesh Pallet|()|}*
       --
       {
-        {      Module Type     |: |"      " | [<&magnifying-glass>] | }*  
+        {      Module Type     |: |"T1B TAR " | [<&magnifying-glass>] | }*  
           {
-            .|       Dimension     |: | 00 | x | 00 | x | 00 | cm <sup>3</sup> |*
-            .|       Inner         |: | 00 | m<sup>3</sup>                      |*
-            .|       Outer         |: | 00 | m<sup>3</sup>                      |*
+            .|       Dimension     |: | 80 | x | 50 | x | 60 | cm <sup>3</sup> |*
+            .|       Inner         |: | 1,50 | m<sup>3</sup>                      |*
+            .|       Outer         |: | 1,55 | m<sup>3</sup>                      |*
           }
       }      
     }

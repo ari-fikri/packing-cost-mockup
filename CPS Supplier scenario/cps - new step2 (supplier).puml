@@ -80,10 +80,10 @@
     }
     --
     {
-      {
+      |Part Weight      |: |"     "|*
       |Packing Weight   |: |"     "|*
       |Packing Qty      |: |"      "|*
-      |Pcs/Knaban       |: |"     "|*
+      |Pcs/Kanban       |: |"     "|*
       }
       .
       '1490	1125	730
@@ -92,11 +92,11 @@
       {|Module |(X)|      |Mesh Pallet|()|}*
       --
       {
-        {      Module Type     |: |"      " | [<&magnifying-glass>] | }*  
+        {      Module Type     |: |"T1B TAR " | [<&magnifying-glass>] | }*  
           {
-            .|       Dimension     |: | 00 | x | 00 | x | 00 | cm <sup>3</sup> |*
-            .|       Inner         |: | 00 | m<sup>3</sup>                      |*
-            .|       Outer         |: | 00 | m<sup>3</sup>                      |*
+            .|       Dimension     |: | 80 | x | 60 | x | 50 | cm <sup>3</sup> |*
+            .|       Inner         |: | 1,50 | m<sup>3</sup>                      |*
+            .|       Outer         |: | 1,55 | m<sup>3</sup>                      |*
           }
       }      
     }    

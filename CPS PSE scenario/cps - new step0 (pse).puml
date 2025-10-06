@@ -22,7 +22,7 @@
     {[Create CPS] | [Create PSI]|[Create ECI]|.|.                |.           |                        [Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|} *
     --
     {#
-      |  <b>No  |             <b>CPS/PCI/ECI No.              | <b>CPS/PCI/ECI |                 <b>Ref CPS No.                 | <b>Impl. Time | <b>Project Code |   <b>Model   |        <b>Destination        |      <b> Part No      |          <b>From          |           <b>To           |     <b>Status     |    <b>Action    |*|*
+      |  <b>No  |             <b>CPS/PCI/ECI No.              | <b>CPS/PCI/ECI |                 <b>Ref CPS No.                 | <b>Impl. Time | <b>Project Code |   <b>Model   |        <b>Destination        |      <b> Part No      |          <b>From          |           <b>To           |     <b>Status     |   <b>Submit Date   |    <b>Action    |*|*
       '|                    |                    |                  |                 |              |                |                           |                           |                   |                   |*|*|*
     }
     No Data Found    

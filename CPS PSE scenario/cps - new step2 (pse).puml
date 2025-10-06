@@ -47,7 +47,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:30><b>+|*
+      }|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|*
     }
     --
     {#
@@ -56,7 +56,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:30><b>+|*
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|*
     }
     {#
       |<b>QKP      : |{ 
@@ -64,7 +64,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:30><b>+|*
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|*
     }
     {#
       |<b>BKP      : |{ 
@@ -72,7 +72,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:80><&image>||<size:80><&image>|<size:30><b>+|*
+      }|<size:80><&image>||<size:80><&image>|*
     }
     --
     {*
@@ -80,19 +80,25 @@
     }
     --
     {
-      '1490	1125	730
+      {
+        |Part Weight      |: | 300|*
+        |Packing Weight   |: | 330|*
+        |Packing Qty      |: |    3|*
+        |Pcs/Kanban       |: |    5|*
+      }*
+      .
       <b>OUTER
       --
       {|Module |(X)|      |Mesh Pallet|()|}*
       --
       {
-        {      Module Type     |: |"      " | [<&magnifying-glass>] | }*  
+        {      Module Type     |: | T1B TAR  | [<&magnifying-glass>] | }*  
           {
-            .|       Dimension     |: | 00 | x | 00 | x | 00 | cm <sup>3</sup> |*
-            .|       Inner         |: | 00 | m<sup>3</sup>                      |*
-            .|       Outer         |: | 00 | m<sup>3</sup>                      |*
+            .|       Dimension     |: | 80 | x | 60 | x | 50 | cm <sup>3</sup> |*
+            .|       Inner         |: | 1,50 | m<sup>3</sup>                      |*
+            .|       Outer         |: | 1,55 | m<sup>3</sup>                      |*        
           }
-      }      
+      }
     }
     --
     {

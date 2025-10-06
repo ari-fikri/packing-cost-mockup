@@ -6,21 +6,21 @@
   ==
   {
     {
-      CPS No.      |:{|"                "|}|*
-      Ref CPS No.  |:{|"                "| [<&magnifying-glass>]}| *
-      CFC/Model Code  |:{|"         "| [<&magnifying-glass>]}|*
+      CPS No.      |:{|"CPS 301B DB01UB 25051BZ26000"|}
+      Ref CPS No.  |:{|"                 "| [<&magnifying-glass>]}| *      
+      CFC Model       |:{|"DX01UB      "| [<&magnifying-glass>]}
     }
     {
-      |      Project           |.|      |:|.|*
-      |      Impl. Period      |.|      |:|.|*
-    }   
-    { 
-      Part No         |.|            :{|"         "| [<&magnifying-glass>] | [<&spreadsheet>]}
+      |     |Destination     |:| 301B - Thailand |*
+      |     |Project Code    |:| 118D |*
     }
     {
-      |      Part Name        |.|        |:|.|*
-      |      Supplier         |.|        |:|.|*
-    }    
+      Part No         |:{|"25051BZ260-00"| [<&magnifying-glass>] | [<&spreadsheet>]}
+    }
+    {
+      |     Part Name       |: | CONVERTER SUB-ASSY, EXHAUST MANIFOLD        |*
+      |     Supplier        |: | 5008 - KOMPONEN FUTABA       |*
+    }
     --
   }
   --
@@ -45,8 +45,9 @@
     {
       Importer Line Process   '|:| ^ Trim ^ |*
       Case Code                |:| "          "|*
-      Box Number               |:| "          "|*
+      Box Number               |:{|"  "|.|"  "|.|"  "|}*
       Renban                   |:| "          "|*
+      Packing Line             |:| "    "|*      
       {
         |<b>Packing Process |*        |* 
         . |Boxing    :          |{ ^ SUPPLIER ^ }|*  
@@ -106,7 +107,13 @@
   }
   --
   {
-    '1490	1125	730
+    {
+      |Part Weight      |: |"     "|*
+      |Packing Weight   |: |"     "|*
+      |Packing Qty      |: |"      "|*
+      |Pcs/Kanban       |: |"     "|*
+    }*
+    .    
     <b>OUTER
       --
       {|Module |(X)|      |Mesh Pallet|()|}*
