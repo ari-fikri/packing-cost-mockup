@@ -5,20 +5,14 @@
   {
     .|Material No      |: |"           "|[<&magnifying-glass>]|*
     .|Material Name    |: |"           "|*
-    .|Parent Material  |: |"           "| [<&magnifying-glass>]|*
-    .|Item No      |: |. |*
+    .|Parent Material  |: |"           "|[<&magnifying-glass>]|*
+    .|Item No          |: |"           "|[<&magnifying-glass>]|*
     .|Price            |: |"           "|[<&magnifying-glass>]|*
     .|Material Type    |: | { ^Inner^Outer^Module^ } |*  
     .
   }
     {|                                                                                           |[Search <&magnifying-glass>]|[Clear <&x>]|}
-  --
-  {
-
-  }
-  {
-  .
-  }
+  
   --
   {
   [Add Material <&document>] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
