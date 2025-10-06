@@ -80,6 +80,12 @@
     }
     --
     {
+      {
+      |Packing Weight   |: |"     "|*
+      |Packing Qty      |: |"      "|*
+      |Pcs/Knaban       |: |"     "|*
+      }
+      .
       '1490	1125	730
       <b>OUTER
       --
