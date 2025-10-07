@@ -27,7 +27,7 @@ and the create CPS and Create PSI button will reappear.
   }
   .
   {|                                                                                                                                                                                                                             |[Filter <&magnifying-glass>]|[Clear <&x>]|}
-    {[Create CPS] | [Create PSI]|[Create ECI]|.|.                |.           |                        [Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|} *
+        {[Create CPS] | [Create PSI]|[Create ECI]|.|[Compare CPS]|.           |                        [Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|} *
     --
     {+
       {#
