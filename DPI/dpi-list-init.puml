@@ -1,6 +1,6 @@
 @startsalt
 {+
-  {
+  .|{
     <size:25>DPI List |[<size:25><&x>]|*
     ==  
 
@@ -8,7 +8,12 @@
     --
     [Download DPI]
     --
-    !include dpi-search-result.puml
+    {#
+      !include dpi-tbl-header.puml
+    }
+    {
+      No Data Found    
+    }
     --
     !include ./components/pagination.puml
   }
