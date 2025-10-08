@@ -1,0 +1,21 @@
+@startsalt
+{
+<size:15><b>Parameters|[<size:25><&x>]|*
+==
+{/ Inland | Labor Cost | Man Hour |<b> Others}*
+  .
+  {
+    |Maximum Submission (N-x)       |:|" 3 "|*
+  }
+  --
+  {
+    [Save]|[Cancel]
+  }
+
+
+
+
+
+
+}
+@endsalt

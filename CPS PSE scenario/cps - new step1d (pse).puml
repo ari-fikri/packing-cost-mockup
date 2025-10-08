@@ -26,7 +26,7 @@
     }
     --    
     {*
-      <b><size:14> <&chevron-bottom> PSE Info
+      <b><size:14> <&chevron-bottom> PSE Information
     }
     'pse inputed fields
     { 
@@ -41,10 +41,10 @@
       }
       {
         Importer Line Process   '|:| ^ Trim ^ |*
-        Case Code                |:| "          "|*
-        Box Number               |:| "          "|*
-        Renban                   |:| "          "|*
-        Renban Eff               |:| " 90% "|*
+        Case Code                |:| " IM  "|*
+        Box Number               |:{|"A1"|.|"A2"|.|"A3"|}*
+        Renban                   |:| " L  "|*
+        Packing Line             |:| "AP  "|*
         {
           |<b>Packing Process |*        |* 
           . |Boxing    :          |{ ^ SUPPLIER ^ }|*  
@@ -57,10 +57,10 @@
       }
       {#
         | <b>No |     <b>Material No     | <b>Suffix |                   <b>Material Name                   |   <b>ItemNo  |   <b>Parent Mat     | <b>Supplier ID  |                   <b>Supplier Name                   | <b>L   | <b>W  | <b>H | <b>wt/pc | <b>Qty | <b>Total Wt | <b>Action |*
-        |   1   | AB12CD34EF             |   00      | Outer Box                                            | EE-122LX     |                    .| TMMIN          | TMMIN                                                 | 360    | 550   | 240  |         .|      1 |           . |[<&pencil>]|[<&trash>]|*
-        |   2   | GH56IJ78KL             |   00      | Carton Sheet                                         | FF-FTB       |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .|      1 |           . |[<&pencil>]|[<&trash>]|*
-        |   3   | MN90OP12QR             |   00      | Plastic Sheet   '                                    | DD-5G        |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .|      1 |           . |[<&pencil>]|[<&trash>]|*
-        |   4   | ST34UV56WX             |   00      | Anti Rust                                            | AA622F       |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .|      2 |           . |[<&pencil>]|[<&trash>]|*      
+        |   1   | AB12CD34EF             |   00      | Outer Box                                            | EE-122LX     |                    .| TMMIN          | TMMIN                                                 | 360    | 550   | 240  |         .| "  1"|           . |[<&pencil>]|[<&trash>]|*
+        |   2   | GH56IJ78KL             |   00      | Carton Sheet                                         | FF-FTB       |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  1"|           . |[<&pencil>]|[<&trash>]|*
+        |   3   | MN90OP12QR             |   00      | Plastic Sheet   '                                    | DD-5G        |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  1"|           . |[<&pencil>]|[<&trash>]|*
+        |   4   | ST34UV56WX             |   00      | Anti Rust                                            | AA622F       |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  2"|           . |[<&pencil>]|[<&trash>]|*      
       }      
     }
     'end pse input detail    
@@ -74,7 +74,7 @@
         "                       "
         "                       "
         "                       "
-      }|<size:80><&wrench>|<size:30><b>+|*
+      }|<size:80><&wrench>|*
     }
     --
     {#
@@ -83,7 +83,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:30><b>+|*
+      }|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|*
     }
     --
     {#
@@ -92,7 +92,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:30><b>+|*
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|*
     }
     {#
       |<b>QKP      : |{ 
@@ -100,7 +100,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:30><b>+|*
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|*
     }
     {#
       |<b>BKP      : |{ 
@@ -108,7 +108,7 @@
         "                        "
         "                        "
         "                        "
-      }|<size:80><&image>||<size:80><&image>|<size:30><b>+|*
+      }|<size:80><&image>||<size:80><&image>|*
     }
     --
     {*
@@ -116,16 +116,23 @@
     }
     --
     {
+      {
+        |Part Weight      |: | 300|*
+        |Packing Weight   |: | 330|*
+        |Packing Qty      |: |    3|*
+        |Pcs/Kanban       |: |    5|*
+      }*
+      .
       <b>OUTER
       --
       {|Module |(X)|      |Mesh Pallet|()|}*
       --
       {
-        {      Module Type     |: |"      " | [<&magnifying-glass>] | }*  
-          {
-            .|       Dimension     |: | 00 | x | 00 | x | 00 | cm <sup>3</sup> |*
-            .|       Inner         |: | 00 | m<sup>3</sup>                      |*
-            .|       Outer         |: | 00 | m<sup>3</sup>                      |*
+        {      Module Type     |: | T1B TAR  | [<&magnifying-glass>] | }*  
+
+            .|       Dimension     |: | 80 | x | 60 | x | 50 | cm <sup>3</sup> |*
+            .|       Inner         |: | 1,50 | m<sup>3</sup>                      |*
+            .|       Outer         |: | 1,55 | m<sup>3</sup>                      |*
           }
       }      
     }

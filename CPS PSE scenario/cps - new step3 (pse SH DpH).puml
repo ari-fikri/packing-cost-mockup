@@ -6,20 +6,20 @@
   ==
   {
     {
-      CPS No.      |:{|"                "|}|*
-      Ref CPS No.  |:{|"                "| [<&magnifying-glass>]}| *
-      CFC/Model Code  |:{|"         "| [<&magnifying-glass>]}|*
+      CPS No.      |:{|"CPS 301B DB01UB 25051BZ26000"|}
+      Ref CPS No.  |:{|"                 "| [<&magnifying-glass>]}| *      
+      CFC Model       |:{|"DX01UB      "| [<&magnifying-glass>]}
     }
     {
-      |      Project           |.|      |:|.|*
-      |      Impl. Period      |.|      |:|.|*
-    }   
-    { 
-      Part No         |.|            :{|"         "| [<&magnifying-glass>] | [<&spreadsheet>]}
+      |     |Destination     |:| 301B - Thailand |*
+      |     |Project Code    |:| 118D |*
     }
     {
-      |      Part Name        |.|        |:|.|*
-      |      Supplier         |.|        |:|.|*
+      Part No         |:{|"25051BZ260-00"| [<&magnifying-glass>] | [<&spreadsheet>]}
+    }
+    {
+      |     Part Name       |: | CONVERTER SUB-ASSY, EXHAUST MANIFOLD        |*
+      |     Supplier        |: | 5008 - KOMPONEN FUTABA       |*
     }    
   }
     {*
@@ -42,9 +42,10 @@
       }
       {
         Importer Line Process   '|:| ^ Trim ^ |*
-        Case Code                |:||*
-        Box Number               |:||*
-        Renban                   |:||*
+        Case Code                |:|  IM  |*
+        Box Number               |:{|A1|.|A2|.|A3|}*
+        Renban                   |:| L  |*
+        Packing Line             |:| AP  |*        
         {
           |<b>Packing Process |*        |* 
           . |Boxing    :          |{ ^ SUPPLIER ^ }|*  
@@ -110,13 +111,13 @@
       {|Module |(X)|      |Mesh Pallet|()|}*
       --
       {
-        {      Module Type     |: |"      " | [<&magnifying-glass>] | }*  
+        {      Module Type     |: | T1B TAR  | [<&magnifying-glass>] | }*  
           {
-            .|       Dimension     |: | 00 | x | 00 | x | 00 | cm <sup>3</sup> |*
-            .|       Inner         |: | 00 | m<sup>3</sup>                      |*
-            .|       Outer         |: | 00 | m<sup>3</sup>                      |*
+            .|       Dimension     |: | 80 | x | 60 | x | 50 | cm <sup>3</sup> |*
+            .|       Inner         |: | 1,50 | m<sup>3</sup>                      |*
+            .|       Outer         |: | 1,55 | m<sup>3</sup>                      |*        
           }
-      }    
+      }      
   }
   --
   {

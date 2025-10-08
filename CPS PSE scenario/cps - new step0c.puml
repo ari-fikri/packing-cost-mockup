@@ -1,0 +1,42 @@
+/'
+Sample search result
+'/
+@startsalt
+{
+  <size:25>CPS List |[<size:25><&x>]|*
+  ==
+  {
+    .|CPS No              |: {|"CPS301B               "|[<&magnifying-glass>] |}.|.|Ref CPS No          |: |"                   "|[<&magnifying-glass>]|*
+    .|CFC/Model           |: {|" 025J                 "|[<&magnifying-glass>] |}.|.|Project Code        |: |"                   "|[<&magnifying-glass>]|*
+    .|Destination         |: {|^All ^|  -  |}                .|.|CPS/PSI/ECI         |: {|^ CPS ^             |}*
+    .|<b>Part          |: |*
+    .|   Part No             |: {|"                 "|[<&magnifying-glass>]|}*
+    .|   Supplier Code       |: {|                  |}*    
+    .
+    .|<b>Assignment          |: |*
+    .|   From                |: {|"                   "|[<&people>]           |}.|.|To                  |: |"                   "|[<&people>]|*    
+    .|   Impl. Time          |: |^02.2025^     |.|.|Status        |: {| ^All^ |}*    
+  }
+  .
+  {|                                                                                                                                                                                                                             |[Filter <&magnifying-glass>]|[Clear <&x>]|}
+        {[Create CPS] | [Create PSI]|[Create ECI]|.|[Compare CPS]|.           |                        [Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|} *
+    --
+    {+
+      {#
+        '|<b> CPS No. |<b> Ref CPS No. |<b>DPI No|<b> Issued Date|<b>Effective Date|<b> CFC/Pjt   |<b> Model  |<b> # Parts        |<b> From               |<b> To                 |<b> Status       |<b>  Action   |*|*|*
+        |  <b>No  |             <b>CPS/PCI/ECI No.              | <b>CPS/PCI/ECI |                 <b>Ref CPS No.                 | <b>Impl. Time | <b>Project Code |   <b>Model   |        <b>Destination        |      <b> Part No      |          <b>From          |           <b>To           |     <b>Status     |   <b>Submit Date           |    <b>Action         |*
+        |   1     |  CPS301B025J111150Y03000                    |       CPS      | CPS811C025J111150Y03000                        | 02.2025       |    835W         |   025J       | 301B TAR Argentina           | 111150Y03000          | Khedi Asmoro (PSE)        | Cecep Gunadi (Aisin)      |     Submitted     |   <color:red><b>01/01/2025 |[<&layers>]|[<&trash>]|*
+        |   2     |.                                            |       CPS      | CPS811C025J111150Y03000                        | 02.2025       |    835W         |   025J       | 301B TAR Argentina           | 111150Y03000          | Khedi Asmoro (PSE)        |                           |       Draft       |.                           |.             |[<&trash>]|*
+        |   3     |  CPS301B286W220300Z05010                    |       CPS      | CPS302B286W220300Z05010                        | 02.2025       |    286W         |   025J       | 302B THA Thailand            | 220300Z05010          | Rani Kartika (Adm)        | Andi Wijaya (TMMIN)       |     Approved      |   10/10/2025               |[<&layers>]   |[<&trash>]|*
+        |   4     |  CPS301B385W330450Y06005                    |       CPS      | CPS402A385W330450Y06005                        | 02.2025       |    385W         |   025J       | 402A VNZ Venezuela           | 330450Y06005          | Lisa Hapsari (TMMIN)      | Ahmad Siregar (TRI)       |     Accepted      |   11/10/2025               |[<&layers>]   |[<&trash>]|*
+        |   5     |  CPS301B388W440550X07020                    |       CPS      | CPS511D388W440550X07020                        | 02.2025       |    388W         |   025J       | 501D PHI Philippines         | 440550X07020          | Dewi Putri (PSE)          | Fajar Bintang (Aisin)     |       Draft       |.                           |[<&layers>]   |[<&trash>]|*
+      }
+   }
+  --
+  {[Save] | [Cancel]|}*
+  --
+  {
+  << <  __1__  > >>  |'      3 <&chevron-bottom> per page |*
+  }  
+}
+@endsalt

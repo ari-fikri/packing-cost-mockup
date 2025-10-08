@@ -1,0 +1,6 @@
+{
+  {#
+    !include dpi-tbl-header.puml
+    !include dpi-tbl-data.puml
+  }
+}

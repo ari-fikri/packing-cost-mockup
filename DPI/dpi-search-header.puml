@@ -1,0 +1,13 @@
+{
+  /' Search Criteria Fields '/
+  {    
+      |Model        |: |^               ^|*
+      |Destination  |: |^               ^|*
+      |Part No      |: |"               "|[<&magnifying-glass>]|*
+      |Impl Period  |: |"               "|*
+  }
+  /' Search Buttons '/
+  {
+                                                                     |[Search<&magnifying-glass>]|[Clear<&x>]|*
+  }
+}
