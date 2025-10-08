@@ -3,11 +3,11 @@
   <size:15><b>Project - New|[<size:25><&x>]|*
   ==
   {
-    .|Project Code       |: |"            "|*
-    .|Project Name       |: |"                        "|*
+    .|Project Code       |: |" 286W       "|*
+    .|Project Name       |: |" Engine Redesign "|*
     .|Project Manager    |: {|" Arif Fikri "|[<&people>]|}*
-    .|Description        |: {SI|"                                "
-    .
+    .|Description        |: {SI|Complete redesign of the engine system 
+                           for improved perfomance 
     .|}*
   }
   .
@@ -18,8 +18,8 @@
   --
   {#
     | <b>No | <b>Model Code |     <b>Model Name     |           <b>Remark           |<b> Action |*
-    |    1  |    GGN155     | Innova Gasoline       | 1st Gen                       | [<&trash>]|*
-    |    2  |    TGN166     | Fortuner Diesel       | 2nd Gen                       | [<&trash>]|*
+    |    1  |    694W     | Innova Gasoline       | 1st Gen                       | [<&trash>]|*
+    |    2  |    758W     | Fortuner Diesel       | 2nd Gen                       | [<&trash>]|*
   }
   --
   {

@@ -8,7 +8,7 @@
     .|Related Models    |: {|"          "| [<&magnifying-glass>]|}*
     .|Project Manager |: {|"              "|[<&people>]|}*
   }
-  {|                                                                                              |[Filter <&magnifying-glass>]|[Clear <&x>]|}
+  {|                                                                                              |[Search <&magnifying-glass>]|[Clear <&x>]|}
   --
   {
     [Add Project <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*

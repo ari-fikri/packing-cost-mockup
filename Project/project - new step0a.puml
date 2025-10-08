@@ -8,7 +8,7 @@
     .|Related Models    |: {|"          "| [<&magnifying-glass>]|}*
     .|Project Manager |: {|"              "|[<&people>]|}*
   }
-  {|                                                                                              |[Filter <&magnifying-glass>]|[Clear <&x>]|}
+  {|                                                                                              |[Search <&magnifying-glass>]|[Clear <&x>]|}
   --
   {
     [Add Project <&plus>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
@@ -16,7 +16,7 @@
   --
   {#
     | <b>Project Code |        <b>Project Name         | <b>Project Manager |          <b>Models          |<b>     Action      |*|*|*
-    |       286W      | Engine Redesign                | Arif Fikri         | GGN155, TGN166              |[<&pencil>]|[<&layers>]|[<&trash>]|*
+    |       286W      | Engine Redesign                | Arif Fikri        | 694W, 758W              |[<&pencil>]|[<&layers>]|[<&trash>]|*
   }
   --
   {

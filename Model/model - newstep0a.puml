@@ -6,9 +6,10 @@
     .|Model Code        |: |"               "|[<&magnifying-glass>]|*
     .|Model Name        |: |"               "|*
     .|Destination       |: |"            "|[<&magnifying-glass>]|*
-    .|.|:|*
+    .|Implement. Period  |: |"    ."|*
+    .
   }*
-  {|                                                                                |[Filter <&magnifying-glass>]|[Clear <&x>]|}
+  {|                                                                                |[Search <&magnifying-glass>]|[Clear <&x>]|}
   --
   {
     [Add Model <&document>]|.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|* 
@@ -16,7 +17,7 @@
   --
   {#
     | <b>No | <b>Model Code |                <b>Model Name                 | <b>Dest Code |   <b>Dest Name   | <b># Parts |<b>        Remark        |<b> Action |*|*|*
-    |    1  |     188D      | Hilux                                       |    301B       | Argentina        |       26   | 8th Gen           |[<&pencil>]|[<&delete>]|*
+    |    1  |     188D      | Hilux Edit                                   |    301B       | Argentina        |       26   | 8th Gen           |[<&pencil>]|[<&delete>]|*
   }
   --
   {
