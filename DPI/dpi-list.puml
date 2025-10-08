@@ -1,0 +1,14 @@
+@startsalt
+{
+  <size:25>DPI List |[<size:25><&x>]|*
+  ==  
+  
+  !include dpi-search-header.puml
+  --
+  [Download DPI]
+  --
+  !include dpi-search-result.puml
+  --
+  !include ./components/pagination.puml
+}
+@@endsalt
