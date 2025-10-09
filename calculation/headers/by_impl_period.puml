@@ -1,0 +1,7 @@
+{
+  Model         |: {|^    All^|[<&magnifying-glass>]|}*
+  Impl. Period  |: {|^    02.2025^|[<&magnifying-glass>]|}*
+  Destination   |: {|^    All^|[<&magnifying-glass>]|}*
+  Part          |: {|^    All^|[<&magnifying-glass>]|}*  
+  .|.|.|.|                                              {[Calculate <&magnifying-glass>] | [Clear <&x>]}
+}

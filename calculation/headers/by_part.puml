@@ -1,0 +1,11 @@
+@startsalt
+{
+  Model         |: {|^    All^|[<&magnifying-glass>]|}*
+  Impl. Period  |: {|^    All^|[<&magnifying-glass>]|}*
+  Destination   |: {|^    All^|[<&magnifying-glass>]|}*  
+  Part          |: {|{SI |[X] 122810y110 00|   |[X] 130500y020 00|
+                        .
+                        |[X] 25051BZ1500 00|   |[X] 25051BZ260 00|}|[<&magnifying-glass>]|}*
+  .|.|.|.|                                              {[Calculate <&magnifying-glass>] | [Clear <&x>]}
+}
+@endsalt

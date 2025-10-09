@@ -1,0 +1,7 @@
+{
+  Model         |: {|^    All^|[<&magnifying-glass>]|}*
+  Impl. Period  |: {|^    All^|[<&magnifying-glass>]|}*
+  Destination   |: {|^722C -TMT -	THAILAND^|[<&magnifying-glass>]|}*
+  Part          |: {|^    All^|[<&magnifying-glass>]|}*  
+  .|.|.|.|                                              {[Calculate <&magnifying-glass>] | [Clear <&x>]}
+}
