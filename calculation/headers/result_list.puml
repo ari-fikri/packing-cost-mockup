@@ -1,0 +1,9 @@
+{
+  Code          |: {|^    All^|[<&magnifying-glass>]|}*
+  Model         |: {|^    All^|[<&magnifying-glass>]|}*
+  Impl. Period  |: {|^    All^|[<&magnifying-glass>]|}*
+  Destination   |: {|^    All^|[<&magnifying-glass>]|}*
+  Part          |: {|^    All^|[<&magnifying-glass>]|}*  
+  .|.|.|.|                                              {[Search <&magnifying-glass>] | [Clear <&x>]}
+
+}

@@ -1,0 +1,24 @@
+@startsalt
+{+
+  .|{
+    
+    <size:25><b>Packing Cost Calculation List|[<size:25><&x>]|*
+    ==
+    !include ./headers/result_list.puml    
+    --
+    {
+    |[Calculate Packing Cost] |* 
+    }
+    --
+    {#
+      | <b>No |          <b>CAL Code          | <b>Impl Period | <b>Dest Code | <b>Dest Country | <b>Model  Code |    <b>Status    |   <b>Calc Date   | <b># Parts |   <b>Action   |*
+    }
+    No Data Found
+    --
+    !include ./components/pagination.puml
+  }
+}
+@@endsalt
+
+
+

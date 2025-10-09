@@ -1,0 +1,28 @@
+@startsalt
+{+
+  .|{
+    
+    <size:25><b>Packing Cost Calculation List|[<size:25><&x>]|*
+    ==
+    !include ./headers/result_list.puml    
+    --
+    {
+    |[Calculate Packing Cost] |* 
+    }
+    --
+    {#
+      |<b>No|          <b>CAL Code          | <b>Impl Period | <b>Dest Code | <b>Dest Country | <b>Model  Code |    <b>Status               |   <b>Calc Date  | <b># Parts |<b> Action |*
+      |  1  | PAC024W-301B-TASA            |   02.2025      |     301B     |    Argentina    |      024W      | up-to-date                 |    09/10/2025    |   82       |[<&data-transfer-download>]|[<&trash>]|* 
+      |  2  | PAC332W-537B-TSM            |  02.2025       |     537B     |    South Africa |      332W      |  <b><color:#D82C20>outdated| 09/08/2025       |   90       |[<&data-transfer-download>]|[<&trash>]|* 
+      |  3  | PAC385W-812B-TASA            |  02.2025       |     812B     |    Malaysia     |      385W      | up-to-date                 |    10/04/2025    | 102        |[<&data-transfer-download>]|[<&trash>]|* 
+      |  4  | PAC024W-547A-TEE             |  02.2025       |     547A     |    Thailand     |      024W      | up-to-date                 |    13/02/2025    |   23       |[<&data-transfer-download>]|[<&trash>]|* 
+      |  5  | PAC286W-301B-TASA            |  02.2025       |     301B     |    Argentina    |      286W      | up-to-date                 |    06/07/2025    |   35       |[<&data-transfer-download>]|[<&trash>]|* 
+    }|
+    --
+    !include ./components/pagination.puml
+  }
+}
+@@endsalt
+
+
+
