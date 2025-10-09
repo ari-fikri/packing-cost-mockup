@@ -5,6 +5,8 @@
     ==
     !include ./headers/_generic.puml
     --
+    [<color:#9a9a9a>Download]
+    --
     {#
       !include calc_tbl_header.puml
     }
