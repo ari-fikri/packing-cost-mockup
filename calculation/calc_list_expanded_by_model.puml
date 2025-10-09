@@ -5,16 +5,18 @@
   !endsub
 
 @startsalt 
-{
-  <size:25><b>Packing Cost Calculation New|[<size:25><&x>]|*
-  ==
-  !include ./headers/by_model.puml
-  --
-  [Download]
-  --
-  !include calc_result_expanded.puml
-  --
-  !include ./components/pagination.puml
+{+
+  .|{
+    <size:25><b>Packing Cost Calculation New|[<size:25><&x>]|*
+    ==
+    !include ./headers/by_model.puml
+    --
+    [Download]
+    --
+    !include calc_result_expanded.puml
+    --
+    !include ./components/pagination.puml
+  }
 }
 @endsalt
 
