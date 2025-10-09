@@ -1,0 +1,14 @@
+@startsalt
+{
+  <size:25><b>Packing Cost Calculation New|[<size:25><&x>]|*
+  ==
+  !include calc_header.puml
+  --
+  {#
+    !include calc_tbl_header.puml
+  }
+  No Data Found
+
+  !include ./components/pagination.puml
+}
+@endsalt

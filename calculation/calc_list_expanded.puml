@@ -1,0 +1,21 @@
+@startuml
+  !startsub ABC
+    |. |=PART|*|*|*|*|*|*|*|*|*|=INNER |*|*|=OUTER | *|*|=MATERIAL|*|*|=LABOR|*|*|=INLAND|*|*|=TOTAL         |*|*|*
+    |. |<b> Part No |<b> Suffix |<b> Part Name                        | <b> Parent Part No |<b> Supplier ID |<b> Supplier Name                                        |<b> L |<b> W |<b> H |Box M3|<b>Total Cost      |<b> Prev Year|<b>Diff|<b>Total Cost|<b> Prev Year|<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|<b> Total Cost |<b>Prev Year |<b>Diff|* 
+  !endsub
+
+@startsalt 
+{
+  <size:25><b>Packing Cost Calculation New|[<size:25><&x>]|*
+  ==
+  !include calc_header.puml
+  --
+  [Download]
+  --
+  !include calc_result_expanded.puml
+  --
+  !include ./components/pagination.puml
+}
+@endsalt
+
+@enduml

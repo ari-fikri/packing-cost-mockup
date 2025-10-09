@@ -1,0 +1,5 @@
+'calc_result_expanded.pum
+  {
+    !include_once calc_tbl_data_expanded.puml
+    !include_once calc_tbl_data_collapsed.puml
+  }

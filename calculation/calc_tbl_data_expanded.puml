@@ -1,0 +1,13 @@
+'calc_tbl_data_expanded.puml
+
+{#
+  !includesub calc_list_expanded.puml!ABC
+  |<b> <&chevron-bottom> |122810Y110   | 00       |HANGER, ENGINE, NO.1                           |            .       |5307-1          | SETIA GUNA SEJATI                                   | 1200 | 350  | 300  |      0.8|      10200  |     10000   |  3%   |     10200   |     10000   |  3%   |      10200    |   10000       |  3% |      10200    |    10000    |  3%   |      10200    |   10000     |  3%   |      10200    |     10000    |  3%|*
+}* 
+
+!include calc_tbl_data_dtl_expanded.puml
+.
+
+
+
+

@@ -1,0 +1,33 @@
+      {.|.|.|<b>INNER |}*  
+      {
+        .|.|.|{#
+          |               <b>Material 1 |*|*|*            |               <b>Material 2 |*|*|*                    |               <b>Material 3 |*|*|*         |               <b>Material 4 |*|*|*                              |               <b>Material 5 |*|*|*                             |               <b> Material6 |*|*|*                                  |               <b> Material 7 |*|*|*                                 |               <b>Material 8 |*|*|*               |               <b> Material 9 |*|*|*              |               <b> Material 10 |*|*|*|*
+          |        <b>Part No|<b>Qty    |<b>Price  |<b>Sum|        <b>Part No           |<b>Qty|<b>Price   |<b>Sum|        <b>Part No|<b>Qty|<b>Price  |<b>Sum |        <b>Part No                   |<b>Qty|<b>Price   |<b>Sum  |        <b>Part No                    |<b>Qty|<b>Price |<b>Sum  |        <b>Part No                        |<b>Qty|<b>Price  |<b>Sum  |        <b>Part No                    |<b>Qty|<b>Price  |<b>Sum      |        <b>Part No     |<b>Qty|<b>Price  |<b>Sum  |        <b>Part No     |<b>Qty|<b>Price  |<b>Sum  |        <b>Part No             |<b>Qty|<b>Price  |<b>Sum  |*
+          |33504-BZ292-C1    ||    1    | 1500     | 1500 |33504-BZ292-C1               |    1 | 1500      | 1500 |33504-BZ292-C1    |    1 | 1500     | 1500  |33504-BZ292-C1                       |    1 | 1500      |1500    |33504-BZ292-C1                        |    1 | 1500    | 1500   |33504-BZ292-C1                            |    1 | 1500    |1500     |33504-BZ292-C1                        |    1 | 1500     | 1500       |33504-BZ292-C1 |    1 | 1500    | 1500            |33504-BZ292-C1         |    1 | 1500     | 1500   |33504-BZ292-C1                 |    1  | 1500    | 1500   |*                        
+         
+        }
+      }*
+      {.|.|.|<b>OUTER |}*
+      {
+        .|.|.|{#
+          |               <b>Material 1 |*|*|*            |               <b>Material 2 |*|*|*                    |               <b>Material 3 |*|*|*         |               <b>Material 4 |*|*|*                              |               <b>Material 5 |*|*|*                             |               <b> Material6 |*|*|*                                  |               <b> Material 7 |*|*|*                                 |               <b>Material 8 |*|*|*               |               <b> Material 9 |*|*|*              |               <b> Material 10 |*|*|*|*
+          |        <b>Part No|<b>Qty    |<b>Price  |<b>Sum|        <b>Part No           |<b>Qty|<b>Price   |<b>Sum|        <b>Part No|<b>Qty|<b>Price  |<b>Sum |        <b>Part No                   |<b>Qty|<b>Price   |<b>Sum  |        <b>Part No                    |<b>Qty|<b>Price |<b>Sum  |        <b>Part No                        |<b>Qty|<b>Price  |<b>Sum  |        <b>Part No                    |<b>Qty|<b>Price  |<b>Sum      |        <b>Part No     |<b>Qty|<b>Price  |<b>Sum  |        <b>Part No     |<b>Qty|<b>Price  |<b>Sum  |        <b>Part No             |<b>Qty|<b>Price  |<b>Sum  |*
+          |33504-BZ292-C1    ||    1    | 15packing-cost-mockup/PPR/PPR - newstep1c.puml00     | 1500 |33504-BZ292-C1               |    1 | 1500      | 1500 |33504-BZ292-C1    |    1 | 1500     | 1500  |33504-BZ292-C1                       |    1 | 1500      |1500    |33504-BZ292-C1                        |    1 | 1500    | 1500   |33504-BZ292-C1                            |    1 | 1500    |1500     |33504-BZ292-C1                        |    1 | 1500     | 1500       |33504-BZ292-C1 |    1 | 1500    | 1500            |33504-BZ292-C1         |    1 | 1500     | 1500   |33504-BZ292-C1                 |    1  | 1500    | 1500   |*                        
+         
+        }
+      }*        
+      {.|.|.|<b>LABOR |}*  
+      {
+        .|.|.|{#
+          |                                                                                                                                  <b>Man Hour Requirement |*|*|*|*|*|*|*|*|*|*|*                                                                                                                                                   |                                     <b> Labor Cost                |*|*|*|*|*
+          |<b>Receiving     |<b>Inspection|<b>Delivery Course  |<b>(Pallet) Supply|<b>Binding|<b>Sorting & Supply  |<b>Pick & Packing|<b>Vanning|<b>Box/Valet Return  |<b>Mix Van|<b>Lashing|<b>Total Time  | <b>Requirement|<b>Current|<b>DL  |<b> <b>IDL|<b>Facility Others|*
+          |33504-BZ292-C1   |1            | 1500               |33504-BZ292-C1    |1         | 1500                |33504-BZ292-C1   |1         | 1500                |33504-BZ2|1          | 1500          |33504-BZ292-C1 |1         | 1500  |33504-BZ2 |1                 |*
+        }
+      }
+      {.|.|.|<b>INLAND |}*  
+      {
+        .|.|.|{#
+          |<b>Pack Time(V-PASS)|<b>Inland Cost|<b>Inland Cost M3  |<b>Diff        |<b>Milkrun cost|*
+          |33504-BZ292-C1      |1             | 1500              |3%             |1              |*
+        }
+      }*
