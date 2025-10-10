@@ -1,7 +1,7 @@
 @startuml
 @startsalt
 {
-  <b><size:20>CPS - New |[<size:25><&x>]|*
+  {<b><size:20>CPS - New |                                                                                                                                                                                                                                                            |[<size:15> Download <&data-transfer-download>]|} [<size:25><&x>]|*
   ==
   {
     {
