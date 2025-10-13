@@ -1,0 +1,11 @@
+@startsalt
+{
+  !include ./components/cps-list-search-header.puml
+  --
+  !include ./components/cps-list-action-buttons.puml
+  --
+  !include ./components/cps-list-tbl-header.puml
+  No Data Found
+  --
+  !include .././components/pagination.puml
+}

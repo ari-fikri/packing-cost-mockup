@@ -1,0 +1,20 @@
+{
+  <size:25>CPS List |[<size:25><&x>]|*
+  ==
+  {
+    .|CPS/PSI/ECI No      |: {|"                   "|[<&magnifying-glass>] |}.|.|Ref CPS No          |: |"                   "|[<&magnifying-glass>]|*
+    .|CFC/Model           |: {|"                   "|[<&magnifying-glass>] |}.|.|Project Code        |: |"                   "|[<&magnifying-glass>]|*
+    .|Destination         |: {|^301B ^|    TAR - Argentina |}                .|.|CPS/PSI/ECI         |: {|^ CPS ^             |}*
+    .|<b>Part          |: |*
+    .|   Part No             |: {|"                 "|[<&magnifying-glass>]|}*
+    .|   Supplier Code       |: {|                  |}*    
+    .
+    .|<b>Assignment          |: |*
+    .|   From                |: {|"                   "|[<&people>]           |}.|.|To                  |: |"                   "|[<&people>]|*
+    .|Implementation Time |: |^02.2025^     |.|.|Status        |: {| ^Any^ |}*    
+  }
+  .
+  .
+  .
+  {|                                                                                                                                                                        |[Filter <&magnifying-glass>]|[Clear <&x>]|}
+}
