@@ -1,5 +1,7 @@
 @startsalt
 {
+  <size:25>CPS List |[<size:25><&x>]|*
+  ==
   !include ./components/cps-list-search-header.puml
   --
   !include ./components/cps-list-action-buttons.puml
