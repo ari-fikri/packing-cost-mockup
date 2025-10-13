@@ -1,0 +1,16 @@
+    {
+      CPS No.      |:{|"                "|}|*
+      Ref CPS No.  |:{|"                "| [<&magnifying-glass>]}| *
+      CFC/Model Code  |:{|"         "| [<&magnifying-glass>]}|*
+    }
+    {
+      |      Project           |.|      |:|.|*
+      |      Impl. Period      |.|      |:|.|*
+    }   
+    { 
+      Part No         |.|            :{|"         "| [<&magnifying-glass>] | [<&spreadsheet>]}
+    }
+    {
+      |      Part Name        |.|        |:|.|*
+      |      Supplier         |.|        |:|.|*
+    }

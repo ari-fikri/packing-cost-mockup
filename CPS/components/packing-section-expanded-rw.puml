@@ -1,0 +1,29 @@
+{  
+  {*
+    <b><size:14> <&chevron-bottom> Packing
+  }
+  --
+  {
+    {
+      |Part Weight      |: |"  300"|*
+      |Packing Weight   |: |"  330"|*
+      |Packing Qty      |: |"     3"|*
+      |Pcs/Kanban       |: |"     5"|*
+    }*
+    .
+    <b>OUTER 
+    --
+    {|Module |(X)|      |Mesh Pallet|()|}*
+    --
+    {
+      {      Module Type     |: |"T1B TAR " | [<&magnifying-glass>] | }*  
+      {
+        .|       Dimension     |: | 80 | x | 50 | x | 60 | cm <sup>3</sup> |*
+        .|       Inner         |: | 1,50 | m<sup>3</sup>                      |*
+        .|       Outer         |: | 1,55 | m<sup>3</sup>                      |*
+      }
+    }
+  }
+  --
+  !include ./components/inner-tbl-rw.puml
+}

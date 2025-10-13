@@ -1,0 +1,33 @@
+@startsalt
+{
+  {*
+    <b><size:14> <&chevron-bottom> PSE Info
+  }
+  'pse inputed fields
+  { 
+    {
+      |<b>    Packing Plant |*        |  .      | <b>       Vanning Plant |*             |*
+      |Curr  :          |{ ^ STR 1 ^ }|  .      |Curr  :           |{ ^ STR 1 ^ }      |*
+      |Next  :          |{ ^ STR 1 ^ }|  .      |Next  :           |{ ^ STR 1 ^ }      |*      
+    }
+    .
+    {
+      {Category       |:| { ^ Trim ^ }|}*
+    }
+    {
+      Importer Line Process   '|:|^ Trim ^|*
+      Case Code                |:|" IM "|*
+      Box Number               |:|" A1 "|" A2 "|" A3 "|*
+      Renban                   |:|"L "|*
+      Packing Line             |:|"AP "|*
+      {
+        |<b>Packing Process |*        |* 
+        . |Boxing    :          |{ ^ SUPPLIER ^ }|*  
+        . |Stacking  :          |{ ^  TMMIN   ^ }|*  
+      }
+    }
+  }
+  --
+  !include outer-tbl-rw.puml
+}
+@endsalt
