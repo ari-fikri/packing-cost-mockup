@@ -1,0 +1,25 @@
+@startsalt
+{
+<size:15><b>Parameters|[<size:25><&x>]|*
+==
+{/ Inland |<b>Labor Cost | Man Hour | Others}*
+  
+  .
+    {
+    .|Period                           |:|^           ^|*
+    .|Direct Labor Rate (DL)  Rp/Hour  |:|"           "|*
+    .|Indirect Labor Rate (IDL) Rp/M3  |:|"           "|*
+    .|Facility Others Rate             |:|"           "|*
+  }
+  --
+  {
+    [Save]|[Cancel]
+  }
+
+
+
+
+
+
+}
+@endsalt

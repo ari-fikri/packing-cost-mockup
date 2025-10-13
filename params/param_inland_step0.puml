@@ -1,0 +1,21 @@
+@startsalt
+{
+<size:15><b>Parameters|[<size:25><&x>]|*
+==
+{/ <b>Inland | Labor Cost | Man Hour | Others}*
+  
+  .
+  {
+    .|Period                          |:|^           ^|*
+    .|Container Volume M3             |:|"           "|*
+    .|40 feet container rent rate     |:|"           "|*
+    .|20 feet container rent rate     |:|"           "|*
+    .|Milkrun rate (per m3)           |:|"           "|*
+    .|Milkrun efficiency rate   (%)   |:|"           "|*
+  }
+  --
+  {
+    [Save]|[Cancel]
+  }
+}
+@endsalt

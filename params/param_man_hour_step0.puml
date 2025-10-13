@@ -1,0 +1,30 @@
+@startsalt
+{
+<size:15><b>Parameters|[<size:25><&x>]|*
+==
+{/ Inland | Labor Cost |<b> Man Hour | Others}*
+  
+  .
+  {
+    |Period                         |:|^           ^|*
+    |Receiving                      |:|"           "|*
+    |Inspection                     |:|"           "|*
+    |Delivery Course                |:|"           "|*
+    |Supply (Pallet)                |:|"           "|*
+    |Sorting & Supply(Non Pallet)   |:|"           "|*
+    |Pick & Packing                 |:|"           "|*
+    |Vanning                        |:|"           "|*
+    |Empty Box/Pallet Return        |:|"           "|*
+  }
+  --
+  {
+    [Save]|[Cancel]
+  }
+
+
+
+
+
+
+}
+@endsalt
