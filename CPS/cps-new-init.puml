@@ -4,7 +4,7 @@
   <b><size:20>CPS - New |[<size:25><&x>]|*
   ==
   {
-    !include ./components/search-header-empty.puml
+    !include ./components/form-header-empty.puml
     --
     !include ./components/logistic-section-collapsed.puml
     --
