@@ -1,0 +1,41 @@
+@startsalt
+{
+  {*
+    <b><size:14> <&chevron-bottom> PSE Info
+  }
+  'pse inputed fields
+  { 
+    {
+      |<b>    Packing Plant |*        |  .      | <b>       Vanning Plant |*             |*
+      |Curr  :          |{ ^       ^ }|  .      |Curr  :           |{ ^       ^ }      |*
+      |Next  :          |{ ^       ^ }|  .      |Next  :           |{ ^       ^ }      |*      
+    }
+    .
+    {
+      {Category       |:| { ^      ^ }|}*
+    }
+    {
+      Importer Line Process   '|:|^      ^|*
+      Case Code                |:|"    "|*
+      Box Number               |:|"    "|"    "|"   "|*
+      Renban                   |:|"    "|*
+      Packing Line             |:|"    "|*
+      {
+        |<b>Packing Process |*        |* 
+        . |Boxing    :          |{ ^          ^ }|*  
+        . |Stacking  :          |{ ^          ^ }|*  
+      }
+    }
+  }
+  --
+  {
+    |<b>OUTER   |[<size:10>add <&plus>] |*
+  }
+  {#
+    !include ./outer-tbl-header.puml
+  }
+  No Data Found
+  --
+  !include ../../components/pagination.puml
+}
+@endsalt
