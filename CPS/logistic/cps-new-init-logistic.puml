@@ -10,7 +10,7 @@
       <b><size:14> <&chevron-bottom>Logistic Information
     }
     {
-      !include ../components/logistic-section-expanded-rw.puml
+      !include ../components/logistic-section-empty-expanded-rw.puml
     }
     --
     !include ../components/pse-section-collapsed.puml

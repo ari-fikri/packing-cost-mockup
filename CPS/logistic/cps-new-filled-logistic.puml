@@ -4,20 +4,20 @@
   <b><size:20>CPS - New |[<size:25><&x>]|*
   ==
   {
-    !include ./components/form-header-filled.puml
+    !include ../components/form-header-filled.puml
     --
     {*
       <b><size:14> <&chevron-bottom>Logistic Information
     }
     {
-      !include ./components/logistic-section-expanded-rw.puml
+      !include ../components/logistic-section-filled-expanded-rw.puml
     }
     --
-    !include ./components/pse-section-collapsed.puml
+    !include ../components/pse-section-collapsed.puml
     --
-    !include ./components/images-section-collapsed.puml
+    !include ../components/images-section-collapsed.puml
     --
-    !include ./components/packing-section-collapsed.puml
+    !include ../components/packing-section-collapsed.puml
     --
     Note :
     {SI
