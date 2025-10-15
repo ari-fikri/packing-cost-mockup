@@ -1,0 +1,36 @@
+@startsalt
+{  
+  {*
+    <b><size:14> <&chevron-bottom> Packing
+  }
+  --
+  {
+    {
+      |Part Weight      |: |"     "|*
+      |Packing Weight   |: |"     "|*
+      |Packing Qty      |: |"     "|*
+      |Pcs/Kanban       |: |"     "|*
+    }*
+    .
+    <b>OUTER 
+    --
+    {|Module |()|      |Mesh Pallet|()|}*
+    --
+    {
+      {      Module Type     |: |"       " | [<&magnifying-glass>] | }*  
+      {
+        .|       Dimension     |: {| 00 | x | 00 | x | 00 |} cm <sup>3</sup> |*
+        .|       Inner         |: {| 0,00 | m<sup>3</sup>}                      |*
+        .|       Outer         |: {| 0,00 | m<sup>3</sup>}                      |*
+      }
+    }
+  }
+  --
+  {
+    |<b>INNER   | [<size:10>add <&plus>] |*
+  }
+  {#
+    !include ../components/inner-tbl-header.puml
+  }
+  No Data Found
+}

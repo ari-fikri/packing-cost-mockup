@@ -1,0 +1,46 @@
+{*
+  <b><size:14> <&chevron-bottom> Images
+}
+--
+{#
+  |<b>Part        :|{ 
+    <b>Caption: 
+    "                       "
+    "                       "
+    "                       "
+  }|<size:30><b>+|*
+}
+--
+{#
+  |<b>Packing : |{ 
+    <b>Caption: 
+    "                        "
+    "                        "
+    "                        "
+  }|<size:30><b>+|*
+}
+--
+{#
+  |<b>Outer    : |{ 
+    <b>Caption: 
+    "                        "
+    "                        "
+    "                        "
+  }|<size:30><b>+|*
+}
+{#
+  |<b>QKP      : |{ 
+    <b>Caption: 
+    "                        "
+    "                        "
+    "                        "
+  }|<size:30><b>+|*
+}
+{#
+  |<b>BKP      : |{ 
+    <b>Caption: 
+    "                        "
+    "                        "
+    "                        "
+  }|<size:30><b>+|*
+}

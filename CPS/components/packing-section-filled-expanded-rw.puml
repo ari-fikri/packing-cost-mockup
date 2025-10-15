@@ -1,0 +1,38 @@
+{
+  {*
+    <b><size:14> <&chevron-bottom> Packing
+  }
+  --
+  {
+    {
+      |Part Weight      |: |" 300"|*
+      |Packing Weight   |: |" 330"|*
+      |Packing Qty      |: |"   3"|*
+      |Pcs/Kanban       |: |"   5"|*
+    }*
+    .
+    <b>OUTER
+    --
+    {|Module |(X)|      |Mesh Pallet|()|}*
+    --
+    {
+      {      Module Type     |: |" T1B TAR "| [<&magnifying-glass>] | }*  
+        {
+          .|       Dimension     |: | 80 | x | 60 | x | 50 | cm <sup>3</sup> |*
+          .|       Inner         |: | 1,50 | m<sup>3</sup>                      |*
+          .|       Outer         |: | 1,55 | m<sup>3</sup>                      |*        
+        }
+    }
+  }
+  --
+  {
+    |<b>OUTER   | [<size:10>add <&plus>] |*
+  }
+  {#
+    | <b>No |     <b>Material No     | <b>Suffix |                   <b>Material Name                   |   <b>ItemNo  |   <b>Parent Mat     | <b>Supplier ID  |                   <b>Supplier Name                   | <b>L   | <b>W  | <b>H | <b>wt/pc | <b>Qty | <b>Total Wt | <b>Action |*
+    |   1   | AB12CD34EF             |   00      | Outer Box                                            | EE-122LX     |                    .| TMMIN          | TMMIN                                                 | 360    | 550   | 240  |         .| "  1"|           . |[<&pencil>]|[<&trash>]|*
+    |   2   | GH56IJ78KL             |   00      | Carton Sheet                                         | FF-FTB       |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  1"|           . |[<&pencil>]|[<&trash>]|*
+    |   3   | MN90OP12QR             |   00      | Plastic Sheet   '                                    | DD-5G        |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  1"|           . |[<&pencil>]|[<&trash>]|*
+    |   4   | ST34UV56WX             |   00      | Anti Rust                                            | AA622F       |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  2"|           . |[<&pencil>]|[<&trash>]|*    
+  }
+}

@@ -1,0 +1,35 @@
+@startuml
+@startsalt
+{+
+  .|{
+    <b><size:20>CPS - New |[<size:25><&x>]|*
+    ==
+    {
+      !include ../components/form-header-filled.puml
+      --
+      !include ../components/logistic-section-collapsed.puml
+      --
+      !include ../components/pse-section-collapsed.puml
+      --
+      !include ../components/packing-images-empty-expanded-rw.puml
+      --
+      !include ../components/packing-section-empty-expanded-rw.puml
+      --
+      Note :
+      {SI
+        "                                          "
+        .
+        .
+        .
+      }
+    }
+    {[Save <&media-record>] | [Submit <&data-transfer-upload>]}
+    .
+    .
+    <b>List of Notes:
+    --
+    <i>No Data Found
+  }
+}
+@endsalt
+@enduml

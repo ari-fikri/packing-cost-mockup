@@ -1,0 +1,45 @@
+    {*
+      <b><size:14> <&chevron-bottom> Images
+    }
+    {#
+      |<b>Part        :|{ 
+        <b>Caption: 
+        "                       "
+        "                       "
+        "                       "
+      }|<size:80><&wrench>|<size:30><b>+|*
+    }
+    --
+    {#
+      |<b>Packing : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|<size:80><&box>|*
+    }
+    --
+    {#
+      |<b>Outer    : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|*
+    }
+    {#
+      |<b>QKP      : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&image>|<size:80><&image>|<size:80><&image>|<size:80><&image>|*
+    }
+    {#
+      |<b>BKP      : |{ 
+        <b>Caption: 
+        "                        "
+        "                        "
+        "                        "
+      }|<size:80><&image>||<size:80><&image>|*
+    }

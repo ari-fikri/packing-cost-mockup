@@ -15,7 +15,7 @@
       {Category       |:| { ^      ^ }|}*
     }
     {
-      Importer Line Process   '|:|^      ^|*
+      Importer Line Process    |:|^      ^|*
       Case Code                |:|"    "|*
       Box Number               |:|"    "|"    "|"   "|*
       Renban                   |:|"    "|*

@@ -25,5 +25,5 @@
     }
   }
   --
-  !include ./components/inner-tbl-rw.puml
+  !include ../components/inner-tbl-rw.puml
 }
