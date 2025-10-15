@@ -1,38 +1,40 @@
 @startuml
 @startsalt
-{
-  <b><size:20>CPS - New |[<size:25><&x>]|*
-  ==
-  {
-    !include ../components/form-header-filled.puml
-    --
-    {*
-      <b><size:14> <&chevron-bottom>Logistic Information
-    }
+{+
+  .|{
+    <b><size:20>CPS - New |[<size:25><&x>]|*
+    ==
     {
-      !include ../components/logistic-section-filled-expanded-rw.puml
+      !include ../components/form-header-filled.puml
+      --
+      {*
+        <b><size:14> <&chevron-bottom>Logistic Information
+      }
+      {
+        !include ../components/logistic-section-filled-expanded-rw.puml
+      }
+      --
+      !include ../components/pse-section-collapsed.puml
+      --
+      !include ../components/images-section-collapsed.puml
+      --
+      !include ../components/packing-section-collapsed.puml
+      --
+      Note :
+      {SI
+        "                                          "
+        .
+        .
+        .
+      }
     }
+    {[Save <&media-record>] | [Submit <&data-transfer-upload>]}
+    .
+    .
+    <b>List of Notes:
     --
-    !include ../components/pse-section-collapsed.puml
-    --
-    !include ../components/images-section-collapsed.puml
-    --
-    !include ../components/packing-section-collapsed.puml
-    --
-    Note :
-    {SI
-      "                                          "
-      .
-      .
-      .
-    }
+    <i>No Data Found   
   }
-  {[Save <&media-record>] | [Submit <&data-transfer-upload>]}
-  .
-  .
-  <b>List of Notes:
-  --
-  <i>No Data Found   
 }
 @endsalt
 @enduml
