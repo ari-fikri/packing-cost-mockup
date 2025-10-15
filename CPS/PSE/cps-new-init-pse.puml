@@ -1,33 +1,35 @@
 @startuml
 @startsalt
-{
-  <b><size:20>CPS - New |[<size:25><&x>]|*
-  ==
-  {
-    !include ../components/form-header-empty.puml
-    --
-    !include ../components/logistic-section-collapsed.puml
-    --
-    !include ../components/pse-section-init-expanded.puml
-    --
-    !include ../components/images-section-collapsed.puml
-    --
-    !include ../components/packing-section-collapsed.puml
-    --
-    Note :
-    {SI
-      "                                          "
-      .
-      .
-      .
+{+
+  .|{
+    <b><size:20>CPS - New |[<size:25><&x>]|*
+    ==
+    {
+      !include ../components/form-header-empty.puml
+      --
+      !include ../components/logistic-section-collapsed.puml
+      --
+      !include ../components/pse-section-init-expanded.puml
+      --
+      !include ../components/images-section-collapsed.puml
+      --
+      !include ../components/packing-section-collapsed.puml
+      --
+      Note :
+      {SI
+        "                                          "
+        .
+        .
+        .
+      }
     }
+    {[Save <&media-record>] | [Submit <&data-transfer-upload>]}
+    .
+    .
+    <b>List of Notes:
+    --
+    <i>No Data Found
   }
-  {[Save <&media-record>] | [Submit <&data-transfer-upload>]}
-  .
-  .
-  <b>List of Notes:
-  --
-  <i>No Data Found   
 }
 @endsalt
 @enduml
