@@ -3,7 +3,7 @@
     |<b>OUTER   |[<size:10>add <&plus>] |*
   }
   {#
-    | <b>No |     <b>Material No     | <b>Suffix |                   <b>Material Name                   |   <b>ItemNo  |   <b>Parent Mat     | <b>Supplier ID  |                   <b>Supplier Name                   | <b>L   | <b>W  | <b>H | <b>wt/pc | <b>Qty | <b>Total Wt | <b>Action |*
+    !include ./outer-tbl-header.puml
     |   1   | AB12CD34EF             |   00      | Outer Box                                            | E122L        |                    .| TMMIN          | TMMIN                                                 | 360    | 550   | 240  |         .| "   1" |           . |[<&pencil>]|[<&trash>]|*
     |   2   | GH56IJ78KL             |   00      | Carton Sheet                                         | FFFT         |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "   1" |           . |[<&pencil>]|[<&trash>]|*
     |   3   | MN90OP12QR             |   00      | Plastic Sheet   '                                    | DD25G        |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "   1" |           . |[<&pencil>]|[<&trash>]|*
