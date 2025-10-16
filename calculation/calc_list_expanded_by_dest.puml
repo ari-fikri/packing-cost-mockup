@@ -7,11 +7,11 @@
 @startsalt 
 {+
   .|{
-    <size:25><b>Packing Cost Calculation New|[<size:25><&x>]|*
+    !include ./headers/page_title.puml
     ==
     !include ./headers/by_destination.puml
     --
-    [Download]
+    [ Save ]
     --
     !include calc_result_expanded.puml
     --
