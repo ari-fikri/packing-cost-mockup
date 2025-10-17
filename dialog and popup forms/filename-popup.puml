@@ -1,0 +1,12 @@
+@startsalt
+{+
+  {
+    .
+    .|{
+      {|Calc Code |:| "                                        "|}*
+      --|--|*
+      {                                                                |[ Save ]| [ Cancel ]|}*
+    }
+  }
+}
+@endsalt
