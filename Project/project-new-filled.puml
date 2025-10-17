@@ -1,0 +1,21 @@
+@startsalt
+{
+  <size:15><b>Project - New|[<size:25><&x>]|*
+  ==
+  !include ./components/form_header_filled.puml
+  .
+  --
+  !include ./components/action_buttons.puml
+  --
+  {#
+    !include ./components/model_tbl_header.puml
+    |    1  |    694W     | Innova Gasoline       |     301B | Argentina    | 1st Gen                       | [<&trash>]|*
+    |    2  |    758W     | Fortuner Diesel       |     537B | South Africa | 2nd Gen                       | [<&trash>]|*    
+  }
+  --
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+==
+}
+@endsalt

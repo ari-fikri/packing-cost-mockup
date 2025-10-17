@@ -1,0 +1,20 @@
+@startsalt
+{
+  <size:15><b>Project - New|[<size:25><&x>]|*
+  ==
+  !include ./components/form_header_empty.puml
+  .
+  --
+  !include ./components/action_buttons.puml
+  --
+  {#
+    !include ./components/model_tbl_header.puml
+  }
+  No Data Found
+  --
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+==
+}
+@endsalt
