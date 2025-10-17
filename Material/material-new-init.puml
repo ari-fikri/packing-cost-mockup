@@ -9,8 +9,6 @@
     }
     --
     !include ./components/save-cancel-buttons.puml
-    --
-    !include ../components/pagination.puml    
   }  
 }
 @endsalt
