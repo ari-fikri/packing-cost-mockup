@@ -1,0 +1,9 @@
+{
+  |Item No            |: |"           "|[<&magnifying-glass>]|*
+  |Material Name      |: |"           "|*
+  |eWarehouse Item No |: |"           "|[<&magnifying-glass>]|*
+  |Price              |: |"           "|[<&magnifying-glass>]|*
+  |Material Type      |: | { ^Inner^Outer^Module^ } |*
+}
+  {|                                                                                           |[Search <&magnifying-glass>]|[Clear <&x>]|}
+  

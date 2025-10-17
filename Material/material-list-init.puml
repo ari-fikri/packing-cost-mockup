@@ -1,0 +1,18 @@
+@startsalt
+{+
+  .|{
+    !include ./components/page-title.puml
+    ==
+    !include ./components/list-search-header-empty.puml
+    --
+    !include ./components/action-buttons.puml
+    --
+    {#
+      !include ./components/list-tbl-header.puml
+    }
+    No Data Found
+    --
+    !include ../components/pagination.puml    
+  }
+}
+@endsalt
