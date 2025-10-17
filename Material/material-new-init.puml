@@ -1,0 +1,16 @@
+@startsalt
+{+
+  .|{
+    !include ./components/page-crud-title.puml
+    *
+    ==
+    {
+      !include ./components/form-header-new-empty.puml
+    }
+    --
+    !include ./components/save-cancel-buttons.puml
+    --
+    !include ../components/pagination.puml    
+  }  
+}
+@endsalt

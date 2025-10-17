@@ -1,0 +1,23 @@
+
+ |Item No         |: |"          "|[Search eWH <&flash>]|*
+ |Material Name   |: |"                           "|*
+ |Price           |: |"          "|*
+ |Material Type   |: | { ^Inner^Outer^Module^ } |*
+ .  
+ .
+ 
+ |Supplier Code    |:{|"          "|[<&magnifying-glass>]|} *
+  {
+    |    Supplier Name   |: | |*
+    |    Address         |: | |*
+    |    Plant Code      |: | |*
+  }*
+
+ |E-Warehouse       | *
+    |    Item No   |: |"         "|*
+    |    Price     |: |"         "|*
+ |Dimension|*
+    |    Length (mm)   |: |"      "|            |Weight/PC (gr)    |: |"     "|*
+    |    Width (mm)    |: |"      "|            |Qty/Box           |: |"     "|*
+    |    Height (mm)   |: |"      "|            |Total Weight (gr) |: |"     "|*
+

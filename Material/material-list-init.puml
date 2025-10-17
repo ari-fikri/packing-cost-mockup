@@ -1,7 +1,7 @@
 @startsalt
 {+
   .|{
-    !include ./components/page-title.puml
+    !include ./components/page-list-title.puml
     ==
     !include ./components/list-search-header-empty.puml
     --
