@@ -1,3 +1,4 @@
+@startsalt
 {
   {*
     <b><size:14> <&chevron-bottom> PSE Info
@@ -32,9 +33,9 @@
   }
   {#
     !include ./outer-tbl-header.puml
-    |   1   | AB12CD34EF             |   00      | Outer Box                                            | EE-122LX     | TMMIN          | TMMIN                                                 | 360    | 550   | 240  |         .| "  1"|           . |[<&pencil>]|[<&trash>]|[<&image>]|*
-    |   2   | GH56IJ78KL             |   00      | Carton Sheet                                         | FF-FTB       | TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  1"|           . |[<&pencil>]|[<&trash>]|[<&image>]|*
-    |   3   | MN90OP12QR             |   00      | Plastic Sheet   '                                    | DD-5G        | TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  1"|           . |[<&pencil>]|[<&trash>]|[<&image>]|*
-    |   4   | ST34UV56WX             |   00      | Anti Rust                                            | AA622F       | TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  2"|           . |[<&pencil>]|[<&trash>]|[<&image>]|*      
+    |   1   | AB12CD34EF             |   00      | Outer Box                                            | EE-122LX     | TMMIN          | TMMIN                                                 | 360    | 550   | 240  |         .| "  1"|.|[<&document>]|[<&document>]|[<&pencil>]|[<&trash>]|*
+    |   2   | GH56IJ78KL             |   00      | Carton Sheet                                         | FF-FTB       | TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  1"|.|[<&document>]|.            |[<&pencil>]|[<&trash>]|*
+    |   3   | MN90OP12QR             |   00      | Plastic Sheet   '                                    | DD-5G        | TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  1"|.|[<&document>]|[<&document>]|[<&pencil>]|[<&trash>]|*
+    |   4   | ST34UV56WX             |   00      | Anti Rust                                            | AA622F       | TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  2"|.|.            |.            |[<&pencil>]|[<&trash>]|*      
   }
 }

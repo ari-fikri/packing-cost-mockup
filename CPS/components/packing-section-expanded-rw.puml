@@ -1,3 +1,4 @@
+@startsalt
 {  
   {*
     <b><size:14> <&chevron-bottom> Packing
@@ -10,6 +11,10 @@
       |Packing Qty      |: |"     3"|*
       |Pcs/Kanban       |: |"     5"|*
     }*
+    {
+      |Damage Test Doc |:  |<size:50><&document>|*
+      |                |[change]|*
+    }    
     .
     <b>OUTER 
     --

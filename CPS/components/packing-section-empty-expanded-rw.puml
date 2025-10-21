@@ -11,6 +11,9 @@
       |Packing Qty      |: |"     "|*
       |Pcs/Kanban       |: |"     "|*
     }*
+    {
+      |Damage Test Doc |:|<size:30><b>+|*
+    }
     .
     <b>OUTER 
     --

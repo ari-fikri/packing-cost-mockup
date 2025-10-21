@@ -1,3 +1,4 @@
+@startsalt
 {
   {*
     <b><size:14> <&chevron-bottom> Packing
@@ -10,6 +11,10 @@
       |Packing Qty      |: |"   3"|*
       |Pcs/Kanban       |: |"   5"|*
     }*
+    {
+      |Damage Test Doc |:  |<size:50><&document>|*
+      |                |[change]|*
+    }
     .
     <b>OUTER
     --
@@ -29,10 +34,10 @@
     |<b>OUTER   | [<size:10>add <&plus>] |*
   }
   {#
-    | <b>No |     <b>Material No     | <b>Suffix |                   <b>Material Name                   |   <b>ItemNo  |   <b>Parent Mat     | <b>Supplier ID  |                   <b>Supplier Name                   | <b>L   | <b>W  | <b>H | <b>wt/pc | <b>Qty | <b>Total Wt | <b>Action |*
-    |   1   | AB12CD34EF             |   00      | Outer Box                                            | EE-122LX     |                    .| TMMIN          | TMMIN                                                 | 360    | 550   | 240  |         .| "  1"|           . |[<&pencil>]|[<&trash>]|*
-    |   2   | GH56IJ78KL             |   00      | Carton Sheet                                         | FF-FTB       |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  1"|           . |[<&pencil>]|[<&trash>]|*
-    |   3   | MN90OP12QR             |   00      | Plastic Sheet   '                                    | DD-5G        |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  1"|           . |[<&pencil>]|[<&trash>]|*
-    |   4   | ST34UV56WX             |   00      | Anti Rust                                            | AA622F       |                    .| TMMIN          | TMMIN                                                 |.       |.      |.     |         .| "  2"|           . |[<&pencil>]|[<&trash>]|*    
+    !include ./outer-tbl-header.puml
+    |   1   | AB12CD34EF             |   00      | Outer Box                                            | EE-122LX     | TMMIN          |  TMMIN                                                 | 360    | 550   | 240  |    200   | "  1"|       200|[<&document>]|[<&document>] |[<&pencil>]|[<&trash>]|*
+    |   2   | GH56IJ78KL             |   00      | Carton Sheet                                         | FF-FTB       | TMMIN          |  TMMIN                                                 |.       |.      |.     |         .| "  1"|.         |.            |[<&document>] |[<&pencil>]|[<&trash>]|*
+    |   3   | MN90OP12QR             |   00      | Plastic Sheet   '                                    | DD-5G        | TMMIN          |  TMMIN                                                 |.       |.      |.     |         .| "  1"|.         |.            |[<&document>] |[<&pencil>]|[<&trash>]|*
+    |   4   | ST34UV56WX             |   00      | Anti Rust                                            | AA622F       | TMMIN          |  TMMIN                                                 |.       |.      |.     |         .| "  2"|.         |[<&document>]|[<&document>] |[<&pencil>]|[<&trash>]|*    
   }
 }
