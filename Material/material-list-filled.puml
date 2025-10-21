@@ -1,18 +1,38 @@
 @startsalt
-{+
-  .|{
-    !include ./components/page-list-title.puml
-    ==
-    !include ./components/list-search-header-empty.puml
-    --
-    !include ./components/action-buttons.puml
-    --
-    {#
-      !include ./components/list-tbl-header.puml
-      !include ./components/list-tbl-content.puml
-    }
-    --
-    !include ../components/pagination.puml    
+{
+  <size:15><b>Material List | [<size:25><&x>]|*
+  ==
+  {
+    .|Item No      |: |"           "|[<&magnifying-glass>]|*
+    .|Material Name    |: |"           "|*
+    .|Parent Material  |: |"           "| [<&magnifying-glass>]|*
+    .|Item No      |: |. |*
+    .|Price            |: |"           "|[<&magnifying-glass>]|*
+    .|Material Type    |: | { ^Inner^Outer^Module^ } |*  
+    .
   }
+    {|                                                                                           |[Search <&magnifying-glass>]|[Clear <&x>]|}
+  --
+  {
+
+  }
+  {
+  .
+  }
+  --
+  {
+  [Add Material <&document>] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+  }
+  --
+  {#
+    | <b>No  |  <b>Item No | <b> Material Name  | <b> Price | <b> eWh Item No | <b> eWh Price  | <b> Material Type  |<b> Action |*|*|*|*|*|*|*
+   .1        | B0212275-14     | 3I-A           |  2.360    | B0212275-14     |  2.100         |  Inner             |[<&pencil>]|[<&delete>]|*
+  .
+  }
+  
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  }  
 }
 @endsalt
