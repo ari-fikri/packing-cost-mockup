@@ -20,4 +20,7 @@
     |    Length (mm)   |: |"  200"|            |Weight/pc (gr)    |: |"  260 "|*
     |    Width (mm)    |: |"  120"|            |Qty/Bundling           |: |"     2"|*
     |    Height (mm)   |: |"  100"|            |Total Weight (gr) |: |"  520 "|*
-
+|Documents|*
+    |    MSDS           |:|<size:30><&document>|*
+    .
+    |    Drawing       |:|<size:30><&document>|*
