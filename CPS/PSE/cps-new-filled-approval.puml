@@ -1,0 +1,37 @@
+@startuml
+@startsalt
+{+
+  .|{
+    {<b><size:20>CPS - New |                                                                                                                                                                                                                                              |[<size:15> Download <&data-transfer-download>]}|[<size:25><&x>]|*
+    ==
+    {
+    !include ../components/form-header-filled.puml
+    --
+    !include ../components/logistic-section-collapsed.puml
+    --
+    !include ../components/pse-section-filled-expanded-ro.puml
+    --
+    !include ../components/images-section-collapsed.puml
+    --
+    !include ../components/packing-section-collapsed.puml
+    --
+    }
+    <b>Rejection Reason :</b>
+    {SI
+      Outer Boxnya bukan menggunakan material kode tersebut 
+      dan harus minimal 2 lapis karena akan dikirim ke daerah 
+      panas. 
+      .
+    }
+    {[Reject <color:green><&circle-check>] | [Cancel <color:red><&circle-x>]}
+    .
+    .
+    <b>List of Notes:
+    --
+    <i>No Data Found       
+  
+    }
+  }
+}
+@endsalt
+@enduml
