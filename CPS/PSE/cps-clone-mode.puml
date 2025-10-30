@@ -2,18 +2,18 @@
 {
   <size:25>CPS List |[<size:25><&x>]|*
   ==
-  !include ./components/cps-list-search-header.puml
+  !include ../components/cps-list-search-header.puml
   --
-  !include ./components/cps-list-action-buttons.puml
+  !include ../components/cps-list-action-buttons.puml
   --  
   '!include ./components/cps-list-tbl-header.puml
   {+
     {#
-      !include ./components/cps-list-tbl-header-content-only.puml
+      !include ../components/cps-list-tbl-header-content-only.puml
       |    1   | CPS301B025J111150Y03000                    |       CPS      | CPS811C025J111150Y03000                        |   02.2025     |      835W       |    025J      |   301B TAR Argentina           | 111150Y03000          | Khedi Asmoro (PSE)        |  Cecep Gunadi (Aisin)     |    Submitted      |   06 Oct 2025     |[<&layers>]|[<&trash>]|*
       |    2   |.                                           |       CPS      | CPS811C025J111150Y03000                        |   02.2025     |      835W       |    025J      |   301B TAR Argentina           | 111150Y03000          | Khedi Asmoro (PSE)        |.                          |       Draft       |.                  |.          |[<&trash>]|*
     }
   }
   --
-  !include .././components/pagination.puml
+  !include ../../components/pagination.puml
 }
