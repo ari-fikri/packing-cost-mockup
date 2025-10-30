@@ -1,0 +1,53 @@
+@startsalt
+{
+  <size:20><b>Material New | [<size:25><&x>]|*
+  ==
+  {
+    .|Material No     |: |" B0212275-14     "|*
+    .|Material Name   |: |" 3I-A            "|*
+    .|Parent Material |: |"                 "| [<&magnifying-glass>]| *
+    .|Material Type   |: | { ^Inner^Outer^Module^ } |*
+    .
+    .
+    .|Price           |: |" 2.360    "|*
+    .|Suppler Code    |:{|"          "|[<&magnifying-glass>]|} *
+  }
+  {
+       |      Supplier Name   |: | |*
+       |      Address         |: | |*
+       |      Plant Code      |: | |*
+  }*
+  {
+    .
+    .|E-Warehouse       | *
+  }
+  {
+       |      Item No   |: |"         "|*
+       |      Price     |: |"         "|*    
+  }
+  {
+    .
+    .|Dimension|*
+  }*  
+  {
+      |      Length (mm)   |: |"      "|                              |Weight/PC (gr)    |: |"     "|*
+      |      Width (mm)    |: |"      "|                              |Qty/Box           |: |"     "|*
+      |      Height (mm)   |: |"      "|                              |Total Weight (gr) |: |"     "|*
+    }|*
+  .
+  --
+  {
+    [Add Child Part <&document>]|*
+  }
+  --
+  {#
+    |<b> Material No  |<b> Suffix |<b>material Name   |<b> Parent Material   |<b> Material Type |<b> Supplier Code |<b> E-Warehouse |<b> L |<b> W |<b> H |<b> Wt/PC |<b> Qty |<b> Total Wt |<b> Action |*|*|*|*|*|*|*
+  }
+  No Data Found
+  --
+  {
+  .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+  }
+
+}
+@endsalt

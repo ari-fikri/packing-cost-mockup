@@ -1,0 +1,38 @@
+@startsalt
+{
+  <size:15><b>Material List | [<size:25><&x>]|*
+  ==
+  {
+    .|Material No      |: |"           "|[<&magnifying-glass>]|*
+    .|Material Name    |: |"           "|*
+    .|Parent Material  |: |"           "| [<&magnifying-glass>]|*
+    .|Item No      |: |. |*
+    .|Price            |: |"           "|[<&magnifying-glass>]|*
+    .|Material Type    |: | { ^Inner^Outer^Module^ } |*  
+    .
+  }
+    {|                                                                                           |[Search <&magnifying-glass>]|[Clear <&x>]|}
+  --
+  {
+
+  }
+  {
+  .
+  }
+  --
+  {
+  [Add Material <&document>] |.|.|.|[Upload <&data-transfer-upload>]| [Template <&data-transfer-download>]|*
+  }
+  --
+  {#
+    | <b>No  |  <b>Material No | <b> Material Name  |  <b>Parent Material  | <b> Item No | <b> Price  | <b> Material Type  |<b> Action |*|*|*|*|*|*|*
+   .1        | B0212275-14     | 3I-A               |                      | DX09TY      |  2.360      |  Inner             |[<&pencil>]|[<&delete>]|*
+  .
+  }
+  
+  --
+  {
+  << <  __1__ 2 3  > >>  |'      3 <&chevron-bottom> per page |*
+  }  
+}
+@endsalt
