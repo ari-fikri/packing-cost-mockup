@@ -13,7 +13,7 @@
     --
     [ Save ]
     --
-    !include calc_result_expanded.puml
+    !include components/calc_result_expanded.puml
     --
     !include ./components/pagination.puml
   }

@@ -4,7 +4,7 @@
   ==
   !include ./headers/_generic.puml
   --
-  !include calc_result.puml
+  !include components/calc_result.puml
   --
   !include ./components/pagination.puml
 }
