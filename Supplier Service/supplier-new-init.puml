@@ -1,0 +1,19 @@
+@startsalt
+{+
+  .|{
+    <size:15><b>Supplier - New |[<size:25><&x>]|*
+    ==
+    {   
+      .|Supplier Code |: |"        "|*
+      .|Supplier Name |: |"             "| *
+      .|Address       |: |"                                                  "|*
+      .|.             |. |"                                                  "|*  
+    } 
+    .
+    --
+    {
+    .|[ Save <&data-transfer-download>] |  [Cancel <&circle-x> ]|*
+    }
+  }
+}
+@endsalt
