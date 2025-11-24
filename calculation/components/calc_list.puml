@@ -2,9 +2,9 @@
 {
   <size:25><b>Packing Cost Calculation New|[<size:25><&x>]|*
   ==
-  !include ./headers/_generic.puml
+  !include ../headers/_generic.puml
   --
-  !include components/calc_result.puml
+  !include ../components/calc_result.puml
   --
   !include ./components/pagination.puml
 }
