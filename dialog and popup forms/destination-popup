@@ -1,0 +1,30 @@
+@startsalt
+{+
+  .|{
+    <size:15><b>Destinations List |[<size:25><&x>]|*
+    ==
+    {
+        .|Dest  Code         |: |"               "|*
+        .|Dest Country Code  |: |"               "|*
+        .|Country Name       |: |"                         "|* 
+    }
+    .
+    {
+                                                        {|[Filter <&magnifying-glass>]| [Clear <&x>]|}*      
+    }
+    --
+    {#
+      |[ ] |  <b>Dest Code    |   <b>Dest Country Code | <b>Country Name  |*
+      |[ ] |      301B	       | TAR	                 | ARGENTINA        |*
+      |[ ] |      537B	       | TSM	                 | AFRIKA           |*
+      |[ ] |      709B	       | TKM                   | INDIA            |*
+      |[ ] |      715B	       | TMV	                 | VIETNAM          |*
+      |[ ] |      717C	       | IMC                   | KUOZUI           |*      
+    }|
+    --
+    --
+    !include ../components/pagination.puml
+
+    }
+  }
+@endsalt
