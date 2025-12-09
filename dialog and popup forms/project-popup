@@ -1,0 +1,23 @@
+@startsalt
+{
+  <size:20>Select Project |[<size:25><&x>]|*
+  ==
+  {
+    .|Project Code            |: {"094W"}            |*
+    .|Project Name            |: {"IMV"}|*
+    .|Status                  |: |^Active^|*
+    .|Project Manager         |: {"Khedi Asmoro"}    |           |   [Search <&magnifying-glass>]|[Clear <&x>]
+  }
+  --
+  {#
+    |[ ] |  <b>Project Code    |           <b>Name   | Status   | <b>Project Mgr    |*
+    |[ ] |     024J            |  Front Bumper Model | Active   | Prototype 2025    |*
+    |[ ] |     286W            |  Rear Bumper Model  | Draft    | Production 2024   |*
+    |[ ] |     332W            |  Hood Model         | Inactive | Prototype 2023    |*
+    |[ ] |     385W            |  Fender Model       | Active   | Production 2022   |*
+    |[ ] |     388W            |  Grille Model       | Active   | Prototype 2021    |*
+  }
+  --
+  [Add <&check>]
+; }
+@endsalt
