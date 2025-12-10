@@ -26,6 +26,10 @@
         . |Stacking  :          |{ ^<color:gray> SUPPLIER^ }|*  
       }
     }
+    .
+    {
+      |Damage Test Doc : |   <size:40><&file>|*
+    }        
   }
   --
   {
