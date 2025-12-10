@@ -1,0 +1,29 @@
+@startsalt
+{+
+  .|{
+    <size:15><b>Supplier List |[<size:25><&x>]|*
+    ==
+    {
+        .|Supplier Code         |: |"               "|*
+        .|Supplier Name  |: |"               "|*
+    }
+    .
+    {
+                                                        {|[Filter <&magnifying-glass>]| [Clear <&x>]|}*      
+    }
+    --
+    {#
+      |[ ] |  <b>Supplier Code   |           <b>Supplier Name          |      <b>Address |*
+      |[ ] |      5062	         | MENARA TERUS MAKMUR	               | Jl. Jababeka XI Blok H-3 No.12, Kawasan Industri Jababeka, Cikarang, Bekasi, Jawa Barat, 17530        |*
+      |[ ] |      722E	         | TOYOTA MOTOR THAILAND	             | 186 1 ถ. ทางรถไฟสายเก่าปากน้ำ Samrong Tai, Phra Pradaeng District, Samut Prakan 10130, Thailand        |*
+      |[ ] |      5453	         | VELASTO INDONESIA                   | Kp. Nagrog RT04 / RW02 Desa Kertamukti, Kecamatan Campaka, Kabupaten Purwakarta, Jawa Barat 41181        |*
+      |[ ] |      5365	         | TOKAI RUBBER INDONESIA	             | Jl. Mitra Timur II Blok E No. 13-14, Parungmulya, Ciampel, Karawang, Jawa Barat 41363        |*
+      |[ ] |      5150	         | NAMICOH INDONESIA                   | EJIP Industrial Park, Plot 6B-1, Cikarang Selatan, Bekasi, Jawa Barat 17550        |*      
+    }|
+    --
+    --
+    !include ../components/pagination.puml
+
+    }
+  }
+@endsalt
